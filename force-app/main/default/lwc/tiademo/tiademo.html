@@ -1,0 +1,65 @@
+<template>
+    <lightning-card>
+        <div class="slds-var-m-around_medium">
+            <p>
+                This LWC component demonstrates calls of these two TIA methods:
+            </p>
+            <ul>
+                <li>I1.SystemStringSubstringAfterc4983.callAuraEnabled</li>
+                <li>
+                    I1.SystemStringSubstringAfterc4983.callAuraEnabledCacheable
+                </li>
+            </ul>
+        </div>
+        <div class="slds-var-m-around_medium">
+            <p>These two methods are the implementation of:</p>
+            <a
+                href="https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#apex_System_String_substringAfter"
+                target="_blank"
+                >System.String: public String substringAfter(String
+                separator)</a
+            >
+        </div>
+        <div class="slds-var-m-around_medium">
+            <p>
+                <lightning-input
+                    name="separatorInput"
+                    label="Separator"
+                    onchange={handleSeparatorChange}
+                    value={separator}
+                ></lightning-input>
+                <lightning-input
+                    name="variableToApplyMethodOnInput"
+                    label="Variable to apply method on"
+                    onchange={handleVariableToApplyMethodOnChange}
+                    value={variableToApplyMethodOn}
+                ></lightning-input>
+            </p>
+        </div>
+        <div class="slds-var-m-around_medium">
+            <p>
+                These two buttons demonstrate imperative calls of both TIA
+                methods. Please open the developer tools of your browser to
+                inspect the console output when clicking on these buttons.
+            </p>
+            <lightning-button-group>
+                <lightning-button
+                    label="Aura Enabled"
+                    onclick={handleAuraEnabledClick}
+                ></lightning-button>
+                <lightning-button
+                    label="Aura Enabled Cacheable"
+                    onclick={handleAuraEnabledCacheableClick}
+                ></lightning-button>
+            </lightning-button-group>
+        </div>
+        <div class="slds-var-m-around_medium">
+            <p>
+                Here you see the result of using the TIA Apex methods in an
+                @wire context:
+            </p>
+            <p>{errorstring}</p>
+            <p>{datastring}</p>
+        </div>
+    </lightning-card>
+</template>
