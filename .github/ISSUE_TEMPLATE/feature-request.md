@@ -24,10 +24,6 @@ If requesting a new invocable method, please provide the following details:
 - **Namespace (if applicable)**: [e.g., `System`]
 - **Class Name**: [e.g., `String`]
 - **Method Name**: [e.g., `fromCharArray`]
-- **Method Signature**: [e.g., `fromCharArray(List<Integer> charArray): String`]
-- **Parameter Descriptions**:
-  - Parameter 1: [e.g., `List<Integer> charArray` - A list of integers representing character codes.]
-  - Parameter 2 (if any): `...`
 - **Apex Reference Guide Link**: [e.g., https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#apex_System_String_fromCharArray]
 
 ## **Details for Other Feature Requests**
