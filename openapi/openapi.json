@@ -1987,6 +1987,1060 @@
                 }
             }
         },
+        "System/MathAbs92fdd/": {
+            "description": "Implementation for System.Math: public static Long abs(Long longValue)   Method documentation: Returns the absolute value of the specified Long.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs_4   Signature: public static Long abs(Long longValue)   Is static: true   Method name: abs   Return Type: Long   TIA key: System.Math.abs(Long longValue)",
+            "post": {
+                "tags": ["System  Math Abs92fdd"],
+                "description": "Math: public static Long abs(Long longValue) (TIA key: System.Math.abs(Long longValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAbs92fdd.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbs92fdd.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbs92fdd.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAbsc16cc/": {
+            "description": "Implementation for System.Math: public static Decimal abs(Decimal decimalValue)   Method documentation: Returns the absolute value of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs   Signature: public static Decimal abs(Decimal decimalValue)   Is static: true   Method name: abs   Return Type: Decimal   TIA key: System.Math.abs(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Absc16cc"],
+                "description": "Math: public static Decimal abs(Decimal decimalValue) (TIA key: System.Math.abs(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAbsc16cc.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbsc16cc.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbsc16cc.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAbsd6070/": {
+            "description": "Implementation for System.Math: public static Double abs(Double doubleValue)   Method documentation: Returns the absolute value of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs_2   Signature: public static Double abs(Double doubleValue)   Is static: true   Method name: abs   Return Type: Double   TIA key: System.Math.abs(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Absd6070"],
+                "description": "Math: public static Double abs(Double doubleValue) (TIA key: System.Math.abs(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAbsd6070.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbsd6070.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbsd6070.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAbse66bd/": {
+            "description": "Implementation for System.Math: public static Integer abs(Integer integerValue)   Method documentation: Returns the absolute value of the specified Integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs_3   Signature: public static Integer abs(Integer integerValue)   Is static: true   Method name: abs   Return Type: Integer   TIA key: System.Math.abs(Integer integerValue)",
+            "post": {
+                "tags": ["System  Math Abse66bd"],
+                "description": "Math: public static Integer abs(Integer integerValue) (TIA key: System.Math.abs(Integer integerValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAbse66bd.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbse66bd.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAbse66bd.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAcos31ecd/": {
+            "description": "Implementation for System.Math: public static Decimal acos(Decimal decimalAngle)   Method documentation: Returns the arc cosine of an angle, in the range of 0.0 through pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_acos   Signature: public static Decimal acos(Decimal decimalAngle)   Is static: true   Method name: acos   Return Type: Decimal   TIA key: System.Math.acos(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Acos31ecd"],
+                "description": "Math: public static Decimal acos(Decimal decimalAngle) (TIA key: System.Math.acos(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAcos31ecd.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAcos31ecd.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAcos31ecd.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAcosd9291/": {
+            "description": "Implementation for System.Math: public static Double acos(Double doubleAngle)   Method documentation: Returns the arc cosine of an angle, in the range of 0.0 through pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_acos_2   Signature: public static Double acos(Double doubleAngle)   Is static: true   Method name: acos   Return Type: Double   TIA key: System.Math.acos(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Acosd9291"],
+                "description": "Math: public static Double acos(Double doubleAngle) (TIA key: System.Math.acos(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAcosd9291.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAcosd9291.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAcosd9291.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAsin2c23a/": {
+            "description": "Implementation for System.Math: public static Double asin(Double doubleAngle)   Method documentation: Returns the arc sine of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_asin_2   Signature: public static Double asin(Double doubleAngle)   Is static: true   Method name: asin   Return Type: Double   TIA key: System.Math.asin(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Asin2c23a"],
+                "description": "Math: public static Double asin(Double doubleAngle) (TIA key: System.Math.asin(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAsin2c23a.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAsin2c23a.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAsin2c23a.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAsin67119/": {
+            "description": "Implementation for System.Math: public static Decimal asin(Decimal decimalAngle)   Method documentation: Returns the arc sine of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_asin   Signature: public static Decimal asin(Decimal decimalAngle)   Is static: true   Method name: asin   Return Type: Decimal   TIA key: System.Math.asin(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Asin67119"],
+                "description": "Math: public static Decimal asin(Decimal decimalAngle) (TIA key: System.Math.asin(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAsin67119.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAsin67119.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAsin67119.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAtan15cac/": {
+            "description": "Implementation for System.Math: public static Decimal atan(Decimal decimalAngle)   Method documentation: Returns the arc tangent of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan   Signature: public static Decimal atan(Decimal decimalAngle)   Is static: true   Method name: atan   Return Type: Decimal   TIA key: System.Math.atan(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Atan15cac"],
+                "description": "Math: public static Decimal atan(Decimal decimalAngle) (TIA key: System.Math.atan(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAtan15cac.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtan15cac.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtan15cac.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathAtan22b871/": {
+            "description": "Implementation for System.Math: public static Decimal atan2(Decimal xCoordinate, Decimal yCoordinate)   Method documentation: Converts rectangular coordinates (xCoordinate and yCoordinate) to polar (r and theta). This method computes the phase theta by computing an arc tangent of xCoordinate/yCoordinate in the range of -pi to pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan2   Signature: public static Decimal atan2(Decimal xCoordinate, Decimal yCoordinate)   Is static: true   Method name: atan2   Return Type: Decimal   TIA key: System.Math.atan2(Decimal xCoordinate, Decimal yCoordinate)",
+            "post": {
+                "tags": ["System  Math Atan22b871"],
+                "description": "Math: public static Decimal atan2(Decimal xCoordinate, Decimal yCoordinate) (TIA key: System.Math.atan2(Decimal xCoordinate, Decimal yCoordinate))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAtan22b871.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtan22b871.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtan22b871.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathAtan2e27d4/": {
+            "description": "Implementation for System.Math: public static Double atan2(Double xCoordinate, Double yCoordinate)   Method documentation: Converts rectangular coordinates (xCoordinate and yCoordinate) to polar (r and theta). This method computes the phase theta by computing an arc tangent of xCoordinate/yCoordinate in the range of -pi to pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan2_2   Signature: public static Double atan2(Double xCoordinate, Double yCoordinate)   Is static: true   Method name: atan2   Return Type: Double   TIA key: System.Math.atan2(Double xCoordinate, Double yCoordinate)",
+            "post": {
+                "tags": ["System  Math Atan2e27d4"],
+                "description": "Math: public static Double atan2(Double xCoordinate, Double yCoordinate) (TIA key: System.Math.atan2(Double xCoordinate, Double yCoordinate))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAtan2e27d4.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtan2e27d4.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtan2e27d4.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathAtane961c/": {
+            "description": "Implementation for System.Math: public static Double atan(Double doubleAngle)   Method documentation: Returns the arc tangent of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan_2   Signature: public static Double atan(Double doubleAngle)   Is static: true   Method name: atan   Return Type: Double   TIA key: System.Math.atan(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Atane961c"],
+                "description": "Math: public static Double atan(Double doubleAngle) (TIA key: System.Math.atan(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathAtane961c.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtane961c.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathAtane961c.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCbrtda151/": {
+            "description": "Implementation for System.Math: public static Double cbrt(Double doubleValue)   Method documentation: Returns the cube root of the specified Double. The cube root of a negative value is the negative of the cube root of that value's magnitude.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cbrt_2   Signature: public static Double cbrt(Double doubleValue)   Is static: true   Method name: cbrt   Return Type: Double   TIA key: System.Math.cbrt(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Cbrtda151"],
+                "description": "Math: public static Double cbrt(Double doubleValue) (TIA key: System.Math.cbrt(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCbrtda151.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCbrtda151.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCbrtda151.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCbrtfe5f9/": {
+            "description": "Implementation for System.Math: public static Decimal cbrt(Decimal decimalValue)   Method documentation: Returns the cube root of the specified Decimal. The cube root of a negative value is the negative of the cube root of that value's magnitude.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cbrt   Signature: public static Decimal cbrt(Decimal decimalValue)   Is static: true   Method name: cbrt   Return Type: Decimal   TIA key: System.Math.cbrt(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Cbrtfe5f9"],
+                "description": "Math: public static Decimal cbrt(Decimal decimalValue) (TIA key: System.Math.cbrt(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCbrtfe5f9.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCbrtfe5f9.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCbrtfe5f9.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCeil37828/": {
+            "description": "Implementation for System.Math: public static Decimal ceil(Decimal decimalValue)   Method documentation: Returns the smallest (closest to negative infinity) Decimal that is not less than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_ceil   Signature: public static Decimal ceil(Decimal decimalValue)   Is static: true   Method name: ceil   Return Type: Decimal   TIA key: System.Math.ceil(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Ceil37828"],
+                "description": "Math: public static Decimal ceil(Decimal decimalValue) (TIA key: System.Math.ceil(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCeil37828.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCeil37828.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCeil37828.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCeil6e339/": {
+            "description": "Implementation for System.Math: public static Double ceil(Double doubleValue)   Method documentation: Returns the smallest (closest to negative infinity) Double that is not less than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_ceil_2   Signature: public static Double ceil(Double doubleValue)   Is static: true   Method name: ceil   Return Type: Double   TIA key: System.Math.ceil(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Ceil6e339"],
+                "description": "Math: public static Double ceil(Double doubleValue) (TIA key: System.Math.ceil(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCeil6e339.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCeil6e339.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCeil6e339.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCos1c467/": {
+            "description": "Implementation for System.Math: public static Decimal cos(Decimal decimalAngle)   Method documentation: Returns the trigonometric cosine of the angle specified by decimalAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cos   Signature: public static Decimal cos(Decimal decimalAngle)   Is static: true   Method name: cos   Return Type: Decimal   TIA key: System.Math.cos(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Cos1c467"],
+                "description": "Math: public static Decimal cos(Decimal decimalAngle) (TIA key: System.Math.cos(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCos1c467.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCos1c467.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCos1c467.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCosb322f/": {
+            "description": "Implementation for System.Math: public static Double cos(Double doubleAngle)   Method documentation: Returns the trigonometric cosine of the angle specified by doubleAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cos_2   Signature: public static Double cos(Double doubleAngle)   Is static: true   Method name: cos   Return Type: Double   TIA key: System.Math.cos(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Cosb322f"],
+                "description": "Math: public static Double cos(Double doubleAngle) (TIA key: System.Math.cos(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCosb322f.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCosb322f.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCosb322f.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCosh5aff0/": {
+            "description": "Implementation for System.Math: public static Decimal cosh(Decimal decimalAngle)   Method documentation: Returns the hyperbolic cosine of decimalAngle. The hyperbolic cosine of d is defined to be (ex + e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cosh   Signature: public static Decimal cosh(Decimal decimalAngle)   Is static: true   Method name: cosh   Return Type: Decimal   TIA key: System.Math.cosh(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Cosh5aff0"],
+                "description": "Math: public static Decimal cosh(Decimal decimalAngle) (TIA key: System.Math.cosh(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCosh5aff0.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCosh5aff0.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCosh5aff0.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathCosh9d1f2/": {
+            "description": "Implementation for System.Math: public static Double cosh(Double doubleAngle)   Method documentation: Returns the hyperbolic cosine of doubleAngle. The hyperbolic cosine of d is defined to be (ex + e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cosh_2   Signature: public static Double cosh(Double doubleAngle)   Is static: true   Method name: cosh   Return Type: Double   TIA key: System.Math.cosh(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Cosh9d1f2"],
+                "description": "Math: public static Double cosh(Double doubleAngle) (TIA key: System.Math.cosh(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathCosh9d1f2.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCosh9d1f2.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathCosh9d1f2.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathExp7f2f5/": {
+            "description": "Implementation for System.Math: public static Decimal exp(Decimal exponentDecimal)   Method documentation: Returns Euler's number e raised to the power of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_exp   Signature: public static Decimal exp(Decimal exponentDecimal)   Is static: true   Method name: exp   Return Type: Decimal   TIA key: System.Math.exp(Decimal exponentDecimal)",
+            "post": {
+                "tags": ["System  Math Exp7f2f5"],
+                "description": "Math: public static Decimal exp(Decimal exponentDecimal) (TIA key: System.Math.exp(Decimal exponentDecimal))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathExp7f2f5.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathExp7f2f5.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathExp7f2f5.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathExpda090/": {
+            "description": "Implementation for System.Math: public static Double exp(Double exponentDouble)   Method documentation: Returns Euler's number e raised to the power of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_exp_2   Signature: public static Double exp(Double exponentDouble)   Is static: true   Method name: exp   Return Type: Double   TIA key: System.Math.exp(Double exponentDouble)",
+            "post": {
+                "tags": ["System  Math Expda090"],
+                "description": "Math: public static Double exp(Double exponentDouble) (TIA key: System.Math.exp(Double exponentDouble))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathExpda090.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathExpda090.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathExpda090.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathFloor698c1/": {
+            "description": "Implementation for System.Math: public static Decimal floor(Decimal decimalValue)   Method documentation: Returns the largest (closest to positive infinity) Decimal that is not greater than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_floor   Signature: public static Decimal floor(Decimal decimalValue)   Is static: true   Method name: floor   Return Type: Decimal   TIA key: System.Math.floor(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Floor698c1"],
+                "description": "Math: public static Decimal floor(Decimal decimalValue) (TIA key: System.Math.floor(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathFloor698c1.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathFloor698c1.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathFloor698c1.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathFloorf23fb/": {
+            "description": "Implementation for System.Math: public static Double floor(Double doubleValue)   Method documentation: Returns the largest (closest to positive infinity) Double that is not greater than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_floor_2   Signature: public static Double floor(Double doubleValue)   Is static: true   Method name: floor   Return Type: Double   TIA key: System.Math.floor(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Floorf23fb"],
+                "description": "Math: public static Double floor(Double doubleValue) (TIA key: System.Math.floor(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathFloorf23fb.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathFloorf23fb.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathFloorf23fb.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathLog109fa6f/": {
+            "description": "Implementation for System.Math: public static Double log10(Double doubleValue)   Method documentation: Returns the logarithm (base 10) of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log10_2   Signature: public static Double log10(Double doubleValue)   Is static: true   Method name: log10   Return Type: Double   TIA key: System.Math.log10(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Log109fa6f"],
+                "description": "Math: public static Double log10(Double doubleValue) (TIA key: System.Math.log10(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathLog109fa6f.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLog109fa6f.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLog109fa6f.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathLog10c6637/": {
+            "description": "Implementation for System.Math: public static Decimal log10(Decimal decimalValue)   Method documentation: Returns the logarithm (base 10) of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log10   Signature: public static Decimal log10(Decimal decimalValue)   Is static: true   Method name: log10   Return Type: Decimal   TIA key: System.Math.log10(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Log10c6637"],
+                "description": "Math: public static Decimal log10(Decimal decimalValue) (TIA key: System.Math.log10(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathLog10c6637.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLog10c6637.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLog10c6637.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathLog439c6/": {
+            "description": "Implementation for System.Math: public static Decimal log(Decimal decimalValue)   Method documentation: Returns the natural logarithm (base e) of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log   Signature: public static Decimal log(Decimal decimalValue)   Is static: true   Method name: log   Return Type: Decimal   TIA key: System.Math.log(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Log439c6"],
+                "description": "Math: public static Decimal log(Decimal decimalValue) (TIA key: System.Math.log(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathLog439c6.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLog439c6.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLog439c6.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathLogce09d/": {
+            "description": "Implementation for System.Math: public static Double log(Double doubleValue)   Method documentation: Returns the natural logarithm (base e) of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log_2   Signature: public static Double log(Double doubleValue)   Is static: true   Method name: log   Return Type: Double   TIA key: System.Math.log(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Logce09d"],
+                "description": "Math: public static Double log(Double doubleValue) (TIA key: System.Math.log(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathLogce09d.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLogce09d.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathLogce09d.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMax13295/": {
+            "description": "Implementation for System.Math: public static Decimal max(Decimal decimalValue1, Decimal decimalValue2)   Method documentation: Returns the larger of the two specified Decimals.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max   Signature: public static Decimal max(Decimal decimalValue1, Decimal decimalValue2)   Is static: true   Method name: max   Return Type: Decimal   TIA key: System.Math.max(Decimal decimalValue1, Decimal decimalValue2)",
+            "post": {
+                "tags": ["System  Math Max13295"],
+                "description": "Math: public static Decimal max(Decimal decimalValue1, Decimal decimalValue2) (TIA key: System.Math.max(Decimal decimalValue1, Decimal decimalValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMax13295.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax13295.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax13295.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMax24503/": {
+            "description": "Implementation for System.Math: public static Double max(Double doubleValue1, Double doubleValue2)   Method documentation: Returns the larger of the two specified Doubles.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max_2   Signature: public static Double max(Double doubleValue1, Double doubleValue2)   Is static: true   Method name: max   Return Type: Double   TIA key: System.Math.max(Double doubleValue1, Double doubleValue2)",
+            "post": {
+                "tags": ["System  Math Max24503"],
+                "description": "Math: public static Double max(Double doubleValue1, Double doubleValue2) (TIA key: System.Math.max(Double doubleValue1, Double doubleValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMax24503.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax24503.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax24503.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMax4ce5b/": {
+            "description": "Implementation for System.Math: public static Long max(Long longValue1, Long longValue2)   Method documentation: Returns the larger of the two specified Longs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max_4   Signature: public static Long max(Long longValue1, Long longValue2)   Is static: true   Method name: max   Return Type: Long   TIA key: System.Math.max(Long longValue1, Long longValue2)",
+            "post": {
+                "tags": ["System  Math Max4ce5b"],
+                "description": "Math: public static Long max(Long longValue1, Long longValue2) (TIA key: System.Math.max(Long longValue1, Long longValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMax4ce5b.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax4ce5b.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax4ce5b.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMax66a3f/": {
+            "description": "Implementation for System.Math: public static Integer max(Integer integerValue1, Integer integerValue2)   Method documentation: Returns the larger of the two specified Integers.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max_3   Signature: public static Integer max(Integer integerValue1, Integer integerValue2)   Is static: true   Method name: max   Return Type: Integer   TIA key: System.Math.max(Integer integerValue1, Integer integerValue2)",
+            "post": {
+                "tags": ["System  Math Max66a3f"],
+                "description": "Math: public static Integer max(Integer integerValue1, Integer integerValue2) (TIA key: System.Math.max(Integer integerValue1, Integer integerValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMax66a3f.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax66a3f.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMax66a3f.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMin21bd2/": {
+            "description": "Implementation for System.Math: public static Long min(Long longValue1, Long longValue2)   Method documentation: Returns the smaller of the two specified Longs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min_4   Signature: public static Long min(Long longValue1, Long longValue2)   Is static: true   Method name: min   Return Type: Long   TIA key: System.Math.min(Long longValue1, Long longValue2)",
+            "post": {
+                "tags": ["System  Math Min21bd2"],
+                "description": "Math: public static Long min(Long longValue1, Long longValue2) (TIA key: System.Math.min(Long longValue1, Long longValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMin21bd2.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMin21bd2.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMin21bd2.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMin9dc2e/": {
+            "description": "Implementation for System.Math: public static Decimal min(Decimal decimalValue1, Decimal decimalValue2)   Method documentation: Returns the smaller of the two specified Decimals.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min   Signature: public static Decimal min(Decimal decimalValue1, Decimal decimalValue2)   Is static: true   Method name: min   Return Type: Decimal   TIA key: System.Math.min(Decimal decimalValue1, Decimal decimalValue2)",
+            "post": {
+                "tags": ["System  Math Min9dc2e"],
+                "description": "Math: public static Decimal min(Decimal decimalValue1, Decimal decimalValue2) (TIA key: System.Math.min(Decimal decimalValue1, Decimal decimalValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMin9dc2e.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMin9dc2e.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMin9dc2e.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMina024c/": {
+            "description": "Implementation for System.Math: public static Integer min(Integer integerValue1, Integer integerValue2)   Method documentation: Returns the smaller of the two specified Integers.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min_3   Signature: public static Integer min(Integer integerValue1, Integer integerValue2)   Is static: true   Method name: min   Return Type: Integer   TIA key: System.Math.min(Integer integerValue1, Integer integerValue2)",
+            "post": {
+                "tags": ["System  Math Mina024c"],
+                "description": "Math: public static Integer min(Integer integerValue1, Integer integerValue2) (TIA key: System.Math.min(Integer integerValue1, Integer integerValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMina024c.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMina024c.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMina024c.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMinb7c14/": {
+            "description": "Implementation for System.Math: public static Double min(Double doubleValue1, Double doubleValue2)   Method documentation: Returns the smaller of the two specified Doubles.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min_2   Signature: public static Double min(Double doubleValue1, Double doubleValue2)   Is static: true   Method name: min   Return Type: Double   TIA key: System.Math.min(Double doubleValue1, Double doubleValue2)",
+            "post": {
+                "tags": ["System  Math Minb7c14"],
+                "description": "Math: public static Double min(Double doubleValue1, Double doubleValue2) (TIA key: System.Math.min(Double doubleValue1, Double doubleValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMinb7c14.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMinb7c14.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMinb7c14.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMod76a4f/": {
+            "description": "Implementation for System.Math: public static Integer mod(Integer integerValue1, Integer integerValue2)   Method documentation: Returns the remainder of integerValue1 divided by integerValue2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_mod   Signature: public static Integer mod(Integer integerValue1, Integer integerValue2)   Is static: true   Method name: mod   Return Type: Integer   TIA key: System.Math.mod(Integer integerValue1, Integer integerValue2)",
+            "post": {
+                "tags": ["System  Math Mod76a4f"],
+                "description": "Math: public static Integer mod(Integer integerValue1, Integer integerValue2) (TIA key: System.Math.mod(Integer integerValue1, Integer integerValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMod76a4f.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMod76a4f.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMod76a4f.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathMod89ff6/": {
+            "description": "Implementation for System.Math: public static Long mod(Long longValue1, Long longValue2)   Method documentation: Returns the remainder of longValue1 divided by longValue2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_mod_2   Signature: public static Long mod(Long longValue1, Long longValue2)   Is static: true   Method name: mod   Return Type: Long   TIA key: System.Math.mod(Long longValue1, Long longValue2)",
+            "post": {
+                "tags": ["System  Math Mod89ff6"],
+                "description": "Math: public static Long mod(Long longValue1, Long longValue2) (TIA key: System.Math.mod(Long longValue1, Long longValue2))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathMod89ff6.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMod89ff6.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathMod89ff6.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathPowee8bd/": {
+            "description": "Implementation for System.Math: public static Double pow(Double doubleValue, Double exponent)   Method documentation: Returns the value of the first Double raised to the power of exponent.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_pow   Signature: public static Double pow(Double doubleValue, Double exponent)   Is static: true   Method name: pow   Return Type: Double   TIA key: System.Math.pow(Double doubleValue, Double exponent)",
+            "post": {
+                "tags": ["System  Math Powee8bd"],
+                "description": "Math: public static Double pow(Double doubleValue, Double exponent) (TIA key: System.Math.pow(Double doubleValue, Double exponent))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathPowee8bd.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathPowee8bd.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathPowee8bd.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathRandom014a5/": {
+            "description": "Implementation for System.Math: public static Double random()   Method documentation: Returns a positive Double that is greater than or equal to 0.0 and less than 1.0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_random   Signature: public static Double random()   Is static: true   Method name: random   Return Type: Double   TIA key: System.Math.random()",
+            "post": {
+                "tags": ["System  Math Random014a5"],
+                "description": "Math: public static Double random() (TIA key: System.Math.random())",
+                "requestBody": {
+                    "description": "List of I1.SystemMathRandom014a5.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRandom014a5.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathRint9456e/": {
+            "description": "Implementation for System.Math: public static Double rint(Double doubleValue)   Method documentation: Returns the value that is closest in value to doubleValue and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_rint_2   Signature: public static Double rint(Double doubleValue)   Is static: true   Method name: rint   Return Type: Double   TIA key: System.Math.rint(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Rint9456e"],
+                "description": "Math: public static Double rint(Double doubleValue) (TIA key: System.Math.rint(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathRint9456e.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRint9456e.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRint9456e.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathRintd2f7a/": {
+            "description": "Implementation for System.Math: public static Decimal rint(Decimal decimalValue)   Method documentation: Returns the value that is closest in value to decimalValue and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_rint   Signature: public static Decimal rint(Decimal decimalValue)   Is static: true   Method name: rint   Return Type: Decimal   TIA key: System.Math.rint(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Rintd2f7a"],
+                "description": "Math: public static Decimal rint(Decimal decimalValue) (TIA key: System.Math.rint(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathRintd2f7a.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRintd2f7a.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRintd2f7a.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathRound2539a/": {
+            "description": "Implementation for System.Math: public static Integer round(Decimal decimalValue)   Method documentation: Returns the rounded approximation of this Decimal. The number is rounded to zero decimal places using half-even rounding mode, that is, it rounds towards the “nearest neighbor” unless both neighbors are equidistant, in which case, this mode rounds towards the even neighbor. If the result is less than -2,147,483,648 or greater than 2,147,483,647, Apex generates an error.   Usage: Note that this rounding mode statistically minimizes cumulative error when applied repeatedly over a sequence of calculations.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_round_2   Signature: public static Integer round(Decimal decimalValue)   Is static: true   Method name: round   Return Type: Integer   TIA key: System.Math.round(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Round2539a"],
+                "description": "Math: public static Integer round(Decimal decimalValue) (TIA key: System.Math.round(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathRound2539a.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRound2539a.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRound2539a.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathRoundToLong17312/": {
+            "description": "Implementation for System.Math: public static Long roundToLong(Decimal decimalValue)   Method documentation: Returns the rounded approximation of this Decimal. The number is rounded to zero decimal places using half-even rounding mode, that is, it rounds towards the “nearest neighbor” unless both neighbors are equidistant, in which case, this mode rounds towards the even neighbor.   Usage: Note that this rounding mode statistically minimizes cumulative error when applied repeatedly over a sequence of calculations.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_roundToLong   Signature: public static Long roundToLong(Decimal decimalValue)   Is static: true   Method name: roundToLong   Return Type: Long   TIA key: System.Math.roundToLong(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Round To Long17312"],
+                "description": "Math: public static Long roundToLong(Decimal decimalValue) (TIA key: System.Math.roundToLong(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathRoundToLong17312.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRoundToLong17312.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRoundToLong17312.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathRoundToLongb426f/": {
+            "description": "Implementation for System.Math: public static Long roundToLong(Double doubleValue)   Method documentation: Returns the closest Long to the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_roundToLong_2   Signature: public static Long roundToLong(Double doubleValue)   Is static: true   Method name: roundToLong   Return Type: Long   TIA key: System.Math.roundToLong(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Round To Longb426f"],
+                "description": "Math: public static Long roundToLong(Double doubleValue) (TIA key: System.Math.roundToLong(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathRoundToLongb426f.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRoundToLongb426f.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathRoundToLongb426f.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathSignum215b3/": {
+            "description": "Implementation for System.Math: public static Double signum(Double doubleValue)   Method documentation: Returns the signum function of the specified Double, which is 0 if doubleValue is 0, 1.0 if doubleValue is greater than 0, -1.0 if doubleValue is less than 0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_signum_2   Signature: public static Double signum(Double doubleValue)   Is static: true   Method name: signum   Return Type: Double   TIA key: System.Math.signum(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Signum215b3"],
+                "description": "Math: public static Double signum(Double doubleValue) (TIA key: System.Math.signum(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSignum215b3.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSignum215b3.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSignum215b3.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathSignum9f062/": {
+            "description": "Implementation for System.Math: public static Decimal signum(Decimal decimalValue)   Method documentation: Returns the signum function of the specified Decimal, which is 0 if decimalValue is 0, 1.0 if decimalValue is greater than 0, -1.0 if decimalValue is less than 0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_signum   Signature: public static Decimal signum(Decimal decimalValue)   Is static: true   Method name: signum   Return Type: Decimal   TIA key: System.Math.signum(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Signum9f062"],
+                "description": "Math: public static Decimal signum(Decimal decimalValue) (TIA key: System.Math.signum(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSignum9f062.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSignum9f062.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSignum9f062.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/MathSin33e30/": {
+            "description": "Implementation for System.Math: public static Double sin(Double doubleAngle)   Method documentation: Returns the trigonometric sine of the angle specified by doubleAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sin_2   Signature: public static Double sin(Double doubleAngle)   Is static: true   Method name: sin   Return Type: Double   TIA key: System.Math.sin(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Sin33e30"],
+                "description": "Math: public static Double sin(Double doubleAngle) (TIA key: System.Math.sin(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSin33e30.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSin33e30.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSin33e30.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathSina892f/": {
+            "description": "Implementation for System.Math: public static Decimal sin(Decimal decimalAngle)   Method documentation: Returns the trigonometric sine of the angle specified by decimalAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sin   Signature: public static Decimal sin(Decimal decimalAngle)   Is static: true   Method name: sin   Return Type: Decimal   TIA key: System.Math.sin(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Sina892f"],
+                "description": "Math: public static Decimal sin(Decimal decimalAngle) (TIA key: System.Math.sin(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSina892f.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSina892f.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSina892f.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathSinh725ce/": {
+            "description": "Implementation for System.Math: public static Decimal sinh(Decimal decimalAngle)   Method documentation: Returns the hyperbolic sine of decimalAngle. The hyperbolic sine of decimalAngle is defined to be (ex - e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sinh   Signature: public static Decimal sinh(Decimal decimalAngle)   Is static: true   Method name: sinh   Return Type: Decimal   TIA key: System.Math.sinh(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Sinh725ce"],
+                "description": "Math: public static Decimal sinh(Decimal decimalAngle) (TIA key: System.Math.sinh(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSinh725ce.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSinh725ce.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSinh725ce.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathSinhff2b2/": {
+            "description": "Implementation for System.Math: public static Double sinh(Double doubleAngle)   Method documentation: Returns the hyperbolic sine of doubleAngle. The hyperbolic sine of doubleAngle is defined to be (ex - e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sinh_2   Signature: public static Double sinh(Double doubleAngle)   Is static: true   Method name: sinh   Return Type: Double   TIA key: System.Math.sinh(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Sinhff2b2"],
+                "description": "Math: public static Double sinh(Double doubleAngle) (TIA key: System.Math.sinh(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSinhff2b2.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSinhff2b2.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSinhff2b2.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathSqrt1cd36/": {
+            "description": "Implementation for System.Math: public static Decimal sqrt(Decimal decimalValue)   Method documentation: Returns the correctly rounded positive square root of decimalValue.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sqrt   Signature: public static Decimal sqrt(Decimal decimalValue)   Is static: true   Method name: sqrt   Return Type: Decimal   TIA key: System.Math.sqrt(Decimal decimalValue)",
+            "post": {
+                "tags": ["System  Math Sqrt1cd36"],
+                "description": "Math: public static Decimal sqrt(Decimal decimalValue) (TIA key: System.Math.sqrt(Decimal decimalValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSqrt1cd36.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSqrt1cd36.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSqrt1cd36.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathSqrt55685/": {
+            "description": "Implementation for System.Math: public static Double sqrt(Double doubleValue)   Method documentation: Returns the correctly rounded positive square root of doubleValue.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sqrt_2   Signature: public static Double sqrt(Double doubleValue)   Is static: true   Method name: sqrt   Return Type: Double   TIA key: System.Math.sqrt(Double doubleValue)",
+            "post": {
+                "tags": ["System  Math Sqrt55685"],
+                "description": "Math: public static Double sqrt(Double doubleValue) (TIA key: System.Math.sqrt(Double doubleValue))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathSqrt55685.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSqrt55685.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathSqrt55685.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathTan3b1b0/": {
+            "description": "Implementation for System.Math: public static Decimal tan(Decimal decimalAngle)   Method documentation: Returns the trigonometric tangent of the angle specified by decimalAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tan   Signature: public static Decimal tan(Decimal decimalAngle)   Is static: true   Method name: tan   Return Type: Decimal   TIA key: System.Math.tan(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Tan3b1b0"],
+                "description": "Math: public static Decimal tan(Decimal decimalAngle) (TIA key: System.Math.tan(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathTan3b1b0.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTan3b1b0.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTan3b1b0.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathTan92ab1/": {
+            "description": "Implementation for System.Math: public static Double tan(Double doubleAngle)   Method documentation: Returns the trigonometric tangent of the angle specified by doubleAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tan_2   Signature: public static Double tan(Double doubleAngle)   Is static: true   Method name: tan   Return Type: Double   TIA key: System.Math.tan(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Tan92ab1"],
+                "description": "Math: public static Double tan(Double doubleAngle) (TIA key: System.Math.tan(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathTan92ab1.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTan92ab1.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTan92ab1.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathTanh03b19/": {
+            "description": "Implementation for System.Math: public static Double tanh(Double doubleAngle)   Method documentation: Returns the hyperbolic tangent of doubleAngle. The hyperbolic tangent of doubleAngle is defined to be (ex - e-x)/(ex + e-x) where e is Euler's number. In other words, it is equivalent to sinh(x)/cosinh(x). The absolute value of the exact tanh is always less than 1.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tanh_2   Signature: public static Double tanh(Double doubleAngle)   Is static: true   Method name: tanh   Return Type: Double   TIA key: System.Math.tanh(Double doubleAngle)",
+            "post": {
+                "tags": ["System  Math Tanh03b19"],
+                "description": "Math: public static Double tanh(Double doubleAngle) (TIA key: System.Math.tanh(Double doubleAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathTanh03b19.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTanh03b19.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTanh03b19.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/MathTanh8a02a/": {
+            "description": "Implementation for System.Math: public static Decimal tanh(Decimal decimalAngle)   Method documentation: Returns the hyperbolic tangent of decimalAngle. The hyperbolic tangent of decimalAngle is defined to be (ex - e-x)/(ex + e-x) where e is Euler's number. In other words, it is equivalent to sinh(x)/cosinh(x). The absolute value of the exact tanh is always less than 1.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tanh   Signature: public static Decimal tanh(Decimal decimalAngle)   Is static: true   Method name: tanh   Return Type: Decimal   TIA key: System.Math.tanh(Decimal decimalAngle)",
+            "post": {
+                "tags": ["System  Math Tanh8a02a"],
+                "description": "Math: public static Decimal tanh(Decimal decimalAngle) (TIA key: System.Math.tanh(Decimal decimalAngle))",
+                "requestBody": {
+                    "description": "List of I1.SystemMathTanh8a02a.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTanh8a02a.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemMathTanh8a02a.Output_array" } } }
+                    }
+                }
+            }
+        },
         "System/StringAbbreviate366ae/": {
             "description": "Implementation for System.String: public String abbreviate(Integer maxWidth)   Method documentation: Returns an abbreviated version of the String, of the specified length and with ellipses appended if the current String is longer than the specified length; otherwise, returns the original String without ellipses.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#apex_System_String_abbreviate   Signature: public String abbreviate(Integer maxWidth)   Method name: abbreviate   Return Type: String   TIA key: System.String.abbreviate(Integer maxWidth)",
             "post": {
@@ -5304,6 +6358,234 @@
             "description": "Implementation for System.Long: public static Long valueOf(String stringToLong)   Method documentation: Returns a Long that contains the value of the specified String. As in Java, the string is interpreted as representing a signed decimal Long.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_long.htm#apex_System_Long_valueOf   Signature: public static Long valueOf(String stringToLong)   Is static: true   Method name: valueOf   Return Type: Long   TIA key: System.Long.valueOf(String stringToLong)"
         },
         {
+            "name": "System  Math Abs92fdd",
+            "description": "Implementation for System.Math: public static Long abs(Long longValue)   Method documentation: Returns the absolute value of the specified Long.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs_4   Signature: public static Long abs(Long longValue)   Is static: true   Method name: abs   Return Type: Long   TIA key: System.Math.abs(Long longValue)"
+        },
+        {
+            "name": "System  Math Absc16cc",
+            "description": "Implementation for System.Math: public static Decimal abs(Decimal decimalValue)   Method documentation: Returns the absolute value of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs   Signature: public static Decimal abs(Decimal decimalValue)   Is static: true   Method name: abs   Return Type: Decimal   TIA key: System.Math.abs(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Absd6070",
+            "description": "Implementation for System.Math: public static Double abs(Double doubleValue)   Method documentation: Returns the absolute value of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs_2   Signature: public static Double abs(Double doubleValue)   Is static: true   Method name: abs   Return Type: Double   TIA key: System.Math.abs(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Abse66bd",
+            "description": "Implementation for System.Math: public static Integer abs(Integer integerValue)   Method documentation: Returns the absolute value of the specified Integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_abs_3   Signature: public static Integer abs(Integer integerValue)   Is static: true   Method name: abs   Return Type: Integer   TIA key: System.Math.abs(Integer integerValue)"
+        },
+        {
+            "name": "System  Math Acos31ecd",
+            "description": "Implementation for System.Math: public static Decimal acos(Decimal decimalAngle)   Method documentation: Returns the arc cosine of an angle, in the range of 0.0 through pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_acos   Signature: public static Decimal acos(Decimal decimalAngle)   Is static: true   Method name: acos   Return Type: Decimal   TIA key: System.Math.acos(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Acosd9291",
+            "description": "Implementation for System.Math: public static Double acos(Double doubleAngle)   Method documentation: Returns the arc cosine of an angle, in the range of 0.0 through pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_acos_2   Signature: public static Double acos(Double doubleAngle)   Is static: true   Method name: acos   Return Type: Double   TIA key: System.Math.acos(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Asin2c23a",
+            "description": "Implementation for System.Math: public static Double asin(Double doubleAngle)   Method documentation: Returns the arc sine of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_asin_2   Signature: public static Double asin(Double doubleAngle)   Is static: true   Method name: asin   Return Type: Double   TIA key: System.Math.asin(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Asin67119",
+            "description": "Implementation for System.Math: public static Decimal asin(Decimal decimalAngle)   Method documentation: Returns the arc sine of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_asin   Signature: public static Decimal asin(Decimal decimalAngle)   Is static: true   Method name: asin   Return Type: Decimal   TIA key: System.Math.asin(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Atan15cac",
+            "description": "Implementation for System.Math: public static Decimal atan(Decimal decimalAngle)   Method documentation: Returns the arc tangent of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan   Signature: public static Decimal atan(Decimal decimalAngle)   Is static: true   Method name: atan   Return Type: Decimal   TIA key: System.Math.atan(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Atan22b871",
+            "description": "Implementation for System.Math: public static Decimal atan2(Decimal xCoordinate, Decimal yCoordinate)   Method documentation: Converts rectangular coordinates (xCoordinate and yCoordinate) to polar (r and theta). This method computes the phase theta by computing an arc tangent of xCoordinate/yCoordinate in the range of -pi to pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan2   Signature: public static Decimal atan2(Decimal xCoordinate, Decimal yCoordinate)   Is static: true   Method name: atan2   Return Type: Decimal   TIA key: System.Math.atan2(Decimal xCoordinate, Decimal yCoordinate)"
+        },
+        {
+            "name": "System  Math Atan2e27d4",
+            "description": "Implementation for System.Math: public static Double atan2(Double xCoordinate, Double yCoordinate)   Method documentation: Converts rectangular coordinates (xCoordinate and yCoordinate) to polar (r and theta). This method computes the phase theta by computing an arc tangent of xCoordinate/yCoordinate in the range of -pi to pi.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan2_2   Signature: public static Double atan2(Double xCoordinate, Double yCoordinate)   Is static: true   Method name: atan2   Return Type: Double   TIA key: System.Math.atan2(Double xCoordinate, Double yCoordinate)"
+        },
+        {
+            "name": "System  Math Atane961c",
+            "description": "Implementation for System.Math: public static Double atan(Double doubleAngle)   Method documentation: Returns the arc tangent of an angle, in the range of -pi/2 through pi/2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_atan_2   Signature: public static Double atan(Double doubleAngle)   Is static: true   Method name: atan   Return Type: Double   TIA key: System.Math.atan(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Cbrtda151",
+            "description": "Implementation for System.Math: public static Double cbrt(Double doubleValue)   Method documentation: Returns the cube root of the specified Double. The cube root of a negative value is the negative of the cube root of that value's magnitude.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cbrt_2   Signature: public static Double cbrt(Double doubleValue)   Is static: true   Method name: cbrt   Return Type: Double   TIA key: System.Math.cbrt(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Cbrtfe5f9",
+            "description": "Implementation for System.Math: public static Decimal cbrt(Decimal decimalValue)   Method documentation: Returns the cube root of the specified Decimal. The cube root of a negative value is the negative of the cube root of that value's magnitude.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cbrt   Signature: public static Decimal cbrt(Decimal decimalValue)   Is static: true   Method name: cbrt   Return Type: Decimal   TIA key: System.Math.cbrt(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Ceil37828",
+            "description": "Implementation for System.Math: public static Decimal ceil(Decimal decimalValue)   Method documentation: Returns the smallest (closest to negative infinity) Decimal that is not less than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_ceil   Signature: public static Decimal ceil(Decimal decimalValue)   Is static: true   Method name: ceil   Return Type: Decimal   TIA key: System.Math.ceil(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Ceil6e339",
+            "description": "Implementation for System.Math: public static Double ceil(Double doubleValue)   Method documentation: Returns the smallest (closest to negative infinity) Double that is not less than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_ceil_2   Signature: public static Double ceil(Double doubleValue)   Is static: true   Method name: ceil   Return Type: Double   TIA key: System.Math.ceil(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Cos1c467",
+            "description": "Implementation for System.Math: public static Decimal cos(Decimal decimalAngle)   Method documentation: Returns the trigonometric cosine of the angle specified by decimalAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cos   Signature: public static Decimal cos(Decimal decimalAngle)   Is static: true   Method name: cos   Return Type: Decimal   TIA key: System.Math.cos(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Cosb322f",
+            "description": "Implementation for System.Math: public static Double cos(Double doubleAngle)   Method documentation: Returns the trigonometric cosine of the angle specified by doubleAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cos_2   Signature: public static Double cos(Double doubleAngle)   Is static: true   Method name: cos   Return Type: Double   TIA key: System.Math.cos(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Cosh5aff0",
+            "description": "Implementation for System.Math: public static Decimal cosh(Decimal decimalAngle)   Method documentation: Returns the hyperbolic cosine of decimalAngle. The hyperbolic cosine of d is defined to be (ex + e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cosh   Signature: public static Decimal cosh(Decimal decimalAngle)   Is static: true   Method name: cosh   Return Type: Decimal   TIA key: System.Math.cosh(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Cosh9d1f2",
+            "description": "Implementation for System.Math: public static Double cosh(Double doubleAngle)   Method documentation: Returns the hyperbolic cosine of doubleAngle. The hyperbolic cosine of d is defined to be (ex + e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_cosh_2   Signature: public static Double cosh(Double doubleAngle)   Is static: true   Method name: cosh   Return Type: Double   TIA key: System.Math.cosh(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Exp7f2f5",
+            "description": "Implementation for System.Math: public static Decimal exp(Decimal exponentDecimal)   Method documentation: Returns Euler's number e raised to the power of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_exp   Signature: public static Decimal exp(Decimal exponentDecimal)   Is static: true   Method name: exp   Return Type: Decimal   TIA key: System.Math.exp(Decimal exponentDecimal)"
+        },
+        {
+            "name": "System  Math Expda090",
+            "description": "Implementation for System.Math: public static Double exp(Double exponentDouble)   Method documentation: Returns Euler's number e raised to the power of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_exp_2   Signature: public static Double exp(Double exponentDouble)   Is static: true   Method name: exp   Return Type: Double   TIA key: System.Math.exp(Double exponentDouble)"
+        },
+        {
+            "name": "System  Math Floor698c1",
+            "description": "Implementation for System.Math: public static Decimal floor(Decimal decimalValue)   Method documentation: Returns the largest (closest to positive infinity) Decimal that is not greater than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_floor   Signature: public static Decimal floor(Decimal decimalValue)   Is static: true   Method name: floor   Return Type: Decimal   TIA key: System.Math.floor(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Floorf23fb",
+            "description": "Implementation for System.Math: public static Double floor(Double doubleValue)   Method documentation: Returns the largest (closest to positive infinity) Double that is not greater than the argument and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_floor_2   Signature: public static Double floor(Double doubleValue)   Is static: true   Method name: floor   Return Type: Double   TIA key: System.Math.floor(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Log109fa6f",
+            "description": "Implementation for System.Math: public static Double log10(Double doubleValue)   Method documentation: Returns the logarithm (base 10) of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log10_2   Signature: public static Double log10(Double doubleValue)   Is static: true   Method name: log10   Return Type: Double   TIA key: System.Math.log10(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Log10c6637",
+            "description": "Implementation for System.Math: public static Decimal log10(Decimal decimalValue)   Method documentation: Returns the logarithm (base 10) of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log10   Signature: public static Decimal log10(Decimal decimalValue)   Is static: true   Method name: log10   Return Type: Decimal   TIA key: System.Math.log10(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Log439c6",
+            "description": "Implementation for System.Math: public static Decimal log(Decimal decimalValue)   Method documentation: Returns the natural logarithm (base e) of the specified Decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log   Signature: public static Decimal log(Decimal decimalValue)   Is static: true   Method name: log   Return Type: Decimal   TIA key: System.Math.log(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Logce09d",
+            "description": "Implementation for System.Math: public static Double log(Double doubleValue)   Method documentation: Returns the natural logarithm (base e) of the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_log_2   Signature: public static Double log(Double doubleValue)   Is static: true   Method name: log   Return Type: Double   TIA key: System.Math.log(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Max13295",
+            "description": "Implementation for System.Math: public static Decimal max(Decimal decimalValue1, Decimal decimalValue2)   Method documentation: Returns the larger of the two specified Decimals.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max   Signature: public static Decimal max(Decimal decimalValue1, Decimal decimalValue2)   Is static: true   Method name: max   Return Type: Decimal   TIA key: System.Math.max(Decimal decimalValue1, Decimal decimalValue2)"
+        },
+        {
+            "name": "System  Math Max24503",
+            "description": "Implementation for System.Math: public static Double max(Double doubleValue1, Double doubleValue2)   Method documentation: Returns the larger of the two specified Doubles.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max_2   Signature: public static Double max(Double doubleValue1, Double doubleValue2)   Is static: true   Method name: max   Return Type: Double   TIA key: System.Math.max(Double doubleValue1, Double doubleValue2)"
+        },
+        {
+            "name": "System  Math Max4ce5b",
+            "description": "Implementation for System.Math: public static Long max(Long longValue1, Long longValue2)   Method documentation: Returns the larger of the two specified Longs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max_4   Signature: public static Long max(Long longValue1, Long longValue2)   Is static: true   Method name: max   Return Type: Long   TIA key: System.Math.max(Long longValue1, Long longValue2)"
+        },
+        {
+            "name": "System  Math Max66a3f",
+            "description": "Implementation for System.Math: public static Integer max(Integer integerValue1, Integer integerValue2)   Method documentation: Returns the larger of the two specified Integers.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_max_3   Signature: public static Integer max(Integer integerValue1, Integer integerValue2)   Is static: true   Method name: max   Return Type: Integer   TIA key: System.Math.max(Integer integerValue1, Integer integerValue2)"
+        },
+        {
+            "name": "System  Math Min21bd2",
+            "description": "Implementation for System.Math: public static Long min(Long longValue1, Long longValue2)   Method documentation: Returns the smaller of the two specified Longs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min_4   Signature: public static Long min(Long longValue1, Long longValue2)   Is static: true   Method name: min   Return Type: Long   TIA key: System.Math.min(Long longValue1, Long longValue2)"
+        },
+        {
+            "name": "System  Math Min9dc2e",
+            "description": "Implementation for System.Math: public static Decimal min(Decimal decimalValue1, Decimal decimalValue2)   Method documentation: Returns the smaller of the two specified Decimals.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min   Signature: public static Decimal min(Decimal decimalValue1, Decimal decimalValue2)   Is static: true   Method name: min   Return Type: Decimal   TIA key: System.Math.min(Decimal decimalValue1, Decimal decimalValue2)"
+        },
+        {
+            "name": "System  Math Mina024c",
+            "description": "Implementation for System.Math: public static Integer min(Integer integerValue1, Integer integerValue2)   Method documentation: Returns the smaller of the two specified Integers.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min_3   Signature: public static Integer min(Integer integerValue1, Integer integerValue2)   Is static: true   Method name: min   Return Type: Integer   TIA key: System.Math.min(Integer integerValue1, Integer integerValue2)"
+        },
+        {
+            "name": "System  Math Minb7c14",
+            "description": "Implementation for System.Math: public static Double min(Double doubleValue1, Double doubleValue2)   Method documentation: Returns the smaller of the two specified Doubles.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_min_2   Signature: public static Double min(Double doubleValue1, Double doubleValue2)   Is static: true   Method name: min   Return Type: Double   TIA key: System.Math.min(Double doubleValue1, Double doubleValue2)"
+        },
+        {
+            "name": "System  Math Mod76a4f",
+            "description": "Implementation for System.Math: public static Integer mod(Integer integerValue1, Integer integerValue2)   Method documentation: Returns the remainder of integerValue1 divided by integerValue2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_mod   Signature: public static Integer mod(Integer integerValue1, Integer integerValue2)   Is static: true   Method name: mod   Return Type: Integer   TIA key: System.Math.mod(Integer integerValue1, Integer integerValue2)"
+        },
+        {
+            "name": "System  Math Mod89ff6",
+            "description": "Implementation for System.Math: public static Long mod(Long longValue1, Long longValue2)   Method documentation: Returns the remainder of longValue1 divided by longValue2.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_mod_2   Signature: public static Long mod(Long longValue1, Long longValue2)   Is static: true   Method name: mod   Return Type: Long   TIA key: System.Math.mod(Long longValue1, Long longValue2)"
+        },
+        {
+            "name": "System  Math Powee8bd",
+            "description": "Implementation for System.Math: public static Double pow(Double doubleValue, Double exponent)   Method documentation: Returns the value of the first Double raised to the power of exponent.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_pow   Signature: public static Double pow(Double doubleValue, Double exponent)   Is static: true   Method name: pow   Return Type: Double   TIA key: System.Math.pow(Double doubleValue, Double exponent)"
+        },
+        {
+            "name": "System  Math Random014a5",
+            "description": "Implementation for System.Math: public static Double random()   Method documentation: Returns a positive Double that is greater than or equal to 0.0 and less than 1.0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_random   Signature: public static Double random()   Is static: true   Method name: random   Return Type: Double   TIA key: System.Math.random()"
+        },
+        {
+            "name": "System  Math Rint9456e",
+            "description": "Implementation for System.Math: public static Double rint(Double doubleValue)   Method documentation: Returns the value that is closest in value to doubleValue and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_rint_2   Signature: public static Double rint(Double doubleValue)   Is static: true   Method name: rint   Return Type: Double   TIA key: System.Math.rint(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Rintd2f7a",
+            "description": "Implementation for System.Math: public static Decimal rint(Decimal decimalValue)   Method documentation: Returns the value that is closest in value to decimalValue and is equal to a mathematical integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_rint   Signature: public static Decimal rint(Decimal decimalValue)   Is static: true   Method name: rint   Return Type: Decimal   TIA key: System.Math.rint(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Round2539a",
+            "description": "Implementation for System.Math: public static Integer round(Decimal decimalValue)   Method documentation: Returns the rounded approximation of this Decimal. The number is rounded to zero decimal places using half-even rounding mode, that is, it rounds towards the “nearest neighbor” unless both neighbors are equidistant, in which case, this mode rounds towards the even neighbor. If the result is less than -2,147,483,648 or greater than 2,147,483,647, Apex generates an error.   Usage: Note that this rounding mode statistically minimizes cumulative error when applied repeatedly over a sequence of calculations.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_round_2   Signature: public static Integer round(Decimal decimalValue)   Is static: true   Method name: round   Return Type: Integer   TIA key: System.Math.round(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Round To Long17312",
+            "description": "Implementation for System.Math: public static Long roundToLong(Decimal decimalValue)   Method documentation: Returns the rounded approximation of this Decimal. The number is rounded to zero decimal places using half-even rounding mode, that is, it rounds towards the “nearest neighbor” unless both neighbors are equidistant, in which case, this mode rounds towards the even neighbor.   Usage: Note that this rounding mode statistically minimizes cumulative error when applied repeatedly over a sequence of calculations.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_roundToLong   Signature: public static Long roundToLong(Decimal decimalValue)   Is static: true   Method name: roundToLong   Return Type: Long   TIA key: System.Math.roundToLong(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Round To Longb426f",
+            "description": "Implementation for System.Math: public static Long roundToLong(Double doubleValue)   Method documentation: Returns the closest Long to the specified Double.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_roundToLong_2   Signature: public static Long roundToLong(Double doubleValue)   Is static: true   Method name: roundToLong   Return Type: Long   TIA key: System.Math.roundToLong(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Signum215b3",
+            "description": "Implementation for System.Math: public static Double signum(Double doubleValue)   Method documentation: Returns the signum function of the specified Double, which is 0 if doubleValue is 0, 1.0 if doubleValue is greater than 0, -1.0 if doubleValue is less than 0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_signum_2   Signature: public static Double signum(Double doubleValue)   Is static: true   Method name: signum   Return Type: Double   TIA key: System.Math.signum(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Signum9f062",
+            "description": "Implementation for System.Math: public static Decimal signum(Decimal decimalValue)   Method documentation: Returns the signum function of the specified Decimal, which is 0 if decimalValue is 0, 1.0 if decimalValue is greater than 0, -1.0 if decimalValue is less than 0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_signum   Signature: public static Decimal signum(Decimal decimalValue)   Is static: true   Method name: signum   Return Type: Decimal   TIA key: System.Math.signum(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Sin33e30",
+            "description": "Implementation for System.Math: public static Double sin(Double doubleAngle)   Method documentation: Returns the trigonometric sine of the angle specified by doubleAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sin_2   Signature: public static Double sin(Double doubleAngle)   Is static: true   Method name: sin   Return Type: Double   TIA key: System.Math.sin(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Sina892f",
+            "description": "Implementation for System.Math: public static Decimal sin(Decimal decimalAngle)   Method documentation: Returns the trigonometric sine of the angle specified by decimalAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sin   Signature: public static Decimal sin(Decimal decimalAngle)   Is static: true   Method name: sin   Return Type: Decimal   TIA key: System.Math.sin(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Sinh725ce",
+            "description": "Implementation for System.Math: public static Decimal sinh(Decimal decimalAngle)   Method documentation: Returns the hyperbolic sine of decimalAngle. The hyperbolic sine of decimalAngle is defined to be (ex - e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sinh   Signature: public static Decimal sinh(Decimal decimalAngle)   Is static: true   Method name: sinh   Return Type: Decimal   TIA key: System.Math.sinh(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Sinhff2b2",
+            "description": "Implementation for System.Math: public static Double sinh(Double doubleAngle)   Method documentation: Returns the hyperbolic sine of doubleAngle. The hyperbolic sine of doubleAngle is defined to be (ex - e-x)/2 where e is Euler's number.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sinh_2   Signature: public static Double sinh(Double doubleAngle)   Is static: true   Method name: sinh   Return Type: Double   TIA key: System.Math.sinh(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Sqrt1cd36",
+            "description": "Implementation for System.Math: public static Decimal sqrt(Decimal decimalValue)   Method documentation: Returns the correctly rounded positive square root of decimalValue.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sqrt   Signature: public static Decimal sqrt(Decimal decimalValue)   Is static: true   Method name: sqrt   Return Type: Decimal   TIA key: System.Math.sqrt(Decimal decimalValue)"
+        },
+        {
+            "name": "System  Math Sqrt55685",
+            "description": "Implementation for System.Math: public static Double sqrt(Double doubleValue)   Method documentation: Returns the correctly rounded positive square root of doubleValue.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_sqrt_2   Signature: public static Double sqrt(Double doubleValue)   Is static: true   Method name: sqrt   Return Type: Double   TIA key: System.Math.sqrt(Double doubleValue)"
+        },
+        {
+            "name": "System  Math Tan3b1b0",
+            "description": "Implementation for System.Math: public static Decimal tan(Decimal decimalAngle)   Method documentation: Returns the trigonometric tangent of the angle specified by decimalAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tan   Signature: public static Decimal tan(Decimal decimalAngle)   Is static: true   Method name: tan   Return Type: Decimal   TIA key: System.Math.tan(Decimal decimalAngle)"
+        },
+        {
+            "name": "System  Math Tan92ab1",
+            "description": "Implementation for System.Math: public static Double tan(Double doubleAngle)   Method documentation: Returns the trigonometric tangent of the angle specified by doubleAngle.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tan_2   Signature: public static Double tan(Double doubleAngle)   Is static: true   Method name: tan   Return Type: Double   TIA key: System.Math.tan(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Tanh03b19",
+            "description": "Implementation for System.Math: public static Double tanh(Double doubleAngle)   Method documentation: Returns the hyperbolic tangent of doubleAngle. The hyperbolic tangent of doubleAngle is defined to be (ex - e-x)/(ex + e-x) where e is Euler's number. In other words, it is equivalent to sinh(x)/cosinh(x). The absolute value of the exact tanh is always less than 1.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tanh_2   Signature: public static Double tanh(Double doubleAngle)   Is static: true   Method name: tanh   Return Type: Double   TIA key: System.Math.tanh(Double doubleAngle)"
+        },
+        {
+            "name": "System  Math Tanh8a02a",
+            "description": "Implementation for System.Math: public static Decimal tanh(Decimal decimalAngle)   Method documentation: Returns the hyperbolic tangent of decimalAngle. The hyperbolic tangent of decimalAngle is defined to be (ex - e-x)/(ex + e-x) where e is Euler's number. In other words, it is equivalent to sinh(x)/cosinh(x). The absolute value of the exact tanh is always less than 1.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_math.htm#apex_System_Math_tanh   Signature: public static Decimal tanh(Decimal decimalAngle)   Is static: true   Method name: tanh   Return Type: Decimal   TIA key: System.Math.tanh(Decimal decimalAngle)"
+        },
+        {
             "name": "System  String Abbreviate366ae",
             "description": "Implementation for System.String: public String abbreviate(Integer maxWidth)   Method documentation: Returns an abbreviated version of the String, of the specified length and with ellipses appended if the current String is longer than the specified length; otherwise, returns the original String without ellipses.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#apex_System_String_abbreviate   Signature: public String abbreviate(Integer maxWidth)   Method name: abbreviate   Return Type: String   TIA key: System.String.abbreviate(Integer maxWidth)"
         },
@@ -8081,6 +9363,688 @@
             "SystemLongValueOf6b8e7.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemMathAbs92fdd.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbs92fdd.Input" } },
+            "SystemMathAbs92fdd.Input": {
+                "type": "object",
+                "properties": { "longValue": { "type": "integer", "format": "int64", "description": "Long longValue   Type: Long" } }
+            },
+            "SystemMathAbs92fdd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbs92fdd.Output" } },
+            "SystemMathAbs92fdd.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemMathAbsc16cc.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsc16cc.Input" } },
+            "SystemMathAbsc16cc.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathAbsc16cc.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsc16cc.Output" } },
+            "SystemMathAbsc16cc.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathAbsd6070.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsd6070.Input" } },
+            "SystemMathAbsd6070.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathAbsd6070.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsd6070.Output" } },
+            "SystemMathAbsd6070.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathAbse66bd.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbse66bd.Input" } },
+            "SystemMathAbse66bd.Input": {
+                "type": "object",
+                "properties": { "integerValue": { "type": "integer", "description": "Integer integerValue   Type: Integer" } }
+            },
+            "SystemMathAbse66bd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbse66bd.Output" } },
+            "SystemMathAbse66bd.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemMathAcos31ecd.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcos31ecd.Input" } },
+            "SystemMathAcos31ecd.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathAcos31ecd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcos31ecd.Output" } },
+            "SystemMathAcos31ecd.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathAcosd9291.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcosd9291.Input" } },
+            "SystemMathAcosd9291.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathAcosd9291.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcosd9291.Output" } },
+            "SystemMathAcosd9291.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathAsin2c23a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin2c23a.Input" } },
+            "SystemMathAsin2c23a.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathAsin2c23a.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin2c23a.Output" } },
+            "SystemMathAsin2c23a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathAsin67119.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin67119.Input" } },
+            "SystemMathAsin67119.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathAsin67119.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin67119.Output" } },
+            "SystemMathAsin67119.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathAtan15cac.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtan15cac.Input" } },
+            "SystemMathAtan15cac.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathAtan15cac.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtan15cac.Output" } },
+            "SystemMathAtan15cac.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathAtan22b871.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtan22b871.Input" } },
+            "SystemMathAtan22b871.Input": {
+                "type": "object",
+                "properties": {
+                    "xCoordinate": {
+                        "type": "number",
+                        "description": "Decimal xCoordinate   Type: Decimal   Documentation: Type: Decimal"
+                    },
+                    "yCoordinate": { "type": "number", "description": "Decimal yCoordinate   Type: Decimal" }
+                }
+            },
+            "SystemMathAtan22b871.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathAtan22b871.Output" }
+            },
+            "SystemMathAtan22b871.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathAtan2e27d4.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtan2e27d4.Input" } },
+            "SystemMathAtan2e27d4.Input": {
+                "type": "object",
+                "properties": {
+                    "xCoordinate": { "type": "number", "description": "Double xCoordinate   Type: Double   Documentation: Type: Double" },
+                    "yCoordinate": { "type": "number", "description": "Double yCoordinate   Type: Double" }
+                }
+            },
+            "SystemMathAtan2e27d4.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathAtan2e27d4.Output" }
+            },
+            "SystemMathAtan2e27d4.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathAtane961c.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtane961c.Input" } },
+            "SystemMathAtane961c.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathAtane961c.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtane961c.Output" } },
+            "SystemMathAtane961c.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathCbrtda151.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtda151.Input" } },
+            "SystemMathCbrtda151.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathCbrtda151.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtda151.Output" } },
+            "SystemMathCbrtda151.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathCbrtfe5f9.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtfe5f9.Input" } },
+            "SystemMathCbrtfe5f9.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathCbrtfe5f9.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtfe5f9.Output" } },
+            "SystemMathCbrtfe5f9.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathCeil37828.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil37828.Input" } },
+            "SystemMathCeil37828.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathCeil37828.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil37828.Output" } },
+            "SystemMathCeil37828.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathCeil6e339.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil6e339.Input" } },
+            "SystemMathCeil6e339.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathCeil6e339.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil6e339.Output" } },
+            "SystemMathCeil6e339.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathCos1c467.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCos1c467.Input" } },
+            "SystemMathCos1c467.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathCos1c467.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCos1c467.Output" } },
+            "SystemMathCos1c467.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathCosb322f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosb322f.Input" } },
+            "SystemMathCosb322f.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathCosb322f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosb322f.Output" } },
+            "SystemMathCosb322f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathCosh5aff0.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh5aff0.Input" } },
+            "SystemMathCosh5aff0.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathCosh5aff0.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh5aff0.Output" } },
+            "SystemMathCosh5aff0.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathCosh9d1f2.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh9d1f2.Input" } },
+            "SystemMathCosh9d1f2.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathCosh9d1f2.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh9d1f2.Output" } },
+            "SystemMathCosh9d1f2.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathExp7f2f5.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExp7f2f5.Input" } },
+            "SystemMathExp7f2f5.Input": {
+                "type": "object",
+                "properties": { "exponentDecimal": { "type": "number", "description": "Decimal exponentDecimal   Type: Decimal" } }
+            },
+            "SystemMathExp7f2f5.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExp7f2f5.Output" } },
+            "SystemMathExp7f2f5.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathExpda090.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExpda090.Input" } },
+            "SystemMathExpda090.Input": {
+                "type": "object",
+                "properties": { "exponentDouble": { "type": "number", "description": "Double exponentDouble   Type: Double" } }
+            },
+            "SystemMathExpda090.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExpda090.Output" } },
+            "SystemMathExpda090.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathFloor698c1.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathFloor698c1.Input" } },
+            "SystemMathFloor698c1.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathFloor698c1.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathFloor698c1.Output" }
+            },
+            "SystemMathFloor698c1.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathFloorf23fb.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathFloorf23fb.Input" } },
+            "SystemMathFloorf23fb.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathFloorf23fb.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathFloorf23fb.Output" }
+            },
+            "SystemMathFloorf23fb.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathLog109fa6f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog109fa6f.Input" } },
+            "SystemMathLog109fa6f.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathLog109fa6f.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathLog109fa6f.Output" }
+            },
+            "SystemMathLog109fa6f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathLog10c6637.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog10c6637.Input" } },
+            "SystemMathLog10c6637.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathLog10c6637.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathLog10c6637.Output" }
+            },
+            "SystemMathLog10c6637.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathLog439c6.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog439c6.Input" } },
+            "SystemMathLog439c6.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathLog439c6.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog439c6.Output" } },
+            "SystemMathLog439c6.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathLogce09d.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLogce09d.Input" } },
+            "SystemMathLogce09d.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathLogce09d.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLogce09d.Output" } },
+            "SystemMathLogce09d.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathMax13295.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax13295.Input" } },
+            "SystemMathMax13295.Input": {
+                "type": "object",
+                "properties": {
+                    "decimalValue1": {
+                        "type": "number",
+                        "description": "Decimal decimalValue1   Type: Decimal   Documentation: Type: Decimal"
+                    },
+                    "decimalValue2": { "type": "number", "description": "Decimal decimalValue2   Type: Decimal" }
+                }
+            },
+            "SystemMathMax13295.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax13295.Output" } },
+            "SystemMathMax13295.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathMax24503.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax24503.Input" } },
+            "SystemMathMax24503.Input": {
+                "type": "object",
+                "properties": {
+                    "doubleValue1": { "type": "number", "description": "Double doubleValue1   Type: Double   Documentation: Type: Double" },
+                    "doubleValue2": { "type": "number", "description": "Double doubleValue2   Type: Double" }
+                }
+            },
+            "SystemMathMax24503.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax24503.Output" } },
+            "SystemMathMax24503.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathMax4ce5b.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax4ce5b.Input" } },
+            "SystemMathMax4ce5b.Input": {
+                "type": "object",
+                "properties": {
+                    "longValue1": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longValue1   Type: Long   Documentation: Type: Long"
+                    },
+                    "longValue2": { "type": "integer", "format": "int64", "description": "Long longValue2   Type: Long" }
+                }
+            },
+            "SystemMathMax4ce5b.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax4ce5b.Output" } },
+            "SystemMathMax4ce5b.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemMathMax66a3f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax66a3f.Input" } },
+            "SystemMathMax66a3f.Input": {
+                "type": "object",
+                "properties": {
+                    "integerValue1": {
+                        "type": "integer",
+                        "description": "Integer integerValue1   Type: Integer   Documentation: Type: Integer"
+                    },
+                    "integerValue2": { "type": "integer", "description": "Integer integerValue2   Type: Integer" }
+                }
+            },
+            "SystemMathMax66a3f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax66a3f.Output" } },
+            "SystemMathMax66a3f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemMathMin21bd2.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMin21bd2.Input" } },
+            "SystemMathMin21bd2.Input": {
+                "type": "object",
+                "properties": {
+                    "longValue1": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longValue1   Type: Long   Documentation: Type: Long"
+                    },
+                    "longValue2": { "type": "integer", "format": "int64", "description": "Long longValue2   Type: Long" }
+                }
+            },
+            "SystemMathMin21bd2.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMin21bd2.Output" } },
+            "SystemMathMin21bd2.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemMathMin9dc2e.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMin9dc2e.Input" } },
+            "SystemMathMin9dc2e.Input": {
+                "type": "object",
+                "properties": {
+                    "decimalValue1": {
+                        "type": "number",
+                        "description": "Decimal decimalValue1   Type: Decimal   Documentation: Type: Decimal"
+                    },
+                    "decimalValue2": { "type": "number", "description": "Decimal decimalValue2   Type: Decimal" }
+                }
+            },
+            "SystemMathMin9dc2e.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMin9dc2e.Output" } },
+            "SystemMathMin9dc2e.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathMina024c.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMina024c.Input" } },
+            "SystemMathMina024c.Input": {
+                "type": "object",
+                "properties": {
+                    "integerValue1": {
+                        "type": "integer",
+                        "description": "Integer integerValue1   Type: Integer   Documentation: Type: Integer"
+                    },
+                    "integerValue2": { "type": "integer", "description": "Integer integerValue2   Type: Integer" }
+                }
+            },
+            "SystemMathMina024c.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMina024c.Output" } },
+            "SystemMathMina024c.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemMathMinb7c14.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMinb7c14.Input" } },
+            "SystemMathMinb7c14.Input": {
+                "type": "object",
+                "properties": {
+                    "doubleValue1": { "type": "number", "description": "Double doubleValue1   Type: Double   Documentation: Type: Double" },
+                    "doubleValue2": { "type": "number", "description": "Double doubleValue2   Type: Double" }
+                }
+            },
+            "SystemMathMinb7c14.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMinb7c14.Output" } },
+            "SystemMathMinb7c14.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathMod76a4f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMod76a4f.Input" } },
+            "SystemMathMod76a4f.Input": {
+                "type": "object",
+                "properties": {
+                    "integerValue1": {
+                        "type": "integer",
+                        "description": "Integer integerValue1   Type: Integer   Documentation: Type: Integer"
+                    },
+                    "integerValue2": { "type": "integer", "description": "Integer integerValue2   Type: Integer" }
+                }
+            },
+            "SystemMathMod76a4f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMod76a4f.Output" } },
+            "SystemMathMod76a4f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemMathMod89ff6.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMod89ff6.Input" } },
+            "SystemMathMod89ff6.Input": {
+                "type": "object",
+                "properties": {
+                    "longValue1": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longValue1   Type: Long   Documentation: Type: Long"
+                    },
+                    "longValue2": { "type": "integer", "format": "int64", "description": "Long longValue2   Type: Long" }
+                }
+            },
+            "SystemMathMod89ff6.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMod89ff6.Output" } },
+            "SystemMathMod89ff6.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemMathPowee8bd.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathPowee8bd.Input" } },
+            "SystemMathPowee8bd.Input": {
+                "type": "object",
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" },
+                    "exponent": { "type": "number", "description": "Double exponent   Type: Double" }
+                }
+            },
+            "SystemMathPowee8bd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathPowee8bd.Output" } },
+            "SystemMathPowee8bd.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathRandom014a5.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathRandom014a5.Output" }
+            },
+            "SystemMathRandom014a5.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathRint9456e.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRint9456e.Input" } },
+            "SystemMathRint9456e.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathRint9456e.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRint9456e.Output" } },
+            "SystemMathRint9456e.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathRintd2f7a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRintd2f7a.Input" } },
+            "SystemMathRintd2f7a.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathRintd2f7a.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRintd2f7a.Output" } },
+            "SystemMathRintd2f7a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathRound2539a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRound2539a.Input" } },
+            "SystemMathRound2539a.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathRound2539a.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathRound2539a.Output" }
+            },
+            "SystemMathRound2539a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemMathRoundToLong17312.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathRoundToLong17312.Input" }
+            },
+            "SystemMathRoundToLong17312.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathRoundToLong17312.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathRoundToLong17312.Output" }
+            },
+            "SystemMathRoundToLong17312.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemMathRoundToLongb426f.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathRoundToLongb426f.Input" }
+            },
+            "SystemMathRoundToLongb426f.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathRoundToLongb426f.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathRoundToLongb426f.Output" }
+            },
+            "SystemMathRoundToLongb426f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemMathSignum215b3.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathSignum215b3.Input" }
+            },
+            "SystemMathSignum215b3.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathSignum215b3.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathSignum215b3.Output" }
+            },
+            "SystemMathSignum215b3.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathSignum9f062.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathSignum9f062.Input" }
+            },
+            "SystemMathSignum9f062.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathSignum9f062.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemMathSignum9f062.Output" }
+            },
+            "SystemMathSignum9f062.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathSin33e30.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSin33e30.Input" } },
+            "SystemMathSin33e30.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathSin33e30.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSin33e30.Output" } },
+            "SystemMathSin33e30.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathSina892f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSina892f.Input" } },
+            "SystemMathSina892f.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathSina892f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSina892f.Output" } },
+            "SystemMathSina892f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathSinh725ce.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinh725ce.Input" } },
+            "SystemMathSinh725ce.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathSinh725ce.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinh725ce.Output" } },
+            "SystemMathSinh725ce.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathSinhff2b2.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinhff2b2.Input" } },
+            "SystemMathSinhff2b2.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathSinhff2b2.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinhff2b2.Output" } },
+            "SystemMathSinhff2b2.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathSqrt1cd36.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt1cd36.Input" } },
+            "SystemMathSqrt1cd36.Input": {
+                "type": "object",
+                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+            },
+            "SystemMathSqrt1cd36.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt1cd36.Output" } },
+            "SystemMathSqrt1cd36.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathSqrt55685.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt55685.Input" } },
+            "SystemMathSqrt55685.Input": {
+                "type": "object",
+                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+            },
+            "SystemMathSqrt55685.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt55685.Output" } },
+            "SystemMathSqrt55685.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathTan3b1b0.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan3b1b0.Input" } },
+            "SystemMathTan3b1b0.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathTan3b1b0.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan3b1b0.Output" } },
+            "SystemMathTan3b1b0.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
+            },
+            "SystemMathTan92ab1.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan92ab1.Input" } },
+            "SystemMathTan92ab1.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathTan92ab1.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan92ab1.Output" } },
+            "SystemMathTan92ab1.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathTanh03b19.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh03b19.Input" } },
+            "SystemMathTanh03b19.Input": {
+                "type": "object",
+                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+            },
+            "SystemMathTanh03b19.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh03b19.Output" } },
+            "SystemMathTanh03b19.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemMathTanh8a02a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh8a02a.Input" } },
+            "SystemMathTanh8a02a.Input": {
+                "type": "object",
+                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+            },
+            "SystemMathTanh8a02a.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh8a02a.Output" } },
+            "SystemMathTanh8a02a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "number", "description": "Decimal result   Return type: Decimal" } }
             },
             "SystemStringAbbreviate366ae.Input_array": {
                 "type": "array",
