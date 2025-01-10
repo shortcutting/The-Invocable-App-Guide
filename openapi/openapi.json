@@ -25,6 +25,122 @@
                 }
             }
         },
+        "System/BusinessHoursAdd920cc/": {
+            "description": "Implementation for System.BusinessHours: public static Datetime add(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Method documentation: Adds an interval of time from a start Datetime traversing business hours only. Returns the result Datetime in the local time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_add   Signature: public static Datetime add(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Is static: true   Method name: add   Return Type: Datetime   TIA key: System.BusinessHours.add(String businessHoursId, Datetime startDate, Long intervalMilliseconds)",
+            "post": {
+                "tags": ["System  Business Hours Add920cc"],
+                "description": "BusinessHours: public static Datetime add(String businessHoursId, Datetime startDate, Long intervalMilliseconds) (TIA key: System.BusinessHours.add(String businessHoursId, Datetime startDate, Long intervalMilliseconds))",
+                "requestBody": {
+                    "description": "List of I1.SystemBusinessHoursAdd920cc.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemBusinessHoursAdd920cc.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemBusinessHoursAdd920cc.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/BusinessHoursAddGmt792e0/": {
+            "description": "Implementation for System.BusinessHours: public static Datetime addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Method documentation: Adds an interval of milliseconds from a start Datetime traversing business hours only. Returns the result Datetime in GMT.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_addGmt   Signature: public static Datetime addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Is static: true   Method name: addGmt   Return Type: Datetime   TIA key: System.BusinessHours.addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds)",
+            "post": {
+                "tags": ["System  Business Hours Add Gmt792e0"],
+                "description": "BusinessHours: public static Datetime addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds) (TIA key: System.BusinessHours.addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds))",
+                "requestBody": {
+                    "description": "List of I1.SystemBusinessHoursAddGmt792e0.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemBusinessHoursAddGmt792e0.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemBusinessHoursAddGmt792e0.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/BusinessHoursDiff3a7da/": {
+            "description": "Implementation for System.BusinessHours: public static Long diff(String businessHoursId, Datetime startDate, Datetime endDate)   Method documentation: Returns the difference in milliseconds between a start and end Datetime based on a specific set of business hours.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_diff   Signature: public static Long diff(String businessHoursId, Datetime startDate, Datetime endDate)   Is static: true   Method name: diff   Return Type: Long   TIA key: System.BusinessHours.diff(String businessHoursId, Datetime startDate, Datetime endDate)",
+            "post": {
+                "tags": ["System  Business Hours Diff3a7da"],
+                "description": "BusinessHours: public static Long diff(String businessHoursId, Datetime startDate, Datetime endDate) (TIA key: System.BusinessHours.diff(String businessHoursId, Datetime startDate, Datetime endDate))",
+                "requestBody": {
+                    "description": "List of I1.SystemBusinessHoursDiff3a7da.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemBusinessHoursDiff3a7da.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemBusinessHoursDiff3a7da.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/BusinessHoursIsWithinaee5c/": {
+            "description": "Implementation for System.BusinessHours: public static Boolean isWithin(String businessHoursId, Datetime targetDate)   Method documentation: Returns true if the specified target date occurs within business hours. Holidays are included in the calculation.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_isWithin   Signature: public static Boolean isWithin(String businessHoursId, Datetime targetDate)   Is static: true   Method name: isWithin   Return Type: Boolean   TIA key: System.BusinessHours.isWithin(String businessHoursId, Datetime targetDate)",
+            "post": {
+                "tags": ["System  Business Hours Is Withinaee5c"],
+                "description": "BusinessHours: public static Boolean isWithin(String businessHoursId, Datetime targetDate) (TIA key: System.BusinessHours.isWithin(String businessHoursId, Datetime targetDate))",
+                "requestBody": {
+                    "description": "List of I1.SystemBusinessHoursIsWithinaee5c.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemBusinessHoursIsWithinaee5c.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemBusinessHoursIsWithinaee5c.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/BusinessHoursNextStartDate6407f/": {
+            "description": "Implementation for System.BusinessHours: public static Datetime nextStartDate(String businessHoursId, Datetime targetDate)   Method documentation: Starting from the specified target date, returns the next date when business hours are open. If the specified target date falls within business hours, this target date is returned.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_nextStartDate   Signature: public static Datetime nextStartDate(String businessHoursId, Datetime targetDate)   Is static: true   Method name: nextStartDate   Return Type: Datetime   TIA key: System.BusinessHours.nextStartDate(String businessHoursId, Datetime targetDate)",
+            "post": {
+                "tags": ["System  Business Hours Next Start Date6407f"],
+                "description": "BusinessHours: public static Datetime nextStartDate(String businessHoursId, Datetime targetDate) (TIA key: System.BusinessHours.nextStartDate(String businessHoursId, Datetime targetDate))",
+                "requestBody": {
+                    "description": "List of I1.SystemBusinessHoursNextStartDate6407f.Input",
+                    "content": {
+                        "application/json": {
+                            "schema": { "$ref": "#/components/schemas/SystemBusinessHoursNextStartDate6407f.Input_array" }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemBusinessHoursNextStartDate6407f.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "System/DateAddDays7231c/": {
             "description": "Implementation for System.Date: public Date addDays(Integer additionalDays)   Method documentation: Adds the specified number of additional days to a Date.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_date.htm#apex_System_Date_addDays   Signature: public Date addDays(Integer additionalDays)   Method name: addDays   Return Type: Date   TIA key: System.Date.addDays(Integer additionalDays)",
             "post": {
@@ -4568,7 +4684,7 @@
             }
         },
         "System/StringLeftPad48cbf/": {
-            "description": "Implementation for System.String: public String leftPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the left and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_695233921   Signature: public String leftPad(Integer length, String padStr)   Method name: leftPad   Return Type: String   TIA key: System.String.leftPad(Integer length, String padStr)",
+            "description": "Implementation for System.String: public String leftPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the left and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_175156267   Signature: public String leftPad(Integer length, String padStr)   Method name: leftPad   Return Type: String   TIA key: System.String.leftPad(Integer length, String padStr)",
             "post": {
                 "tags": ["System  String Left Pad48cbf"],
                 "description": "String: public String leftPad(Integer length, String padStr) (TIA key: System.String.leftPad(Integer length, String padStr))",
@@ -4942,7 +5058,7 @@
             }
         },
         "System/StringRightPadac233/": {
-            "description": "Implementation for System.String: public String rightPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the right and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_2116719005   Signature: public String rightPad(Integer length, String padStr)   Method name: rightPad   Return Type: String   TIA key: System.String.rightPad(Integer length, String padStr)",
+            "description": "Implementation for System.String: public String rightPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the right and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_879818373   Signature: public String rightPad(Integer length, String padStr)   Method name: rightPad   Return Type: String   TIA key: System.String.rightPad(Integer length, String padStr)",
             "post": {
                 "tags": ["System  String Right Padac233"],
                 "description": "String: public String rightPad(Integer length, String padStr) (TIA key: System.String.rightPad(Integer length, String padStr))",
@@ -5994,6 +6110,26 @@
             "description": "Implementation for System.Boolean: public static Boolean valueOf(String stringToBoolean)   Method documentation: Converts the specified string to a Boolean value and returns true if the specified string value is true. Otherwise, returns false.   Usage: If the specified argument is null, this method throws an exception.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_boolean.htm#apex_System_Boolean_valueOf   Signature: public static Boolean valueOf(String stringToBoolean)   Is static: true   Method name: valueOf   Return Type: Boolean   TIA key: System.Boolean.valueOf(String stringToBoolean)"
         },
         {
+            "name": "System  Business Hours Add920cc",
+            "description": "Implementation for System.BusinessHours: public static Datetime add(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Method documentation: Adds an interval of time from a start Datetime traversing business hours only. Returns the result Datetime in the local time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_add   Signature: public static Datetime add(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Is static: true   Method name: add   Return Type: Datetime   TIA key: System.BusinessHours.add(String businessHoursId, Datetime startDate, Long intervalMilliseconds)"
+        },
+        {
+            "name": "System  Business Hours Add Gmt792e0",
+            "description": "Implementation for System.BusinessHours: public static Datetime addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Method documentation: Adds an interval of milliseconds from a start Datetime traversing business hours only. Returns the result Datetime in GMT.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_addGmt   Signature: public static Datetime addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds)   Is static: true   Method name: addGmt   Return Type: Datetime   TIA key: System.BusinessHours.addGmt(String businessHoursId, Datetime startDate, Long intervalMilliseconds)"
+        },
+        {
+            "name": "System  Business Hours Diff3a7da",
+            "description": "Implementation for System.BusinessHours: public static Long diff(String businessHoursId, Datetime startDate, Datetime endDate)   Method documentation: Returns the difference in milliseconds between a start and end Datetime based on a specific set of business hours.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_diff   Signature: public static Long diff(String businessHoursId, Datetime startDate, Datetime endDate)   Is static: true   Method name: diff   Return Type: Long   TIA key: System.BusinessHours.diff(String businessHoursId, Datetime startDate, Datetime endDate)"
+        },
+        {
+            "name": "System  Business Hours Is Withinaee5c",
+            "description": "Implementation for System.BusinessHours: public static Boolean isWithin(String businessHoursId, Datetime targetDate)   Method documentation: Returns true if the specified target date occurs within business hours. Holidays are included in the calculation.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_isWithin   Signature: public static Boolean isWithin(String businessHoursId, Datetime targetDate)   Is static: true   Method name: isWithin   Return Type: Boolean   TIA key: System.BusinessHours.isWithin(String businessHoursId, Datetime targetDate)"
+        },
+        {
+            "name": "System  Business Hours Next Start Date6407f",
+            "description": "Implementation for System.BusinessHours: public static Datetime nextStartDate(String businessHoursId, Datetime targetDate)   Method documentation: Starting from the specified target date, returns the next date when business hours are open. If the specified target date falls within business hours, this target date is returned.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm#apex_System_BusinessHours_nextStartDate   Signature: public static Datetime nextStartDate(String businessHoursId, Datetime targetDate)   Is static: true   Method name: nextStartDate   Return Type: Datetime   TIA key: System.BusinessHours.nextStartDate(String businessHoursId, Datetime targetDate)"
+        },
+        {
             "name": "System  Date Add Days7231c",
             "description": "Implementation for System.Date: public Date addDays(Integer additionalDays)   Method documentation: Adds the specified number of additional days to a Date.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_date.htm#apex_System_Date_addDays   Signature: public Date addDays(Integer additionalDays)   Method name: addDays   Return Type: Date   TIA key: System.Date.addDays(Integer additionalDays)"
         },
@@ -6855,7 +6991,7 @@
         },
         {
             "name": "System  String Left Pad48cbf",
-            "description": "Implementation for System.String: public String leftPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the left and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_695233921   Signature: public String leftPad(Integer length, String padStr)   Method name: leftPad   Return Type: String   TIA key: System.String.leftPad(Integer length, String padStr)"
+            "description": "Implementation for System.String: public String leftPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the left and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_175156267   Signature: public String leftPad(Integer length, String padStr)   Method name: leftPad   Return Type: String   TIA key: System.String.leftPad(Integer length, String padStr)"
         },
         {
             "name": "System  String Lengthc3f4d",
@@ -6923,7 +7059,7 @@
         },
         {
             "name": "System  String Right Padac233",
-            "description": "Implementation for System.String: public String rightPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the right and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_2116719005   Signature: public String rightPad(Integer length, String padStr)   Method name: rightPad   Return Type: String   TIA key: System.String.rightPad(Integer length, String padStr)"
+            "description": "Implementation for System.String: public String rightPad(Integer length, String padStr)   Method documentation: Returns the current String padded with String padStr on the right and of the specified length.   Usage: If length is less than or equal to the current String size, the entire String is returned without space padding.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#unique_879818373   Signature: public String rightPad(Integer length, String padStr)   Method name: rightPad   Return Type: String   TIA key: System.String.rightPad(Integer length, String padStr)"
         },
         {
             "name": "System  String Right Padddc8a",
@@ -7118,7 +7254,12 @@
             },
             "SystemBooleanValueOfe9eec.Input": {
                 "type": "object",
-                "properties": { "stringToBoolean": { "type": "string", "description": "String stringToBoolean   Type: String" } }
+                "properties": {
+                    "stringToBoolean": {
+                        "type": "string",
+                        "description": "String stringToBoolean   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemBooleanValueOfe9eec.Output_array": {
                 "type": "array",
@@ -7127,6 +7268,157 @@
             "SystemBooleanValueOfe9eec.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemBusinessHoursAdd920cc.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursAdd920cc.Input" }
+            },
+            "SystemBusinessHoursAdd920cc.Input": {
+                "type": "object",
+                "properties": {
+                    "businessHoursId": {
+                        "type": "string",
+                        "description": "String businessHoursId   Type: String   Documentation: Type: String"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Datetime startDate   Type: Datetime   Documentation: Type: Datetime"
+                    },
+                    "intervalMilliseconds": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long intervalMilliseconds   Type: Long   Documentation: Type: Long Interval value should be provided in milliseconds, however time precision smaller than one minute is ignored."
+                    }
+                }
+            },
+            "SystemBusinessHoursAdd920cc.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursAdd920cc.Output" }
+            },
+            "SystemBusinessHoursAdd920cc.Output": {
+                "type": "object",
+                "properties": {
+                    "result": { "type": "string", "format": "date-time", "description": "Datetime result   Return type: Datetime" }
+                }
+            },
+            "SystemBusinessHoursAddGmt792e0.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursAddGmt792e0.Input" }
+            },
+            "SystemBusinessHoursAddGmt792e0.Input": {
+                "type": "object",
+                "properties": {
+                    "businessHoursId": {
+                        "type": "string",
+                        "description": "String businessHoursId   Type: String   Documentation: Type: String"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Datetime startDate   Type: Datetime   Documentation: Type: Datetime"
+                    },
+                    "intervalMilliseconds": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long intervalMilliseconds   Type: Long   Documentation: Type: Long"
+                    }
+                }
+            },
+            "SystemBusinessHoursAddGmt792e0.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursAddGmt792e0.Output" }
+            },
+            "SystemBusinessHoursAddGmt792e0.Output": {
+                "type": "object",
+                "properties": {
+                    "result": { "type": "string", "format": "date-time", "description": "Datetime result   Return type: Datetime" }
+                }
+            },
+            "SystemBusinessHoursDiff3a7da.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursDiff3a7da.Input" }
+            },
+            "SystemBusinessHoursDiff3a7da.Input": {
+                "type": "object",
+                "properties": {
+                    "businessHoursId": {
+                        "type": "string",
+                        "description": "String businessHoursId   Type: String   Documentation: Type: String"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Datetime startDate   Type: Datetime   Documentation: Type: Datetime"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Datetime endDate   Type: Datetime   Documentation: Type: Datetime"
+                    }
+                }
+            },
+            "SystemBusinessHoursDiff3a7da.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursDiff3a7da.Output" }
+            },
+            "SystemBusinessHoursDiff3a7da.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemBusinessHoursIsWithinaee5c.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursIsWithinaee5c.Input" }
+            },
+            "SystemBusinessHoursIsWithinaee5c.Input": {
+                "type": "object",
+                "properties": {
+                    "businessHoursId": {
+                        "type": "string",
+                        "description": "String businessHoursId   Type: String   Documentation: Type: String The business hours ID."
+                    },
+                    "targetDate": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Datetime targetDate   Type: Datetime   Documentation: Type: Datetime The date to verify."
+                    }
+                }
+            },
+            "SystemBusinessHoursIsWithinaee5c.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursIsWithinaee5c.Output" }
+            },
+            "SystemBusinessHoursIsWithinaee5c.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemBusinessHoursNextStartDate6407f.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursNextStartDate6407f.Input" }
+            },
+            "SystemBusinessHoursNextStartDate6407f.Input": {
+                "type": "object",
+                "properties": {
+                    "businessHoursId": {
+                        "type": "string",
+                        "description": "String businessHoursId   Type: String   Documentation: Type: String The business hours ID."
+                    },
+                    "targetDate": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Datetime targetDate   Type: Datetime   Documentation: Type: Datetime The date used as a start date to obtain the next date."
+                    }
+                }
+            },
+            "SystemBusinessHoursNextStartDate6407f.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemBusinessHoursNextStartDate6407f.Output" }
+            },
+            "SystemBusinessHoursNextStartDate6407f.Output": {
+                "type": "object",
+                "properties": {
+                    "result": { "type": "string", "format": "date-time", "description": "Datetime result   Return type: Datetime" }
+                }
             },
             "SystemDateAddDays7231c.Input_array": {
                 "type": "array",
@@ -7140,7 +7432,10 @@
                         "format": "date",
                         "description": "Date variableToApplyMethodOn   Type: Date"
                     },
-                    "additionalDays": { "type": "integer", "description": "Integer additionalDays   Type: Integer" }
+                    "additionalDays": {
+                        "type": "integer",
+                        "description": "Integer additionalDays   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDateAddDays7231c.Output_array": {
@@ -7170,7 +7465,10 @@
                         "format": "date",
                         "description": "Date variableToApplyMethodOn   Type: Date"
                     },
-                    "additionalMonths": { "type": "integer", "description": "Integer additionalMonths   Type: Integer" }
+                    "additionalMonths": {
+                        "type": "integer",
+                        "description": "Integer additionalMonths   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDateAddMonths2cf6a.Output_array": {
@@ -7200,7 +7498,10 @@
                         "format": "date",
                         "description": "Date variableToApplyMethodOn   Type: Date"
                     },
-                    "additionalYears": { "type": "integer", "description": "Integer additionalYears   Type: Integer" }
+                    "additionalYears": {
+                        "type": "integer",
+                        "description": "Integer additionalYears   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDateAddYearse56f1.Output_array": {
@@ -7282,7 +7583,11 @@
                         "format": "date",
                         "description": "Date variableToApplyMethodOn   Type: Date"
                     },
-                    "secondDate": { "type": "string", "format": "date", "description": "Date secondDate   Type: Date" }
+                    "secondDate": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Date secondDate   Type: Date   Documentation: Type: Date"
+                    }
                 }
             },
             "SystemDateDaysBetween976c2.Output_array": {
@@ -7308,7 +7613,7 @@
                 "type": "object",
                 "properties": {
                     "year": { "type": "integer", "description": "Integer year   Type: Integer   Documentation: Type: Integer" },
-                    "month": { "type": "integer", "description": "Integer month   Type: Integer" }
+                    "month": { "type": "integer", "description": "Integer month   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemDateDaysInMonth46fa9.Output_array": {
@@ -7354,7 +7659,9 @@
             },
             "SystemDateIsLeapYearc6211.Input": {
                 "type": "object",
-                "properties": { "year": { "type": "integer", "description": "Integer year   Type: Integer" } }
+                "properties": {
+                    "year": { "type": "integer", "description": "Integer year   Type: Integer   Documentation: Type: Integer" }
+                }
             },
             "SystemDateIsLeapYearc6211.Output_array": {
                 "type": "array",
@@ -7376,7 +7683,11 @@
                         "format": "date",
                         "description": "Date variableToApplyMethodOn   Type: Date"
                     },
-                    "dateToCompare": { "type": "string", "format": "date", "description": "Date dateToCompare   Type: Date" }
+                    "dateToCompare": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Date dateToCompare   Type: Date   Documentation: Type: Date"
+                    }
                 }
             },
             "SystemDateIsSameDay08720.Output_array": {
@@ -7432,7 +7743,11 @@
                         "format": "date",
                         "description": "Date variableToApplyMethodOn   Type: Date"
                     },
-                    "secondDate": { "type": "string", "format": "date", "description": "Date secondDate   Type: Date" }
+                    "secondDate": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Date secondDate   Type: Date   Documentation: Type: Date"
+                    }
                 }
             },
             "SystemDateMonthsBetweend713b.Output_array": {
@@ -7458,8 +7773,8 @@
                 "type": "object",
                 "properties": {
                     "year": { "type": "integer", "description": "Integer year   Type: Integer   Documentation: Type: Integer" },
-                    "month": { "type": "integer", "description": "Integer month   Type: Integer" },
-                    "day": { "type": "integer", "description": "Integer day   Type: Integer" }
+                    "month": { "type": "integer", "description": "Integer month   Type: Integer   Documentation: Type: Integer" },
+                    "day": { "type": "integer", "description": "Integer day   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemDateNewInstance8f36b.Output_array": {
@@ -7473,7 +7788,9 @@
             "SystemDateParse5202b.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemDateParse5202b.Input" } },
             "SystemDateParse5202b.Input": {
                 "type": "object",
-                "properties": { "stringDate": { "type": "string", "description": "String stringDate   Type: String" } }
+                "properties": {
+                    "stringDate": { "type": "string", "description": "String stringDate   Type: String   Documentation: Type: String" }
+                }
             },
             "SystemDateParse5202b.Output_array": {
                 "type": "array",
@@ -7555,7 +7872,9 @@
             },
             "SystemDateValueOf54b12.Input": {
                 "type": "object",
-                "properties": { "stringDate": { "type": "string", "description": "String stringDate   Type: String" } }
+                "properties": {
+                    "stringDate": { "type": "string", "description": "String stringDate   Type: String   Documentation: Type: String" }
+                }
             },
             "SystemDateValueOf54b12.Output_array": {
                 "type": "array",
@@ -7600,7 +7919,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "additionalDays": { "type": "integer", "description": "Integer additionalDays   Type: Integer" }
+                    "additionalDays": {
+                        "type": "integer",
+                        "description": "Integer additionalDays   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDatetimeAddDaysb3d12.Output_array": {
@@ -7630,7 +7952,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "additionalHours": { "type": "integer", "description": "Integer additionalHours   Type: Integer" }
+                    "additionalHours": {
+                        "type": "integer",
+                        "description": "Integer additionalHours   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDatetimeAddHours75946.Output_array": {
@@ -7660,7 +7985,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "additionalMinutes": { "type": "integer", "description": "Integer additionalMinutes   Type: Integer" }
+                    "additionalMinutes": {
+                        "type": "integer",
+                        "description": "Integer additionalMinutes   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDatetimeAddMinutes5811e.Output_array": {
@@ -7690,7 +8018,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "additionalMonths": { "type": "integer", "description": "Integer additionalMonths   Type: Integer" }
+                    "additionalMonths": {
+                        "type": "integer",
+                        "description": "Integer additionalMonths   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDatetimeAddMonthse77dc.Output_array": {
@@ -7720,7 +8051,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "additionalSeconds": { "type": "integer", "description": "Integer additionalSeconds   Type: Integer" }
+                    "additionalSeconds": {
+                        "type": "integer",
+                        "description": "Integer additionalSeconds   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDatetimeAddSeconds28df4.Output_array": {
@@ -7750,7 +8084,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "additionalYears": { "type": "integer", "description": "Integer additionalYears   Type: Integer" }
+                    "additionalYears": {
+                        "type": "integer",
+                        "description": "Integer additionalYears   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemDatetimeAddYearsf94d1.Output_array": {
@@ -7954,7 +8291,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "dateFormatString": { "type": "string", "description": "String dateFormatString   Type: String" }
+                    "dateFormatString": {
+                        "type": "string",
+                        "description": "String dateFormatString   Type: String   Documentation: Type: String"
+                    }
                 }
             },
             "SystemDatetimeFormat036b3.Output_array": {
@@ -7988,7 +8328,10 @@
                         "type": "string",
                         "description": "String dateFormatString   Type: String   Documentation: Type: String"
                     },
-                    "timezone": { "type": "string", "description": "String timezone   Type: String" }
+                    "timezone": {
+                        "type": "string",
+                        "description": "String timezone   Type: String   Documentation: Type: String Valid time zone values for the timezone argument are the time zones of the Java TimeZone class that correspond to the time zones returned by the TimeZone.getAvailableIDs method in Java. We recommend you use full time zone names, not the three-letter abbreviations."
+                    }
                 }
             },
             "SystemDatetimeFormat0b28e.Output_array": {
@@ -8047,7 +8390,10 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "dateFormatString": { "type": "string", "description": "String dateFormatString   Type: String" }
+                    "dateFormatString": {
+                        "type": "string",
+                        "description": "String dateFormatString   Type: String   Documentation: Type: String"
+                    }
                 }
             },
             "SystemDatetimeFormatGmt4cd55.Output_array": {
@@ -8193,7 +8539,11 @@
                         "format": "date-time",
                         "description": "Datetime variableToApplyMethodOn   Type: Datetime"
                     },
-                    "dateToCompare": { "type": "string", "format": "date-time", "description": "Datetime dateToCompare   Type: Datetime" }
+                    "dateToCompare": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Datetime dateToCompare   Type: Datetime   Documentation: Type: Datetime"
+                    }
                 }
             },
             "SystemDatetimeIsSameDay9624d.Output_array": {
@@ -8393,8 +8743,8 @@
                 "type": "object",
                 "properties": {
                     "year": { "type": "integer", "description": "Integer year   Type: Integer   Documentation: Type: Integer" },
-                    "month": { "type": "integer", "description": "Integer month   Type: Integer" },
-                    "day": { "type": "integer", "description": "Integer day   Type: Integer" }
+                    "month": { "type": "integer", "description": "Integer month   Type: Integer   Documentation: Type: Integer" },
+                    "day": { "type": "integer", "description": "Integer day   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemDatetimeNewInstance1dbdc.Output_array": {
@@ -8417,9 +8767,13 @@
                     "vardate": {
                         "type": "string",
                         "format": "date",
-                        "description": "Date vardate   Type: Date   Documentation: Type: Time"
+                        "description": "Date vardate   Type: Date   Documentation: Type: Date"
                     },
-                    "vartime": { "type": "string", "format": "time", "description": "Time vartime   Type: Time" }
+                    "vartime": {
+                        "type": "string",
+                        "format": "time",
+                        "description": "Time vartime   Type: Time   Documentation: Type: Time"
+                    }
                 }
             },
             "SystemDatetimeNewInstance27473.Output_array": {
@@ -8442,9 +8796,13 @@
                     "vardate": {
                         "type": "string",
                         "format": "date",
-                        "description": "Date vardate   Type: Date   Documentation: Type: Time"
+                        "description": "Date vardate   Type: Date   Documentation: Type: Date"
                     },
-                    "vartime": { "type": "string", "format": "time", "description": "Time vartime   Type: Time" }
+                    "vartime": {
+                        "type": "string",
+                        "format": "time",
+                        "description": "Time vartime   Type: Time   Documentation: Type: Time"
+                    }
                 }
             },
             "SystemDatetimeNewInstanceGmt32cee.Output_array": {
@@ -8467,9 +8825,9 @@
                     "year": { "type": "integer", "description": "Integer year   Type: Integer   Documentation: Type: Integer" },
                     "month": { "type": "integer", "description": "Integer month   Type: Integer   Documentation: Type: Integer" },
                     "vardate": { "type": "integer", "description": "Integer vardate   Type: Integer   Documentation: Type: Integer" },
-                    "hour": { "type": "integer", "description": "Integer hour   Type: Integer" },
-                    "minute": { "type": "integer", "description": "Integer minute   Type: Integer" },
-                    "second": { "type": "integer", "description": "Integer second   Type: Integer" }
+                    "hour": { "type": "integer", "description": "Integer hour   Type: Integer   Documentation: Type: Integer" },
+                    "minute": { "type": "integer", "description": "Integer minute   Type: Integer   Documentation: Type: Integer" },
+                    "second": { "type": "integer", "description": "Integer second   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemDatetimeNewInstanceGmt92fc2.Output_array": {
@@ -8490,8 +8848,8 @@
                 "type": "object",
                 "properties": {
                     "year": { "type": "integer", "description": "Integer year   Type: Integer   Documentation: Type: Integer" },
-                    "month": { "type": "integer", "description": "Integer month   Type: Integer" },
-                    "vardate": { "type": "integer", "description": "Integer vardate   Type: Integer" }
+                    "month": { "type": "integer", "description": "Integer month   Type: Integer   Documentation: Type: Integer" },
+                    "vardate": { "type": "integer", "description": "Integer vardate   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemDatetimeNewInstanceGmtc9169.Output_array": {
@@ -8514,9 +8872,9 @@
                     "year": { "type": "integer", "description": "Integer year   Type: Integer   Documentation: Type: Integer" },
                     "month": { "type": "integer", "description": "Integer month   Type: Integer   Documentation: Type: Integer" },
                     "day": { "type": "integer", "description": "Integer day   Type: Integer   Documentation: Type: Integer" },
-                    "hour": { "type": "integer", "description": "Integer hour   Type: Integer" },
-                    "minute": { "type": "integer", "description": "Integer minute   Type: Integer" },
-                    "second": { "type": "integer", "description": "Integer second   Type: Integer" }
+                    "hour": { "type": "integer", "description": "Integer hour   Type: Integer   Documentation: Type: Integer" },
+                    "minute": { "type": "integer", "description": "Integer minute   Type: Integer   Documentation: Type: Integer" },
+                    "second": { "type": "integer", "description": "Integer second   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemDatetimeNewInstanced64b7.Output_array": {
@@ -8535,7 +8893,13 @@
             },
             "SystemDatetimeNewInstancee5725.Input": {
                 "type": "object",
-                "properties": { "milliseconds": { "type": "integer", "format": "int64", "description": "Long milliseconds   Type: Long" } }
+                "properties": {
+                    "milliseconds": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long milliseconds   Type: Long   Documentation: Type: Long"
+                    }
+                }
             },
             "SystemDatetimeNewInstancee5725.Output_array": {
                 "type": "array",
@@ -8563,7 +8927,12 @@
             },
             "SystemDatetimeParse7925b.Input": {
                 "type": "object",
-                "properties": { "datetimeString": { "type": "string", "description": "String datetimeString   Type: String" } }
+                "properties": {
+                    "datetimeString": {
+                        "type": "string",
+                        "description": "String datetimeString   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemDatetimeParse7925b.Output_array": {
                 "type": "array",
@@ -8697,7 +9066,12 @@
             },
             "SystemDatetimeValueOfGmt1ca08.Input": {
                 "type": "object",
-                "properties": { "dateTimeString": { "type": "string", "description": "String dateTimeString   Type: String" } }
+                "properties": {
+                    "dateTimeString": {
+                        "type": "string",
+                        "description": "String dateTimeString   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemDatetimeValueOfGmt1ca08.Output_array": {
                 "type": "array",
@@ -8715,7 +9089,12 @@
             },
             "SystemDatetimeValueOfd4949.Input": {
                 "type": "object",
-                "properties": { "dateTimeString": { "type": "string", "description": "String dateTimeString   Type: String" } }
+                "properties": {
+                    "dateTimeString": {
+                        "type": "string",
+                        "description": "String dateTimeString   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemDatetimeValueOfd4949.Output_array": {
                 "type": "array",
@@ -8814,8 +9193,8 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "number", "description": "Decimal variableToApplyMethodOn   Type: Decimal" },
-                    "divisor": { "type": "number", "description": "Decimal divisor   Type: Decimal   Documentation: Type: Integer" },
-                    "scale": { "type": "integer", "description": "Integer scale   Type: Integer" }
+                    "divisor": { "type": "number", "description": "Decimal divisor   Type: Decimal   Documentation: Type: Decimal" },
+                    "scale": { "type": "integer", "description": "Integer scale   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemDecimalDivide0b12d.Output_array": {
@@ -8923,7 +9302,7 @@
                     "variableToApplyMethodOn": { "type": "number", "description": "Decimal variableToApplyMethodOn   Type: Decimal" },
                     "exponent": {
                         "type": "integer",
-                        "description": "Integer exponent   Type: Integer   Documentation: The value of exponent must be between 0 and 32,767."
+                        "description": "Integer exponent   Type: Integer   Documentation: Type: Integer The value of exponent must be between 0 and 32,767."
                     }
                 }
             },
@@ -9011,7 +9390,7 @@
                     "variableToApplyMethodOn": { "type": "number", "description": "Decimal variableToApplyMethodOn   Type: Decimal" },
                     "scale": {
                         "type": "integer",
-                        "description": "Integer scale   Type: Integer   Documentation: The value of scale must be between –33 and 33. If the value of scale is negative, your unscaled value is multiplied by 10 to the power of the negation of scale. For example, after this operation, the value of d is 4*10^3."
+                        "description": "Integer scale   Type: Integer   Documentation: Type: Integer The value of scale must be between –33 and 33. If the value of scale is negative, your unscaled value is multiplied by 10 to the power of the negation of scale. For example, after this operation, the value of d is 4*10^3."
                     }
                 }
             },
@@ -9075,7 +9454,11 @@
             "SystemDecimalValueOf284bc.Input": {
                 "type": "object",
                 "properties": {
-                    "longToDecimal": { "type": "integer", "format": "int64", "description": "Long longToDecimal   Type: Long" }
+                    "longToDecimal": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longToDecimal   Type: Long   Documentation: Type: Long"
+                    }
                 }
             },
             "SystemDecimalValueOf284bc.Output_array": {
@@ -9092,7 +9475,12 @@
             },
             "SystemDecimalValueOf3708d.Input": {
                 "type": "object",
-                "properties": { "doubleToDecimal": { "type": "number", "description": "Double doubleToDecimal   Type: Double" } }
+                "properties": {
+                    "doubleToDecimal": {
+                        "type": "number",
+                        "description": "Double doubleToDecimal   Type: Double   Documentation: Type: Double"
+                    }
+                }
             },
             "SystemDecimalValueOf3708d.Output_array": {
                 "type": "array",
@@ -9108,7 +9496,12 @@
             },
             "SystemDecimalValueOfd8861.Input": {
                 "type": "object",
-                "properties": { "stringToDecimal": { "type": "string", "description": "String stringToDecimal   Type: String" } }
+                "properties": {
+                    "stringToDecimal": {
+                        "type": "string",
+                        "description": "String stringToDecimal   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemDecimalValueOfd8861.Output_array": {
                 "type": "array",
@@ -9208,7 +9601,12 @@
             },
             "SystemDoubleValueOfb0682.Input": {
                 "type": "object",
-                "properties": { "stringToDouble": { "type": "string", "description": "String stringToDouble   Type: String" } }
+                "properties": {
+                    "stringToDouble": {
+                        "type": "string",
+                        "description": "String stringToDouble   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemDoubleValueOfb0682.Output_array": {
                 "type": "array",
@@ -9224,11 +9622,11 @@
                 "properties": {
                     "str": {
                         "type": "string",
-                        "description": "String str   Type: String   Documentation: String to be converted to an ID"
+                        "description": "String str   Type: String   Documentation: Type: String String to be converted to an ID"
                     },
                     "restoreCasing": {
                         "type": "boolean",
-                        "description": "Boolean restoreCasing   Type: Boolean   Documentation: If set to true, and str represents an 18-character ID, the method returns an 18-character ID that is correctly aligned with its casing."
+                        "description": "Boolean restoreCasing   Type: Boolean   Documentation: Type: Boolean If set to true, and str represents an 18-character ID, the method returns an 18-character ID that is correctly aligned with its casing."
                     }
                 }
             },
@@ -9243,7 +9641,7 @@
             "SystemIdValueOfe2401.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemIdValueOfe2401.Input" } },
             "SystemIdValueOfe2401.Input": {
                 "type": "object",
-                "properties": { "toID": { "type": "string", "description": "String toID   Type: String" } }
+                "properties": { "toID": { "type": "string", "description": "String toID   Type: String   Documentation: Type: String" } }
             },
             "SystemIdValueOfe2401.Output_array": {
                 "type": "array",
@@ -9280,7 +9678,12 @@
             },
             "SystemIntegerValueOf84aa3.Input": {
                 "type": "object",
-                "properties": { "stringToInteger": { "type": "string", "description": "String stringToInteger   Type: String" } }
+                "properties": {
+                    "stringToInteger": {
+                        "type": "string",
+                        "description": "String stringToInteger   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemIntegerValueOf84aa3.Output_array": {
                 "type": "array",
@@ -9354,7 +9757,9 @@
             },
             "SystemLongValueOf6b8e7.Input": {
                 "type": "object",
-                "properties": { "stringToLong": { "type": "string", "description": "String stringToLong   Type: String" } }
+                "properties": {
+                    "stringToLong": { "type": "string", "description": "String stringToLong   Type: String   Documentation: Type: String" }
+                }
             },
             "SystemLongValueOf6b8e7.Output_array": {
                 "type": "array",
@@ -9367,7 +9772,13 @@
             "SystemMathAbs92fdd.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbs92fdd.Input" } },
             "SystemMathAbs92fdd.Input": {
                 "type": "object",
-                "properties": { "longValue": { "type": "integer", "format": "int64", "description": "Long longValue   Type: Long" } }
+                "properties": {
+                    "longValue": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longValue   Type: Long   Documentation: Type: Long"
+                    }
+                }
             },
             "SystemMathAbs92fdd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbs92fdd.Output" } },
             "SystemMathAbs92fdd.Output": {
@@ -9377,7 +9788,12 @@
             "SystemMathAbsc16cc.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsc16cc.Input" } },
             "SystemMathAbsc16cc.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathAbsc16cc.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsc16cc.Output" } },
             "SystemMathAbsc16cc.Output": {
@@ -9387,7 +9803,9 @@
             "SystemMathAbsd6070.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsd6070.Input" } },
             "SystemMathAbsd6070.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathAbsd6070.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbsd6070.Output" } },
             "SystemMathAbsd6070.Output": {
@@ -9397,7 +9815,12 @@
             "SystemMathAbse66bd.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbse66bd.Input" } },
             "SystemMathAbse66bd.Input": {
                 "type": "object",
-                "properties": { "integerValue": { "type": "integer", "description": "Integer integerValue   Type: Integer" } }
+                "properties": {
+                    "integerValue": {
+                        "type": "integer",
+                        "description": "Integer integerValue   Type: Integer   Documentation: Type: Integer"
+                    }
+                }
             },
             "SystemMathAbse66bd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAbse66bd.Output" } },
             "SystemMathAbse66bd.Output": {
@@ -9407,7 +9830,12 @@
             "SystemMathAcos31ecd.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcos31ecd.Input" } },
             "SystemMathAcos31ecd.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathAcos31ecd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcos31ecd.Output" } },
             "SystemMathAcos31ecd.Output": {
@@ -9417,7 +9845,9 @@
             "SystemMathAcosd9291.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcosd9291.Input" } },
             "SystemMathAcosd9291.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathAcosd9291.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAcosd9291.Output" } },
             "SystemMathAcosd9291.Output": {
@@ -9427,7 +9857,9 @@
             "SystemMathAsin2c23a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin2c23a.Input" } },
             "SystemMathAsin2c23a.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathAsin2c23a.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin2c23a.Output" } },
             "SystemMathAsin2c23a.Output": {
@@ -9437,7 +9869,12 @@
             "SystemMathAsin67119.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin67119.Input" } },
             "SystemMathAsin67119.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathAsin67119.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAsin67119.Output" } },
             "SystemMathAsin67119.Output": {
@@ -9447,7 +9884,12 @@
             "SystemMathAtan15cac.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtan15cac.Input" } },
             "SystemMathAtan15cac.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathAtan15cac.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtan15cac.Output" } },
             "SystemMathAtan15cac.Output": {
@@ -9462,7 +9904,7 @@
                         "type": "number",
                         "description": "Decimal xCoordinate   Type: Decimal   Documentation: Type: Decimal"
                     },
-                    "yCoordinate": { "type": "number", "description": "Decimal yCoordinate   Type: Decimal" }
+                    "yCoordinate": { "type": "number", "description": "Decimal yCoordinate   Type: Decimal   Documentation: Type: Decimal" }
                 }
             },
             "SystemMathAtan22b871.Output_array": {
@@ -9478,7 +9920,7 @@
                 "type": "object",
                 "properties": {
                     "xCoordinate": { "type": "number", "description": "Double xCoordinate   Type: Double   Documentation: Type: Double" },
-                    "yCoordinate": { "type": "number", "description": "Double yCoordinate   Type: Double" }
+                    "yCoordinate": { "type": "number", "description": "Double yCoordinate   Type: Double   Documentation: Type: Double" }
                 }
             },
             "SystemMathAtan2e27d4.Output_array": {
@@ -9492,7 +9934,9 @@
             "SystemMathAtane961c.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtane961c.Input" } },
             "SystemMathAtane961c.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathAtane961c.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathAtane961c.Output" } },
             "SystemMathAtane961c.Output": {
@@ -9502,7 +9946,9 @@
             "SystemMathCbrtda151.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtda151.Input" } },
             "SystemMathCbrtda151.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathCbrtda151.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtda151.Output" } },
             "SystemMathCbrtda151.Output": {
@@ -9512,7 +9958,12 @@
             "SystemMathCbrtfe5f9.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtfe5f9.Input" } },
             "SystemMathCbrtfe5f9.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathCbrtfe5f9.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCbrtfe5f9.Output" } },
             "SystemMathCbrtfe5f9.Output": {
@@ -9522,7 +9973,12 @@
             "SystemMathCeil37828.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil37828.Input" } },
             "SystemMathCeil37828.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathCeil37828.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil37828.Output" } },
             "SystemMathCeil37828.Output": {
@@ -9532,7 +9988,9 @@
             "SystemMathCeil6e339.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil6e339.Input" } },
             "SystemMathCeil6e339.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathCeil6e339.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCeil6e339.Output" } },
             "SystemMathCeil6e339.Output": {
@@ -9542,7 +10000,12 @@
             "SystemMathCos1c467.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCos1c467.Input" } },
             "SystemMathCos1c467.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathCos1c467.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCos1c467.Output" } },
             "SystemMathCos1c467.Output": {
@@ -9552,7 +10015,9 @@
             "SystemMathCosb322f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosb322f.Input" } },
             "SystemMathCosb322f.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathCosb322f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosb322f.Output" } },
             "SystemMathCosb322f.Output": {
@@ -9562,7 +10027,12 @@
             "SystemMathCosh5aff0.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh5aff0.Input" } },
             "SystemMathCosh5aff0.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathCosh5aff0.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh5aff0.Output" } },
             "SystemMathCosh5aff0.Output": {
@@ -9572,7 +10042,9 @@
             "SystemMathCosh9d1f2.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh9d1f2.Input" } },
             "SystemMathCosh9d1f2.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathCosh9d1f2.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathCosh9d1f2.Output" } },
             "SystemMathCosh9d1f2.Output": {
@@ -9582,7 +10054,12 @@
             "SystemMathExp7f2f5.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExp7f2f5.Input" } },
             "SystemMathExp7f2f5.Input": {
                 "type": "object",
-                "properties": { "exponentDecimal": { "type": "number", "description": "Decimal exponentDecimal   Type: Decimal" } }
+                "properties": {
+                    "exponentDecimal": {
+                        "type": "number",
+                        "description": "Decimal exponentDecimal   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathExp7f2f5.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExp7f2f5.Output" } },
             "SystemMathExp7f2f5.Output": {
@@ -9592,7 +10069,12 @@
             "SystemMathExpda090.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExpda090.Input" } },
             "SystemMathExpda090.Input": {
                 "type": "object",
-                "properties": { "exponentDouble": { "type": "number", "description": "Double exponentDouble   Type: Double" } }
+                "properties": {
+                    "exponentDouble": {
+                        "type": "number",
+                        "description": "Double exponentDouble   Type: Double   Documentation: Type: Double"
+                    }
+                }
             },
             "SystemMathExpda090.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathExpda090.Output" } },
             "SystemMathExpda090.Output": {
@@ -9602,7 +10084,12 @@
             "SystemMathFloor698c1.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathFloor698c1.Input" } },
             "SystemMathFloor698c1.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathFloor698c1.Output_array": {
                 "type": "array",
@@ -9615,7 +10102,9 @@
             "SystemMathFloorf23fb.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathFloorf23fb.Input" } },
             "SystemMathFloorf23fb.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathFloorf23fb.Output_array": {
                 "type": "array",
@@ -9628,7 +10117,9 @@
             "SystemMathLog109fa6f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog109fa6f.Input" } },
             "SystemMathLog109fa6f.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathLog109fa6f.Output_array": {
                 "type": "array",
@@ -9641,7 +10132,12 @@
             "SystemMathLog10c6637.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog10c6637.Input" } },
             "SystemMathLog10c6637.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathLog10c6637.Output_array": {
                 "type": "array",
@@ -9654,7 +10150,12 @@
             "SystemMathLog439c6.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog439c6.Input" } },
             "SystemMathLog439c6.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathLog439c6.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLog439c6.Output" } },
             "SystemMathLog439c6.Output": {
@@ -9664,7 +10165,9 @@
             "SystemMathLogce09d.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLogce09d.Input" } },
             "SystemMathLogce09d.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathLogce09d.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathLogce09d.Output" } },
             "SystemMathLogce09d.Output": {
@@ -9679,7 +10182,10 @@
                         "type": "number",
                         "description": "Decimal decimalValue1   Type: Decimal   Documentation: Type: Decimal"
                     },
-                    "decimalValue2": { "type": "number", "description": "Decimal decimalValue2   Type: Decimal" }
+                    "decimalValue2": {
+                        "type": "number",
+                        "description": "Decimal decimalValue2   Type: Decimal   Documentation: Type: Decimal"
+                    }
                 }
             },
             "SystemMathMax13295.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax13295.Output" } },
@@ -9692,7 +10198,7 @@
                 "type": "object",
                 "properties": {
                     "doubleValue1": { "type": "number", "description": "Double doubleValue1   Type: Double   Documentation: Type: Double" },
-                    "doubleValue2": { "type": "number", "description": "Double doubleValue2   Type: Double" }
+                    "doubleValue2": { "type": "number", "description": "Double doubleValue2   Type: Double   Documentation: Type: Double" }
                 }
             },
             "SystemMathMax24503.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax24503.Output" } },
@@ -9709,7 +10215,11 @@
                         "format": "int64",
                         "description": "Long longValue1   Type: Long   Documentation: Type: Long"
                     },
-                    "longValue2": { "type": "integer", "format": "int64", "description": "Long longValue2   Type: Long" }
+                    "longValue2": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longValue2   Type: Long   Documentation: Type: Long"
+                    }
                 }
             },
             "SystemMathMax4ce5b.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax4ce5b.Output" } },
@@ -9725,7 +10235,10 @@
                         "type": "integer",
                         "description": "Integer integerValue1   Type: Integer   Documentation: Type: Integer"
                     },
-                    "integerValue2": { "type": "integer", "description": "Integer integerValue2   Type: Integer" }
+                    "integerValue2": {
+                        "type": "integer",
+                        "description": "Integer integerValue2   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemMathMax66a3f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMax66a3f.Output" } },
@@ -9742,7 +10255,11 @@
                         "format": "int64",
                         "description": "Long longValue1   Type: Long   Documentation: Type: Long"
                     },
-                    "longValue2": { "type": "integer", "format": "int64", "description": "Long longValue2   Type: Long" }
+                    "longValue2": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longValue2   Type: Long   Documentation: Type: Long"
+                    }
                 }
             },
             "SystemMathMin21bd2.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMin21bd2.Output" } },
@@ -9758,7 +10275,10 @@
                         "type": "number",
                         "description": "Decimal decimalValue1   Type: Decimal   Documentation: Type: Decimal"
                     },
-                    "decimalValue2": { "type": "number", "description": "Decimal decimalValue2   Type: Decimal" }
+                    "decimalValue2": {
+                        "type": "number",
+                        "description": "Decimal decimalValue2   Type: Decimal   Documentation: Type: Decimal"
+                    }
                 }
             },
             "SystemMathMin9dc2e.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMin9dc2e.Output" } },
@@ -9774,7 +10294,10 @@
                         "type": "integer",
                         "description": "Integer integerValue1   Type: Integer   Documentation: Type: Integer"
                     },
-                    "integerValue2": { "type": "integer", "description": "Integer integerValue2   Type: Integer" }
+                    "integerValue2": {
+                        "type": "integer",
+                        "description": "Integer integerValue2   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemMathMina024c.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMina024c.Output" } },
@@ -9787,7 +10310,7 @@
                 "type": "object",
                 "properties": {
                     "doubleValue1": { "type": "number", "description": "Double doubleValue1   Type: Double   Documentation: Type: Double" },
-                    "doubleValue2": { "type": "number", "description": "Double doubleValue2   Type: Double" }
+                    "doubleValue2": { "type": "number", "description": "Double doubleValue2   Type: Double   Documentation: Type: Double" }
                 }
             },
             "SystemMathMinb7c14.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMinb7c14.Output" } },
@@ -9803,7 +10326,10 @@
                         "type": "integer",
                         "description": "Integer integerValue1   Type: Integer   Documentation: Type: Integer"
                     },
-                    "integerValue2": { "type": "integer", "description": "Integer integerValue2   Type: Integer" }
+                    "integerValue2": {
+                        "type": "integer",
+                        "description": "Integer integerValue2   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemMathMod76a4f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMod76a4f.Output" } },
@@ -9820,7 +10346,11 @@
                         "format": "int64",
                         "description": "Long longValue1   Type: Long   Documentation: Type: Long"
                     },
-                    "longValue2": { "type": "integer", "format": "int64", "description": "Long longValue2   Type: Long" }
+                    "longValue2": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longValue2   Type: Long   Documentation: Type: Long"
+                    }
                 }
             },
             "SystemMathMod89ff6.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathMod89ff6.Output" } },
@@ -9833,7 +10363,7 @@
                 "type": "object",
                 "properties": {
                     "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" },
-                    "exponent": { "type": "number", "description": "Double exponent   Type: Double" }
+                    "exponent": { "type": "number", "description": "Double exponent   Type: Double   Documentation: Type: Double" }
                 }
             },
             "SystemMathPowee8bd.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathPowee8bd.Output" } },
@@ -9852,7 +10382,9 @@
             "SystemMathRint9456e.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRint9456e.Input" } },
             "SystemMathRint9456e.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathRint9456e.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRint9456e.Output" } },
             "SystemMathRint9456e.Output": {
@@ -9862,7 +10394,12 @@
             "SystemMathRintd2f7a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRintd2f7a.Input" } },
             "SystemMathRintd2f7a.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathRintd2f7a.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRintd2f7a.Output" } },
             "SystemMathRintd2f7a.Output": {
@@ -9872,7 +10409,12 @@
             "SystemMathRound2539a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathRound2539a.Input" } },
             "SystemMathRound2539a.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathRound2539a.Output_array": {
                 "type": "array",
@@ -9888,7 +10430,12 @@
             },
             "SystemMathRoundToLong17312.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathRoundToLong17312.Output_array": {
                 "type": "array",
@@ -9904,7 +10451,9 @@
             },
             "SystemMathRoundToLongb426f.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathRoundToLongb426f.Output_array": {
                 "type": "array",
@@ -9920,7 +10469,9 @@
             },
             "SystemMathSignum215b3.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathSignum215b3.Output_array": {
                 "type": "array",
@@ -9936,7 +10487,12 @@
             },
             "SystemMathSignum9f062.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathSignum9f062.Output_array": {
                 "type": "array",
@@ -9949,7 +10505,9 @@
             "SystemMathSin33e30.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSin33e30.Input" } },
             "SystemMathSin33e30.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathSin33e30.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSin33e30.Output" } },
             "SystemMathSin33e30.Output": {
@@ -9959,7 +10517,12 @@
             "SystemMathSina892f.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSina892f.Input" } },
             "SystemMathSina892f.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathSina892f.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSina892f.Output" } },
             "SystemMathSina892f.Output": {
@@ -9969,7 +10532,12 @@
             "SystemMathSinh725ce.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinh725ce.Input" } },
             "SystemMathSinh725ce.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathSinh725ce.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinh725ce.Output" } },
             "SystemMathSinh725ce.Output": {
@@ -9979,7 +10547,9 @@
             "SystemMathSinhff2b2.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinhff2b2.Input" } },
             "SystemMathSinhff2b2.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathSinhff2b2.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSinhff2b2.Output" } },
             "SystemMathSinhff2b2.Output": {
@@ -9989,7 +10559,12 @@
             "SystemMathSqrt1cd36.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt1cd36.Input" } },
             "SystemMathSqrt1cd36.Input": {
                 "type": "object",
-                "properties": { "decimalValue": { "type": "number", "description": "Decimal decimalValue   Type: Decimal" } }
+                "properties": {
+                    "decimalValue": {
+                        "type": "number",
+                        "description": "Decimal decimalValue   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathSqrt1cd36.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt1cd36.Output" } },
             "SystemMathSqrt1cd36.Output": {
@@ -9999,7 +10574,9 @@
             "SystemMathSqrt55685.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt55685.Input" } },
             "SystemMathSqrt55685.Input": {
                 "type": "object",
-                "properties": { "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double" } }
+                "properties": {
+                    "doubleValue": { "type": "number", "description": "Double doubleValue   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathSqrt55685.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathSqrt55685.Output" } },
             "SystemMathSqrt55685.Output": {
@@ -10009,7 +10586,12 @@
             "SystemMathTan3b1b0.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan3b1b0.Input" } },
             "SystemMathTan3b1b0.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathTan3b1b0.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan3b1b0.Output" } },
             "SystemMathTan3b1b0.Output": {
@@ -10019,7 +10601,9 @@
             "SystemMathTan92ab1.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan92ab1.Input" } },
             "SystemMathTan92ab1.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathTan92ab1.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTan92ab1.Output" } },
             "SystemMathTan92ab1.Output": {
@@ -10029,7 +10613,9 @@
             "SystemMathTanh03b19.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh03b19.Input" } },
             "SystemMathTanh03b19.Input": {
                 "type": "object",
-                "properties": { "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double" } }
+                "properties": {
+                    "doubleAngle": { "type": "number", "description": "Double doubleAngle   Type: Double   Documentation: Type: Double" }
+                }
             },
             "SystemMathTanh03b19.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh03b19.Output" } },
             "SystemMathTanh03b19.Output": {
@@ -10039,7 +10625,12 @@
             "SystemMathTanh8a02a.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh8a02a.Input" } },
             "SystemMathTanh8a02a.Input": {
                 "type": "object",
-                "properties": { "decimalAngle": { "type": "number", "description": "Decimal decimalAngle   Type: Decimal" } }
+                "properties": {
+                    "decimalAngle": {
+                        "type": "number",
+                        "description": "Decimal decimalAngle   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemMathTanh8a02a.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemMathTanh8a02a.Output" } },
             "SystemMathTanh8a02a.Output": {
@@ -10056,7 +10647,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "maxWidth": {
                         "type": "integer",
-                        "description": "Integer maxWidth   Type: Integer   Documentation: If maxWidth is less than four, this method throws a run-time exception."
+                        "description": "Integer maxWidth   Type: Integer   Documentation: Type: Integer; If maxWidth is less than four, this method throws a run-time exception."
                     }
                 }
             },
@@ -10081,9 +10672,9 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "maxWidth": {
                         "type": "integer",
-                        "description": "Integer maxWidth   Type: Integer   Documentation: Note that the offset is not necessarily the leftmost character in the returned String or the first character following the ellipses, but it appears somewhere in the result. Regardless, abbreviate won’t return a String of length greater thanmaxWidth.If maxWidth is too small, this method throws a run-time exception."
+                        "description": "Integer maxWidth   Type: Integer   Documentation: Type: Integer Note that the offset is not necessarily the leftmost character in the returned String or the first character following the ellipses, but it appears somewhere in the result. Regardless, abbreviate won’t return a String of length greater thanmaxWidth.If maxWidth is too small, this method throws a run-time exception."
                     },
-                    "offset": { "type": "integer", "description": "Integer offset   Type: Integer" }
+                    "offset": { "type": "integer", "description": "Integer offset   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringAbbreviatecc57a.Output_array": {
@@ -10126,8 +10717,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "size": { "type": "integer", "description": "Integer size   Type: Integer   Documentation: Type: String" },
-                    "paddingString": { "type": "string", "description": "String paddingString   Type: String" }
+                    "size": { "type": "integer", "description": "Integer size   Type: Integer   Documentation: Type: Integer" },
+                    "paddingString": {
+                        "type": "string",
+                        "description": "String paddingString   Type: String   Documentation: Type: String"
+                    }
                 }
             },
             "SystemStringCenter8e9ce.Output_array": {
@@ -10149,7 +10743,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "size": { "type": "integer", "description": "Integer size   Type: Integer" }
+                    "size": { "type": "integer", "description": "Integer size   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringCenterd3675.Output_array": {
@@ -10173,7 +10767,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "index": {
                         "type": "integer",
-                        "description": "Integer index   Type: Integer   Documentation: The index of the character to get the value of."
+                        "description": "Integer index   Type: Integer   Documentation: Type: Integer The index of the character to get the value of."
                     }
                 }
             },
@@ -10198,7 +10792,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "index": {
                         "type": "integer",
-                        "description": "Integer index   Type: Integer   Documentation: The index of the characters (Unicode code units) in the string. The index range is from zero to the string length minus one."
+                        "description": "Integer index   Type: Integer   Documentation: Type: Integer The index of the characters (Unicode code units) in the string. The index range is from zero to the string length minus one."
                     }
                 }
             },
@@ -10223,7 +10817,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "index": {
                         "type": "integer",
-                        "description": "Integer index   Type: Integer   Documentation: The index before the Unicode code point that is to be returned. The index range is from one to the string length."
+                        "description": "Integer index   Type: Integer   Documentation: Type: Integer The index before the Unicode code point that is to be returned. The index range is from one to the string length."
                     }
                 }
             },
@@ -10248,11 +10842,11 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "beginIndex": {
                         "type": "integer",
-                        "description": "Integer beginIndex   Type: Integer   Documentation: The index of the first character in the range."
+                        "description": "Integer beginIndex   Type: Integer   Documentation: Type: Integer The index of the first character in the range."
                     },
                     "endIndex": {
                         "type": "integer",
-                        "description": "Integer endIndex   Type: Integer   Documentation: The index after the last character in the range."
+                        "description": "Integer endIndex   Type: Integer   Documentation: Type: Integer The index after the last character in the range."
                     }
                 }
             },
@@ -10275,7 +10869,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "secondString": { "type": "string", "description": "String secondString   Type: String" }
+                    "secondString": { "type": "string", "description": "String secondString   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringCompareToe77e9.Output_array": {
@@ -10297,7 +10891,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "inputString": { "type": "string", "description": "String inputString   Type: String" }
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringContainsAnyc6a72.Output_array": {
@@ -10319,7 +10913,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringContainsIgnoreCase370cb.Output_array": {
@@ -10343,7 +10937,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "inputString": {
                         "type": "string",
-                        "description": "String inputString   Type: String   Documentation: If inputString is an empty string or the current String is empty, this method returns true. If inputString is null, this method returns a run-time exception."
+                        "description": "String inputString   Type: String   Documentation: Type: String If inputString is an empty string or the current String is empty, this method returns true. If inputString is null, this method returns a run-time exception."
                     }
                 }
             },
@@ -10366,7 +10960,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "inputString": { "type": "string", "description": "String inputString   Type: String" }
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringContainsOnlyac303.Output_array": {
@@ -10409,7 +11003,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringContainsb80c9.Output_array": {
@@ -10431,7 +11025,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringCountMatches47452.Output_array": {
@@ -10476,7 +11070,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "secondString": {
                         "type": "string",
-                        "description": "String secondString   Type: String   Documentation: If secondString is an empty string, this method returns an empty string.If secondString is null, this method throws a run-time exception."
+                        "description": "String secondString   Type: String   Documentation: Type: String If secondString is an empty string, this method returns an empty string.If secondString is null, this method throws a run-time exception."
                     }
                 }
             },
@@ -10499,7 +11093,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "suffix": { "type": "string", "description": "String suffix   Type: String" }
+                    "suffix": { "type": "string", "description": "String suffix   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringEndsWith548e0.Output_array": {
@@ -10521,7 +11115,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "suffix": { "type": "string", "description": "String suffix   Type: String" }
+                    "suffix": { "type": "string", "description": "String suffix   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringEndsWithIgnoreCase3b2fd.Output_array": {
@@ -10543,7 +11137,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "secondString": { "type": "string", "description": "String secondString   Type: String" }
+                    "secondString": { "type": "string", "description": "String secondString   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringEqualsIgnoreCase75528.Output_array": {
@@ -10668,7 +11262,12 @@
             },
             "SystemStringEscapeSingleQuotesd594b.Input": {
                 "type": "object",
-                "properties": { "stringToEscape": { "type": "string", "description": "String stringToEscape   Type: String" } }
+                "properties": {
+                    "stringToEscape": {
+                        "type": "string",
+                        "description": "String stringToEscape   Type: String   Documentation: Type: String"
+                    }
+                }
             },
             "SystemStringEscapeSingleQuotesd594b.Output_array": {
                 "type": "array",
@@ -10730,7 +11329,7 @@
                     "charArray": {
                         "type": "array",
                         "items": { "type": "integer" },
-                        "description": "List&lt;Integer&gt; charArray   Type: List&lt;Integer&gt;"
+                        "description": "List&lt;Integer&gt; charArray   Type: List&lt;Integer&gt;   Documentation: Type: List&lt;Integer&gt;"
                     }
                 }
             },
@@ -10777,7 +11376,7 @@
                     "strings": {
                         "type": "array",
                         "items": { "type": "string" },
-                        "description": "List&lt;String&gt; strings   Type: List&lt;String&gt;"
+                        "description": "List&lt;String&gt; strings   Type: List&lt;String&gt;   Documentation: Type: List&lt;String&gt;"
                     }
                 }
             },
@@ -10797,7 +11396,10 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "stringToCompare": { "type": "string", "description": "String stringToCompare   Type: String" }
+                    "stringToCompare": {
+                        "type": "string",
+                        "description": "String stringToCompare   Type: String   Documentation: Type: String"
+                    }
                 }
             },
             "SystemStringGetLevenshteinDistance4c88a.Output_array": {
@@ -10821,9 +11423,9 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "stringToCompare": {
                         "type": "string",
-                        "description": "String stringToCompare   Type: String   Documentation: Type: Integer"
+                        "description": "String stringToCompare   Type: String   Documentation: Type: String"
                     },
-                    "threshold": { "type": "integer", "description": "Integer threshold   Type: Integer" }
+                    "threshold": { "type": "integer", "description": "Integer threshold   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringGetLevenshteinDistance62be2.Output_array": {
@@ -10866,7 +11468,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringIndexOf1724e.Output_array": {
@@ -10888,8 +11490,8 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: Integer" },
-                    "index": { "type": "integer", "description": "Integer index   Type: Integer" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" },
+                    "index": { "type": "integer", "description": "Integer index   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringIndexOf8b813.Output_array": {
@@ -10911,7 +11513,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringIndexOfAny70db2.Output_array": {
@@ -10933,7 +11535,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringIndexOfAnyButf80f2.Output_array": {
@@ -10957,11 +11559,11 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "character": {
                         "type": "integer",
-                        "description": "Integer character   Type: Integer   Documentation: The integer value of the character to look for."
+                        "description": "Integer character   Type: Integer   Documentation: Type: Integer The integer value of the character to look for."
                     },
                     "startIndex": {
                         "type": "integer",
-                        "description": "Integer startIndex   Type: Integer   Documentation: The index to start the search from."
+                        "description": "Integer startIndex   Type: Integer   Documentation: Type: Integer The index to start the search from."
                     }
                 }
             },
@@ -10986,7 +11588,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "character": {
                         "type": "integer",
-                        "description": "Integer character   Type: Integer   Documentation: The integer value of the character in the string."
+                        "description": "Integer character   Type: Integer   Documentation: Type: Integer The integer value of the character in the string."
                     }
                 }
             },
@@ -11009,7 +11611,10 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "stringToCompare": { "type": "string", "description": "String stringToCompare   Type: String" }
+                    "stringToCompare": {
+                        "type": "string",
+                        "description": "String stringToCompare   Type: String   Documentation: Type: String"
+                    }
                 }
             },
             "SystemStringIndexOfDifferenceb64ad.Output_array": {
@@ -11031,7 +11636,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringIndexOfIgnoreCase12310.Output_array": {
@@ -11053,8 +11658,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: Integer" },
-                    "startPosition": { "type": "integer", "description": "Integer startPosition   Type: Integer" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" },
+                    "startPosition": {
+                        "type": "integer",
+                        "description": "Integer startPosition   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemStringIndexOfIgnoreCasea4db3.Output_array": {
@@ -11221,7 +11829,9 @@
             },
             "SystemStringIsBlankfa9a1.Input": {
                 "type": "object",
-                "properties": { "inputString": { "type": "string", "description": "String inputString   Type: String" } }
+                "properties": {
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" }
+                }
             },
             "SystemStringIsBlankfa9a1.Output_array": {
                 "type": "array",
@@ -11237,7 +11847,9 @@
             },
             "SystemStringIsEmpty65813.Input": {
                 "type": "object",
-                "properties": { "inputString": { "type": "string", "description": "String inputString   Type: String" } }
+                "properties": {
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" }
+                }
             },
             "SystemStringIsEmpty65813.Output_array": {
                 "type": "array",
@@ -11253,7 +11865,9 @@
             },
             "SystemStringIsNotBlankf8929.Input": {
                 "type": "object",
-                "properties": { "inputString": { "type": "string", "description": "String inputString   Type: String" } }
+                "properties": {
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" }
+                }
             },
             "SystemStringIsNotBlankf8929.Output_array": {
                 "type": "array",
@@ -11269,7 +11883,9 @@
             },
             "SystemStringIsNotEmptyd1fbe.Input": {
                 "type": "object",
-                "properties": { "inputString": { "type": "string", "description": "String inputString   Type: String" } }
+                "properties": {
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" }
+                }
             },
             "SystemStringIsNotEmptyd1fbe.Output_array": {
                 "type": "array",
@@ -11350,8 +11966,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: Integer" },
-                    "endPosition": { "type": "integer", "description": "Integer endPosition   Type: Integer" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" },
+                    "endPosition": {
+                        "type": "integer",
+                        "description": "Integer endPosition   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemStringLastIndexOf59eab.Output_array": {
@@ -11373,7 +11992,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringLastIndexOf90783.Output_array": {
@@ -11397,11 +12016,11 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "character": {
                         "type": "integer",
-                        "description": "Integer character   Type: Integer   Documentation: The integer value of the character to look for."
+                        "description": "Integer character   Type: Integer   Documentation: Type: Integer The integer value of the character to look for."
                     },
                     "endIndex": {
                         "type": "integer",
-                        "description": "Integer endIndex   Type: Integer   Documentation: The index to end the search at."
+                        "description": "Integer endIndex   Type: Integer   Documentation: Type: Integer The index to end the search at."
                     }
                 }
             },
@@ -11426,7 +12045,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "character": {
                         "type": "integer",
-                        "description": "Integer character   Type: Integer   Documentation: The integer value of the character in the string."
+                        "description": "Integer character   Type: Integer   Documentation: Type: Integer The integer value of the character in the string."
                     }
                 }
             },
@@ -11449,8 +12068,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: Integer" },
-                    "endPosition": { "type": "integer", "description": "Integer endPosition   Type: Integer" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" },
+                    "endPosition": {
+                        "type": "integer",
+                        "description": "Integer endPosition   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemStringLastIndexOfIgnoreCased2566.Output_array": {
@@ -11472,7 +12094,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringLastIndexOfIgnoreCasef5ff4.Output_array": {
@@ -11494,7 +12116,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "length": { "type": "integer", "description": "Integer length   Type: Integer" }
+                    "length": { "type": "integer", "description": "Integer length   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringLeft4b5ba.Output_array": {
@@ -11516,7 +12138,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "length": { "type": "integer", "description": "Integer length   Type: Integer" }
+                    "length": { "type": "integer", "description": "Integer length   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringLeftPad46ed0.Output_array": {
@@ -11538,8 +12160,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "length": { "type": "integer", "description": "Integer length   Type: Integer   Documentation: Type: String" },
-                    "padStr": { "type": "string", "description": "String padStr   Type: String" }
+                    "length": { "type": "integer", "description": "Integer length   Type: Integer   Documentation: Type: Integer" },
+                    "padStr": {
+                        "type": "string",
+                        "description": "String padStr   Type: String   Documentation: Type: String String to pad with; if null or empty treated as single blank."
+                    }
                 }
             },
             "SystemStringLeftPad48cbf.Output_array": {
@@ -11581,11 +12206,11 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "startIndex": {
                         "type": "integer",
-                        "description": "Integer startIndex   Type: Integer   Documentation: If startIndex is negative, it is considered to be zero."
+                        "description": "Integer startIndex   Type: Integer   Documentation: Type: Integer If startIndex is negative, it is considered to be zero."
                     },
                     "length": {
                         "type": "integer",
-                        "description": "Integer length   Type: Integer   Documentation: If length is negative or zero, an empty String is returned. If length is greater than the remaining characters, the remainder of the String is returned."
+                        "description": "Integer length   Type: Integer   Documentation: Type: Integer If length is negative or zero, an empty String is returned. If length is greater than the remaining characters, the remainder of the String is returned."
                     }
                 }
             },
@@ -11631,11 +12256,11 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "index": {
                         "type": "integer",
-                        "description": "Integer index   Type: Integer   Documentation: The start index in the string."
+                        "description": "Integer index   Type: Integer   Documentation: Type: Integer The start index in the string."
                     },
                     "codePointOffset": {
                         "type": "integer",
-                        "description": "Integer codePointOffset   Type: Integer   Documentation: The number of code points to be offset."
+                        "description": "Integer codePointOffset   Type: Integer   Documentation: Type: Integer The number of code points to be offset."
                     }
                 }
             },
@@ -11658,7 +12283,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringRemoveEndIgnoreCaseef677.Output_array": {
@@ -11680,7 +12305,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringRemoveEndd6408.Output_array": {
@@ -11702,7 +12327,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringRemoveStart68c57.Output_array": {
@@ -11724,7 +12349,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringRemoveStartIgnoreCase5284c.Output_array": {
@@ -11746,7 +12371,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "substring": { "type": "string", "description": "String substring   Type: String" }
+                    "substring": { "type": "string", "description": "String substring   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringRemovef3317.Output_array": {
@@ -11768,7 +12393,10 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "numberOfTimes": { "type": "integer", "description": "Integer numberOfTimes   Type: Integer" }
+                    "numberOfTimes": {
+                        "type": "integer",
+                        "description": "Integer numberOfTimes   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemStringRepeat2f0e4.Output_array": {
@@ -11790,8 +12418,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "separator": { "type": "string", "description": "String separator   Type: String   Documentation: Type: Integer" },
-                    "numberOfTimes": { "type": "integer", "description": "Integer numberOfTimes   Type: Integer" }
+                    "separator": { "type": "string", "description": "String separator   Type: String   Documentation: Type: String" },
+                    "numberOfTimes": {
+                        "type": "integer",
+                        "description": "Integer numberOfTimes   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemStringRepeat5316f.Output_array": {
@@ -11814,7 +12445,7 @@
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "target": { "type": "string", "description": "String target   Type: String   Documentation: Type: String" },
-                    "replacement": { "type": "string", "description": "String replacement   Type: String" }
+                    "replacement": { "type": "string", "description": "String replacement   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringReplace02166.Output_array": {
@@ -11837,7 +12468,7 @@
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "regExp": { "type": "string", "description": "String regExp   Type: String   Documentation: Type: String" },
-                    "replacement": { "type": "string", "description": "String replacement   Type: String" }
+                    "replacement": { "type": "string", "description": "String replacement   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringReplaceAll97f05.Output_array": {
@@ -11860,7 +12491,7 @@
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "regExp": { "type": "string", "description": "String regExp   Type: String   Documentation: Type: String" },
-                    "replacement": { "type": "string", "description": "String replacement   Type: String" }
+                    "replacement": { "type": "string", "description": "String replacement   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringReplaceFirstb187b.Output_array": {
@@ -11905,7 +12536,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "length": {
                         "type": "integer",
-                        "description": "Integer length   Type: Integer   Documentation: If length is greater than the String size, the entire String is returned."
+                        "description": "Integer length   Type: Integer   Documentation: Type: Integer If length is greater than the String size, the entire String is returned."
                     }
                 }
             },
@@ -11928,8 +12559,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "length": { "type": "integer", "description": "Integer length   Type: Integer   Documentation: Type: String" },
-                    "padStr": { "type": "string", "description": "String padStr   Type: String" }
+                    "length": { "type": "integer", "description": "Integer length   Type: Integer   Documentation: Type: Integer" },
+                    "padStr": {
+                        "type": "string",
+                        "description": "String padStr   Type: String   Documentation: Type: String String to pad with; if null or empty treated as single blank."
+                    }
                 }
             },
             "SystemStringRightPadac233.Output_array": {
@@ -11953,7 +12587,7 @@
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "length": {
                         "type": "integer",
-                        "description": "Integer length   Type: Integer   Documentation: If length is less than or equal to the current String size, the entire String is returned without space padding."
+                        "description": "Integer length   Type: Integer   Documentation: Type: Integer If length is less than or equal to the current String size, the entire String is returned without space padding."
                     }
                 }
             },
@@ -11976,8 +12610,11 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "regExp": { "type": "string", "description": "String regExp   Type: String   Documentation: A regular expression." },
-                    "varlimit": { "type": "integer", "description": "Integer varlimit   Type: Integer" }
+                    "regExp": {
+                        "type": "string",
+                        "description": "String regExp   Type: String   Documentation: Type: String A regular expression."
+                    },
+                    "varlimit": { "type": "integer", "description": "Integer varlimit   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringSplit4ac68.Output_array": {
@@ -12049,7 +12686,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "regExp": { "type": "string", "description": "String regExp   Type: String" }
+                    "regExp": { "type": "string", "description": "String regExp   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringSplitbfba4.Output_array": {
@@ -12071,7 +12708,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "prefix": { "type": "string", "description": "String prefix   Type: String" }
+                    "prefix": { "type": "string", "description": "String prefix   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringStartsWithIgnoreCase780a1.Output_array": {
@@ -12093,7 +12730,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "prefix": { "type": "string", "description": "String prefix   Type: String" }
+                    "prefix": { "type": "string", "description": "String prefix   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringStartsWithd1cf5.Output_array": {
@@ -12137,7 +12774,7 @@
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "startIndex": { "type": "integer", "description": "Integer startIndex   Type: Integer   Documentation: Type: Integer" },
-                    "endIndex": { "type": "integer", "description": "Integer endIndex   Type: Integer" }
+                    "endIndex": { "type": "integer", "description": "Integer endIndex   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringSubstring03bd2.Output_array": {
@@ -12159,7 +12796,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "startIndex": { "type": "integer", "description": "Integer startIndex   Type: Integer" }
+                    "startIndex": { "type": "integer", "description": "Integer startIndex   Type: Integer   Documentation: Type: Integer" }
                 }
             },
             "SystemStringSubstring17e3d.Output_array": {
@@ -12181,7 +12818,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "separator": { "type": "string", "description": "String separator   Type: String" }
+                    "separator": { "type": "string", "description": "String separator   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringSubstringAfterLast0b3d3.Output_array": {
@@ -12203,7 +12840,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "separator": { "type": "string", "description": "String separator   Type: String" }
+                    "separator": { "type": "string", "description": "String separator   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringSubstringAfterc4983.Output_array": {
@@ -12225,7 +12862,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "separator": { "type": "string", "description": "String separator   Type: String" }
+                    "separator": { "type": "string", "description": "String separator   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringSubstringBeforeLasta73e3.Output_array": {
@@ -12247,7 +12884,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "separator": { "type": "string", "description": "String separator   Type: String" }
+                    "separator": { "type": "string", "description": "String separator   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringSubstringBeforece57a.Output_array": {
@@ -12270,7 +12907,7 @@
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
                     "open": { "type": "string", "description": "String open   Type: String   Documentation: Type: String" },
-                    "close": { "type": "string", "description": "String close   Type: String" }
+                    "close": { "type": "string", "description": "String close   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringSubstringBetween23bd2.Output_array": {
@@ -12292,7 +12929,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "tag": { "type": "string", "description": "String tag   Type: String" }
+                    "tag": { "type": "string", "description": "String tag   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringSubstringBetween39edb.Output_array": {
@@ -12335,7 +12972,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "locale": { "type": "string", "description": "String locale   Type: String" }
+                    "locale": { "type": "string", "description": "String locale   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringToLowerCasead31f.Output_array": {
@@ -12378,7 +13015,7 @@
                 "type": "object",
                 "properties": {
                     "variableToApplyMethodOn": { "type": "string", "description": "String variableToApplyMethodOn   Type: String" },
-                    "locale": { "type": "string", "description": "String locale   Type: String" }
+                    "locale": { "type": "string", "description": "String locale   Type: String   Documentation: Type: String" }
                 }
             },
             "SystemStringToUpperCase425c9.Output_array": {
@@ -12609,7 +13246,11 @@
             "SystemStringValueOf028d3.Input": {
                 "type": "object",
                 "properties": {
-                    "longToConvert": { "type": "integer", "format": "int64", "description": "Long longToConvert   Type: Long" }
+                    "longToConvert": {
+                        "type": "integer",
+                        "format": "int64",
+                        "description": "Long longToConvert   Type: Long   Documentation: Type: Long"
+                    }
                 }
             },
             "SystemStringValueOf028d3.Output_array": {
@@ -12626,7 +13267,12 @@
             },
             "SystemStringValueOf22a29.Input": {
                 "type": "object",
-                "properties": { "doubleToConvert": { "type": "number", "description": "Double doubleToConvert   Type: Double" } }
+                "properties": {
+                    "doubleToConvert": {
+                        "type": "number",
+                        "description": "Double doubleToConvert   Type: Double   Documentation: Type: Double"
+                    }
+                }
             },
             "SystemStringValueOf22a29.Output_array": {
                 "type": "array",
@@ -12642,7 +13288,12 @@
             },
             "SystemStringValueOf27c32.Input": {
                 "type": "object",
-                "properties": { "decimalToConvert": { "type": "number", "description": "Decimal decimalToConvert   Type: Decimal" } }
+                "properties": {
+                    "decimalToConvert": {
+                        "type": "number",
+                        "description": "Decimal decimalToConvert   Type: Decimal   Documentation: Type: Decimal"
+                    }
+                }
             },
             "SystemStringValueOf27c32.Output_array": {
                 "type": "array",
@@ -12658,7 +13309,13 @@
             },
             "SystemStringValueOf2d37e.Input": {
                 "type": "object",
-                "properties": { "dateToConvert": { "type": "string", "format": "date", "description": "Date dateToConvert   Type: Date" } }
+                "properties": {
+                    "dateToConvert": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Date dateToConvert   Type: Date   Documentation: Type: Date"
+                    }
+                }
             },
             "SystemStringValueOf2d37e.Output_array": {
                 "type": "array",
@@ -12678,7 +13335,7 @@
                     "datetimeToConvert": {
                         "type": "string",
                         "format": "date-time",
-                        "description": "Datetime datetimeToConvert   Type: Datetime"
+                        "description": "Datetime datetimeToConvert   Type: Datetime   Documentation: Type: Datetime"
                     }
                 }
             },
@@ -12696,7 +13353,12 @@
             },
             "SystemStringValueOf7b93b.Input": {
                 "type": "object",
-                "properties": { "integerToConvert": { "type": "integer", "description": "Integer integerToConvert   Type: Integer" } }
+                "properties": {
+                    "integerToConvert": {
+                        "type": "integer",
+                        "description": "Integer integerToConvert   Type: Integer   Documentation: Type: Integer"
+                    }
+                }
             },
             "SystemStringValueOf7b93b.Output_array": {
                 "type": "array",
@@ -12716,7 +13378,7 @@
                     "datetimeToConvert": {
                         "type": "string",
                         "format": "date-time",
-                        "description": "Datetime datetimeToConvert   Type: Datetime"
+                        "description": "Datetime datetimeToConvert   Type: Datetime   Documentation: Type: Datetime"
                     }
                 }
             },
@@ -12740,7 +13402,10 @@
                         "format": "time",
                         "description": "Time variableToApplyMethodOn   Type: Time"
                     },
-                    "additionalHours": { "type": "integer", "description": "Integer additionalHours   Type: Integer" }
+                    "additionalHours": {
+                        "type": "integer",
+                        "description": "Integer additionalHours   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemTimeAddHours4e40b.Output_array": {
@@ -12770,7 +13435,10 @@
                         "format": "time",
                         "description": "Time variableToApplyMethodOn   Type: Time"
                     },
-                    "additionalMilliseconds": { "type": "integer", "description": "Integer additionalMilliseconds   Type: Integer" }
+                    "additionalMilliseconds": {
+                        "type": "integer",
+                        "description": "Integer additionalMilliseconds   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemTimeAddMilliseconds131b0.Output_array": {
@@ -12800,7 +13468,10 @@
                         "format": "time",
                         "description": "Time variableToApplyMethodOn   Type: Time"
                     },
-                    "additionalMinutes": { "type": "integer", "description": "Integer additionalMinutes   Type: Integer" }
+                    "additionalMinutes": {
+                        "type": "integer",
+                        "description": "Integer additionalMinutes   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemTimeAddMinutes8db87.Output_array": {
@@ -12830,7 +13501,10 @@
                         "format": "time",
                         "description": "Time variableToApplyMethodOn   Type: Time"
                     },
-                    "additionalSeconds": { "type": "integer", "description": "Integer additionalSeconds   Type: Integer" }
+                    "additionalSeconds": {
+                        "type": "integer",
+                        "description": "Integer additionalSeconds   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemTimeAddSeconds29ac8.Output_array": {
@@ -12938,8 +13612,11 @@
                 "properties": {
                     "hour": { "type": "integer", "description": "Integer hour   Type: Integer   Documentation: Type: Integer" },
                     "minutes": { "type": "integer", "description": "Integer minutes   Type: Integer   Documentation: Type: Integer" },
-                    "seconds": { "type": "integer", "description": "Integer seconds   Type: Integer" },
-                    "milliseconds": { "type": "integer", "description": "Integer milliseconds   Type: Integer" }
+                    "seconds": { "type": "integer", "description": "Integer seconds   Type: Integer   Documentation: Type: Integer" },
+                    "milliseconds": {
+                        "type": "integer",
+                        "description": "Integer milliseconds   Type: Integer   Documentation: Type: Integer"
+                    }
                 }
             },
             "SystemTimeNewInstance966e0.Output_array": {
