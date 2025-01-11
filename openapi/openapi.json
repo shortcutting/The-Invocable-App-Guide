@@ -2043,6 +2043,66 @@
                 }
             }
         },
+        "System/LabelGet12340/": {
+            "description": "Implementation for System.Label: public static String get(String namespace, String label)   Method documentation: Retrieve a custom label for the specified namespace and a default language setting.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Label.htm#apex_System_Label_get   Signature: public static String get(String namespace, String label)   Is static: true   Method name: get   Return Type: String   TIA key: System.Label.get(String namespace, String label)",
+            "post": {
+                "tags": ["System  Label Get12340"],
+                "description": "Label: public static String get(String namespace, String label) (TIA key: System.Label.get(String namespace, String label))",
+                "requestBody": {
+                    "description": "List of I1.SystemLabelGet12340.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemLabelGet12340.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemLabelGet12340.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/LabelGet380d9/": {
+            "description": "Implementation for System.Label: public static String get(String namespace, String label, String language)   Method documentation: Retrieve a custom label for the specified namespace and language.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Label.htm#unique_412633975   Signature: public static String get(String namespace, String label, String language)   Is static: true   Method name: get   Return Type: String   TIA key: System.Label.get(String namespace, String label, String language)",
+            "post": {
+                "tags": ["System  Label Get380d9"],
+                "description": "Label: public static String get(String namespace, String label, String language) (TIA key: System.Label.get(String namespace, String label, String language))",
+                "requestBody": {
+                    "description": "List of I1.SystemLabelGet380d9.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemLabelGet380d9.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemLabelGet380d9.Output_array" } } }
+                    }
+                }
+            }
+        },
+        "System/LabelTranslationExistsd4143/": {
+            "description": "Implementation for System.Label: public static Boolean translationExists(string namespace, string label, string language)   Method documentation: Check if translation exists for a label and language in a namespace.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Label.htm#apex_System_Label_translationExists   Signature: public static Boolean translationExists(string namespace, string label, string language)   Is static: true   Method name: translationExists   Return Type: Boolean   TIA key: System.Label.translationExists(string namespace, string label, string language)",
+            "post": {
+                "tags": ["System  Label Translation Existsd4143"],
+                "description": "Label: public static Boolean translationExists(string namespace, string label, string language) (TIA key: System.Label.translationExists(string namespace, string label, string language))",
+                "requestBody": {
+                    "description": "List of I1.SystemLabelTranslationExistsd4143.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemLabelTranslationExistsd4143.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLabelTranslationExistsd4143.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "System/LongFormata0389/": {
             "description": "Implementation for System.Long: public String format()   Method documentation: Returns the String format for this Long using the locale of the context user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_long.htm#apex_System_Long_format   Signature: public String format()   Method name: format   Return Type: String   TIA key: System.Long.format()",
             "post": {
@@ -6482,6 +6542,18 @@
             "description": "Implementation for System.Integer: public static Integer valueOf(String stringToInteger)   Method documentation: Returns an Integer that contains the value of the specified String. As in Java, the String is interpreted as representing a signed decimal integer.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_integer.htm#apex_System_Integer_valueOf   Signature: public static Integer valueOf(String stringToInteger)   Is static: true   Method name: valueOf   Return Type: Integer   TIA key: System.Integer.valueOf(String stringToInteger)"
         },
         {
+            "name": "System  Label Get12340",
+            "description": "Implementation for System.Label: public static String get(String namespace, String label)   Method documentation: Retrieve a custom label for the specified namespace and a default language setting.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Label.htm#apex_System_Label_get   Signature: public static String get(String namespace, String label)   Is static: true   Method name: get   Return Type: String   TIA key: System.Label.get(String namespace, String label)"
+        },
+        {
+            "name": "System  Label Get380d9",
+            "description": "Implementation for System.Label: public static String get(String namespace, String label, String language)   Method documentation: Retrieve a custom label for the specified namespace and language.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Label.htm#unique_412633975   Signature: public static String get(String namespace, String label, String language)   Is static: true   Method name: get   Return Type: String   TIA key: System.Label.get(String namespace, String label, String language)"
+        },
+        {
+            "name": "System  Label Translation Existsd4143",
+            "description": "Implementation for System.Label: public static Boolean translationExists(string namespace, string label, string language)   Method documentation: Check if translation exists for a label and language in a namespace.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Label.htm#apex_System_Label_translationExists   Signature: public static Boolean translationExists(string namespace, string label, string language)   Is static: true   Method name: translationExists   Return Type: Boolean   TIA key: System.Label.translationExists(string namespace, string label, string language)"
+        },
+        {
             "name": "System  Long Formata0389",
             "description": "Implementation for System.Long: public String format()   Method documentation: Returns the String format for this Long using the locale of the context user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_long.htm#apex_System_Long_format   Signature: public String format()   Method name: format   Return Type: String   TIA key: System.Long.format()"
         },
@@ -9692,6 +9764,77 @@
             "SystemIntegerValueOf84aa3.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLabelGet12340.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemLabelGet12340.Input" } },
+            "SystemLabelGet12340.Input": {
+                "type": "object",
+                "properties": {
+                    "namespace": {
+                        "type": "string",
+                        "description": "String namespace   Type: String   Documentation: Type: String If the namespace name is null, it defaults to the package namespace. If the namespace name is an empty string, it implies the org namespace."
+                    },
+                    "label": {
+                        "type": "string",
+                        "description": "String label   Type: String   Documentation: Type: String The label name cannot be null or an empty string."
+                    }
+                }
+            },
+            "SystemLabelGet12340.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemLabelGet12340.Output" } },
+            "SystemLabelGet12340.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemLabelGet380d9.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemLabelGet380d9.Input" } },
+            "SystemLabelGet380d9.Input": {
+                "type": "object",
+                "properties": {
+                    "namespace": {
+                        "type": "string",
+                        "description": "String namespace   Type: String   Documentation: Type: String If the namespace name is null, it defaults to the package namespace. If the namespace name is an empty string, it implies the org namespace."
+                    },
+                    "label": {
+                        "type": "string",
+                        "description": "String label   Type: String   Documentation: Type: String The label name cannot be null or an empty string."
+                    },
+                    "language": {
+                        "type": "string",
+                        "description": "String language   Type: String   Documentation: Type: String This parameter must be a valid language ISO code. See the Platform-Only Languages section in Supported Languages in Salesforce Help."
+                    }
+                }
+            },
+            "SystemLabelGet380d9.Output_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemLabelGet380d9.Output" } },
+            "SystemLabelGet380d9.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemLabelTranslationExistsd4143.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLabelTranslationExistsd4143.Input" }
+            },
+            "SystemLabelTranslationExistsd4143.Input": {
+                "type": "object",
+                "properties": {
+                    "namespace": {
+                        "type": "string",
+                        "description": "string namespace   Type: string   Documentation: Type: String If the namespace name is null, it defaults to the package namespace. If the namespace name is an empty string, it implies the org namespace."
+                    },
+                    "label": {
+                        "type": "string",
+                        "description": "string label   Type: string   Documentation: Type: String The label name cannot be null or an empty string."
+                    },
+                    "language": {
+                        "type": "string",
+                        "description": "string language   Type: string   Documentation: Type: String This parameter must be a valid language ISO code. See the Platform-Only Languages section in Supported Languages in Salesforce Help."
+                    }
+                }
+            },
+            "SystemLabelTranslationExistsd4143.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLabelTranslationExistsd4143.Output" }
+            },
+            "SystemLabelTranslationExistsd4143.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
             },
             "SystemLongFormata0389.Input_array": {
                 "type": "array",
