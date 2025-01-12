@@ -6162,6 +6162,460 @@
                     }
                 }
             }
+        },
+        "System/UserInfoGetCurrentUvidf132a/": {
+            "description": "Implementation for System.UserInfo: public static String getCurrentUvid()   Method documentation: Returns the context guest user’s unique visitor ID (UVID).   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getCurrentUvid   Signature: public static String getCurrentUvid()   Is static: true   Method name: getCurrentUvid   Return Type: String   TIA key: System.UserInfo.getCurrentUvid()",
+            "post": {
+                "tags": ["System  User Info Get Current Uvidf132a"],
+                "description": "UserInfo: public static String getCurrentUvid() (TIA key: System.UserInfo.getCurrentUvid())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetCurrentUvidf132a.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetCurrentUvidf132a.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetDefaultCurrency987eb/": {
+            "description": "Implementation for System.UserInfo: public static String getDefaultCurrency()   Method documentation: Returns the context user's default currency code for multiple currency organizations or the organization's currency code for single currency organizations.   Usage: For Apex saved using Salesforce API version 22.0 or earlier, getDefaultCurrency returns null for single currency organizations.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getDefaultCurrency   Signature: public static String getDefaultCurrency()   Is static: true   Method name: getDefaultCurrency   Return Type: String   TIA key: System.UserInfo.getDefaultCurrency()",
+            "post": {
+                "tags": ["System  User Info Get Default Currency987eb"],
+                "description": "UserInfo: public static String getDefaultCurrency() (TIA key: System.UserInfo.getDefaultCurrency())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetDefaultCurrency987eb.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetDefaultCurrency987eb.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetFirstName568a9/": {
+            "description": "Implementation for System.UserInfo: public static String getFirstName()   Method documentation: Returns the context user's first name   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getFirstName   Signature: public static String getFirstName()   Is static: true   Method name: getFirstName   Return Type: String   TIA key: System.UserInfo.getFirstName()",
+            "post": {
+                "tags": ["System  User Info Get First Name568a9"],
+                "description": "UserInfo: public static String getFirstName() (TIA key: System.UserInfo.getFirstName())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetFirstName568a9.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetFirstName568a9.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetLanguage2fd4a/": {
+            "description": "Implementation for System.UserInfo: public static String getLanguage()   Method documentation: Returns the context user's language   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getLanguage   Signature: public static String getLanguage()   Is static: true   Method name: getLanguage   Return Type: String   TIA key: System.UserInfo.getLanguage()",
+            "post": {
+                "tags": ["System  User Info Get Language2fd4a"],
+                "description": "UserInfo: public static String getLanguage() (TIA key: System.UserInfo.getLanguage())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetLanguage2fd4a.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetLanguage2fd4a.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetLastName696ca/": {
+            "description": "Implementation for System.UserInfo: public static String getLastName()   Method documentation: Returns the context user's last name   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getLastName   Signature: public static String getLastName()   Is static: true   Method name: getLastName   Return Type: String   TIA key: System.UserInfo.getLastName()",
+            "post": {
+                "tags": ["System  User Info Get Last Name696ca"],
+                "description": "UserInfo: public static String getLastName() (TIA key: System.UserInfo.getLastName())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetLastName696ca.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetLastName696ca.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetLocale5971d/": {
+            "description": "Implementation for System.UserInfo: public static String getLocale()   Method documentation: Returns the context user's locale.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getLocale   Signature: public static String getLocale()   Is static: true   Method name: getLocale   Return Type: String   TIA key: System.UserInfo.getLocale()",
+            "post": {
+                "tags": ["System  User Info Get Locale5971d"],
+                "description": "UserInfo: public static String getLocale() (TIA key: System.UserInfo.getLocale())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetLocale5971d.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetLocale5971d.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetNamefa071/": {
+            "description": "Implementation for System.UserInfo: public static String getName()   Method documentation: Returns the context user's full name. The format of the name depends on the language preferences specified for the organization.   Usage: The format is one of the following:   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getName   Signature: public static String getName()   Is static: true   Method name: getName   Return Type: String   TIA key: System.UserInfo.getName()",
+            "post": {
+                "tags": ["System  User Info Get Namefa071"],
+                "description": "UserInfo: public static String getName() (TIA key: System.UserInfo.getName())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetNamefa071.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetNamefa071.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetOrganizationId7e9ed/": {
+            "description": "Implementation for System.UserInfo: public static String getOrganizationId()   Method documentation: Returns the context organization's ID.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getOrganizationId   Signature: public static String getOrganizationId()   Is static: true   Method name: getOrganizationId   Return Type: String   TIA key: System.UserInfo.getOrganizationId()",
+            "post": {
+                "tags": ["System  User Info Get Organization Id7e9ed"],
+                "description": "UserInfo: public static String getOrganizationId() (TIA key: System.UserInfo.getOrganizationId())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetOrganizationId7e9ed.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetOrganizationId7e9ed.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetOrganizationName3d9c5/": {
+            "description": "Implementation for System.UserInfo: public static String getOrganizationName()   Method documentation: Returns the context organization's company name.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getOrganizationName   Signature: public static String getOrganizationName()   Is static: true   Method name: getOrganizationName   Return Type: String   TIA key: System.UserInfo.getOrganizationName()",
+            "post": {
+                "tags": ["System  User Info Get Organization Name3d9c5"],
+                "description": "UserInfo: public static String getOrganizationName() (TIA key: System.UserInfo.getOrganizationName())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetOrganizationName3d9c5.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetOrganizationName3d9c5.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetProfileId132c8/": {
+            "description": "Implementation for System.UserInfo: public static String getProfileId()   Method documentation: Returns the context user's profile ID.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getProfileId   Signature: public static String getProfileId()   Is static: true   Method name: getProfileId   Return Type: String   TIA key: System.UserInfo.getProfileId()",
+            "post": {
+                "tags": ["System  User Info Get Profile Id132c8"],
+                "description": "UserInfo: public static String getProfileId() (TIA key: System.UserInfo.getProfileId())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetProfileId132c8.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetProfileId132c8.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetUiTheme96d45/": {
+            "description": "Implementation for System.UserInfo: public static String getUiTheme()   Method documentation: Returns the preferred theme for the current user. Use getUiThemeDisplayed to determine the theme actually displayed to the current user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUiTheme   Signature: public static String getUiTheme()   Is static: true   Method name: getUiTheme   Return Type: String   TIA key: System.UserInfo.getUiTheme()",
+            "post": {
+                "tags": ["System  User Info Get Ui Theme96d45"],
+                "description": "UserInfo: public static String getUiTheme() (TIA key: System.UserInfo.getUiTheme())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetUiTheme96d45.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetUiTheme96d45.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetUiThemeDisplayed74b42/": {
+            "description": "Implementation for System.UserInfo: public static String getUiThemeDisplayed()   Method documentation: Returns the theme being displayed for the current user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUiThemeDisplayed   Signature: public static String getUiThemeDisplayed()   Is static: true   Method name: getUiThemeDisplayed   Return Type: String   TIA key: System.UserInfo.getUiThemeDisplayed()",
+            "post": {
+                "tags": ["System  User Info Get Ui Theme Displayed74b42"],
+                "description": "UserInfo: public static String getUiThemeDisplayed() (TIA key: System.UserInfo.getUiThemeDisplayed())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetUiThemeDisplayed74b42.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetUiThemeDisplayed74b42.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetUserEmail4e4e3/": {
+            "description": "Implementation for System.UserInfo: public static String getUserEmail()   Method documentation: Returns the current user’s email address.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserEmail   Signature: public static String getUserEmail()   Is static: true   Method name: getUserEmail   Return Type: String   TIA key: System.UserInfo.getUserEmail()",
+            "post": {
+                "tags": ["System  User Info Get User Email4e4e3"],
+                "description": "UserInfo: public static String getUserEmail() (TIA key: System.UserInfo.getUserEmail())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetUserEmail4e4e3.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetUserEmail4e4e3.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetUserId8ca35/": {
+            "description": "Implementation for System.UserInfo: public static String getUserId()   Method documentation: Returns the context user's ID   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserId   Signature: public static String getUserId()   Is static: true   Method name: getUserId   Return Type: String   TIA key: System.UserInfo.getUserId()",
+            "post": {
+                "tags": ["System  User Info Get User Id8ca35"],
+                "description": "UserInfo: public static String getUserId() (TIA key: System.UserInfo.getUserId())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetUserId8ca35.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetUserId8ca35.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetUserName047c8/": {
+            "description": "Implementation for System.UserInfo: public static String getUserName()   Method documentation: Returns the context user's login name.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserName   Signature: public static String getUserName()   Is static: true   Method name: getUserName   Return Type: String   TIA key: System.UserInfo.getUserName()",
+            "post": {
+                "tags": ["System  User Info Get User Name047c8"],
+                "description": "UserInfo: public static String getUserName() (TIA key: System.UserInfo.getUserName())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetUserName047c8.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetUserName047c8.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetUserRoleIda5ffb/": {
+            "description": "Implementation for System.UserInfo: public static String getUserRoleId()   Method documentation: Returns the context user's role ID.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserRoleId   Signature: public static String getUserRoleId()   Is static: true   Method name: getUserRoleId   Return Type: String   TIA key: System.UserInfo.getUserRoleId()",
+            "post": {
+                "tags": ["System  User Info Get User Role Ida5ffb"],
+                "description": "UserInfo: public static String getUserRoleId() (TIA key: System.UserInfo.getUserRoleId())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetUserRoleIda5ffb.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoGetUserRoleIda5ffb.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoGetUserType179c6/": {
+            "description": "Implementation for System.UserInfo: public static String getUserType()   Method documentation: Returns the context user's type.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserType   Signature: public static String getUserType()   Is static: true   Method name: getUserType   Return Type: String   TIA key: System.UserInfo.getUserType()",
+            "post": {
+                "tags": ["System  User Info Get User Type179c6"],
+                "description": "UserInfo: public static String getUserType() (TIA key: System.UserInfo.getUserType())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoGetUserType179c6.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoGetUserType179c6.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoHasPackageLicensecee1f/": {
+            "description": "Implementation for System.UserInfo: public static Boolean hasPackageLicense(ID packageID)   Method documentation: Returns true if the context user has a license to the managed package via a package license only. Otherwise, returns false.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#hasPackageLicense   Signature: public static Boolean hasPackageLicense(ID packageID)   Is static: true   Method name: hasPackageLicense   Return Type: Boolean   TIA key: System.UserInfo.hasPackageLicense(ID packageID)",
+            "post": {
+                "tags": ["System  User Info Has Package Licensecee1f"],
+                "description": "UserInfo: public static Boolean hasPackageLicense(ID packageID) (TIA key: System.UserInfo.hasPackageLicense(ID packageID))",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoHasPackageLicensecee1f.Input",
+                    "content": {
+                        "application/json": {
+                            "schema": { "$ref": "#/components/schemas/SystemUserInfoHasPackageLicensecee1f.Input_array" }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoHasPackageLicensecee1f.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoIsCurrentUserL79425/": {
+            "description": "Implementation for System.UserInfo: public static Boolean isCurrentUserLicensedForPackage(ID packageID)   Method documentation: Returns true if the context user has a license to the managed package denoted by the package ID. Otherwise, returns false. If the context user has access, it’s determined either via the package license or a namespace permission set license for the package namespace.   Usage: Retrieve packageID at runtime, with the getCurrentPackageId() method. Then, use packageId to confirm that the contextual user is licensed to use that managed package.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_isCurrentUserLicensedForPackage   Signature: public static Boolean isCurrentUserLicensedForPackage(ID packageID)   Is static: true   Method name: isCurrentUserLicensedForPackage   Return Type: Boolean   TIA key: System.UserInfo.isCurrentUserLicensedForPackage(ID packageID)",
+            "post": {
+                "tags": ["System  User Info Is Current User L79425"],
+                "description": "UserInfo: public static Boolean isCurrentUserLicensedForPackage(ID packageID) (TIA key: System.UserInfo.isCurrentUserLicensedForPackage(ID packageID))",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoIsCurrentUserL79425.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserL79425.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserL79425.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoIsCurrentUserLfcc54/": {
+            "description": "Implementation for System.UserInfo: public static Boolean isCurrentUserLicensed(String namespace)   Method documentation: Returns true if the context user has a license to any managed package denoted by the namespace. Otherwise, returns false.   Usage: A TypeException is thrown if namespace is an invalid type.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_isCurrentUserLicensed   Signature: public static Boolean isCurrentUserLicensed(String namespace)   Is static: true   Method name: isCurrentUserLicensed   Return Type: Boolean   TIA key: System.UserInfo.isCurrentUserLicensed(String namespace)",
+            "post": {
+                "tags": ["System  User Info Is Current User Lfcc54"],
+                "description": "UserInfo: public static Boolean isCurrentUserLicensed(String namespace) (TIA key: System.UserInfo.isCurrentUserLicensed(String namespace))",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoIsCurrentUserLfcc54.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserLfcc54.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserLfcc54.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserInfoIsMultiCurrencdd8b1/": {
+            "description": "Implementation for System.UserInfo: public static Boolean isMultiCurrencyOrganization()   Method documentation: Specifies whether the organization uses multiple currencies.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_isMultiCurrencyOrganization   Signature: public static Boolean isMultiCurrencyOrganization()   Is static: true   Method name: isMultiCurrencyOrganization   Return Type: Boolean   TIA key: System.UserInfo.isMultiCurrencyOrganization()",
+            "post": {
+                "tags": ["System  User Info Is Multi Currencdd8b1"],
+                "description": "UserInfo: public static Boolean isMultiCurrencyOrganization() (TIA key: System.UserInfo.isMultiCurrencyOrganization())",
+                "requestBody": {
+                    "description": "List of I1.SystemUserInfoIsMultiCurrencdd8b1.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserInfoIsMultiCurrencdd8b1.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "tags": [
@@ -7316,6 +7770,90 @@
         {
             "name": "System  Time Second74254",
             "description": "Implementation for System.Time: public Integer second()   Method documentation: Returns the second component of a Time.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_time.htm#apex_System_Time_second   Signature: public Integer second()   Method name: second   Return Type: Integer   TIA key: System.Time.second()"
+        },
+        {
+            "name": "System  User Info Get Current Uvidf132a",
+            "description": "Implementation for System.UserInfo: public static String getCurrentUvid()   Method documentation: Returns the context guest user’s unique visitor ID (UVID).   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getCurrentUvid   Signature: public static String getCurrentUvid()   Is static: true   Method name: getCurrentUvid   Return Type: String   TIA key: System.UserInfo.getCurrentUvid()"
+        },
+        {
+            "name": "System  User Info Get Default Currency987eb",
+            "description": "Implementation for System.UserInfo: public static String getDefaultCurrency()   Method documentation: Returns the context user's default currency code for multiple currency organizations or the organization's currency code for single currency organizations.   Usage: For Apex saved using Salesforce API version 22.0 or earlier, getDefaultCurrency returns null for single currency organizations.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getDefaultCurrency   Signature: public static String getDefaultCurrency()   Is static: true   Method name: getDefaultCurrency   Return Type: String   TIA key: System.UserInfo.getDefaultCurrency()"
+        },
+        {
+            "name": "System  User Info Get First Name568a9",
+            "description": "Implementation for System.UserInfo: public static String getFirstName()   Method documentation: Returns the context user's first name   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getFirstName   Signature: public static String getFirstName()   Is static: true   Method name: getFirstName   Return Type: String   TIA key: System.UserInfo.getFirstName()"
+        },
+        {
+            "name": "System  User Info Get Language2fd4a",
+            "description": "Implementation for System.UserInfo: public static String getLanguage()   Method documentation: Returns the context user's language   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getLanguage   Signature: public static String getLanguage()   Is static: true   Method name: getLanguage   Return Type: String   TIA key: System.UserInfo.getLanguage()"
+        },
+        {
+            "name": "System  User Info Get Last Name696ca",
+            "description": "Implementation for System.UserInfo: public static String getLastName()   Method documentation: Returns the context user's last name   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getLastName   Signature: public static String getLastName()   Is static: true   Method name: getLastName   Return Type: String   TIA key: System.UserInfo.getLastName()"
+        },
+        {
+            "name": "System  User Info Get Locale5971d",
+            "description": "Implementation for System.UserInfo: public static String getLocale()   Method documentation: Returns the context user's locale.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getLocale   Signature: public static String getLocale()   Is static: true   Method name: getLocale   Return Type: String   TIA key: System.UserInfo.getLocale()"
+        },
+        {
+            "name": "System  User Info Get Namefa071",
+            "description": "Implementation for System.UserInfo: public static String getName()   Method documentation: Returns the context user's full name. The format of the name depends on the language preferences specified for the organization.   Usage: The format is one of the following:   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getName   Signature: public static String getName()   Is static: true   Method name: getName   Return Type: String   TIA key: System.UserInfo.getName()"
+        },
+        {
+            "name": "System  User Info Get Organization Id7e9ed",
+            "description": "Implementation for System.UserInfo: public static String getOrganizationId()   Method documentation: Returns the context organization's ID.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getOrganizationId   Signature: public static String getOrganizationId()   Is static: true   Method name: getOrganizationId   Return Type: String   TIA key: System.UserInfo.getOrganizationId()"
+        },
+        {
+            "name": "System  User Info Get Organization Name3d9c5",
+            "description": "Implementation for System.UserInfo: public static String getOrganizationName()   Method documentation: Returns the context organization's company name.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getOrganizationName   Signature: public static String getOrganizationName()   Is static: true   Method name: getOrganizationName   Return Type: String   TIA key: System.UserInfo.getOrganizationName()"
+        },
+        {
+            "name": "System  User Info Get Profile Id132c8",
+            "description": "Implementation for System.UserInfo: public static String getProfileId()   Method documentation: Returns the context user's profile ID.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getProfileId   Signature: public static String getProfileId()   Is static: true   Method name: getProfileId   Return Type: String   TIA key: System.UserInfo.getProfileId()"
+        },
+        {
+            "name": "System  User Info Get Ui Theme96d45",
+            "description": "Implementation for System.UserInfo: public static String getUiTheme()   Method documentation: Returns the preferred theme for the current user. Use getUiThemeDisplayed to determine the theme actually displayed to the current user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUiTheme   Signature: public static String getUiTheme()   Is static: true   Method name: getUiTheme   Return Type: String   TIA key: System.UserInfo.getUiTheme()"
+        },
+        {
+            "name": "System  User Info Get Ui Theme Displayed74b42",
+            "description": "Implementation for System.UserInfo: public static String getUiThemeDisplayed()   Method documentation: Returns the theme being displayed for the current user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUiThemeDisplayed   Signature: public static String getUiThemeDisplayed()   Is static: true   Method name: getUiThemeDisplayed   Return Type: String   TIA key: System.UserInfo.getUiThemeDisplayed()"
+        },
+        {
+            "name": "System  User Info Get User Email4e4e3",
+            "description": "Implementation for System.UserInfo: public static String getUserEmail()   Method documentation: Returns the current user’s email address.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserEmail   Signature: public static String getUserEmail()   Is static: true   Method name: getUserEmail   Return Type: String   TIA key: System.UserInfo.getUserEmail()"
+        },
+        {
+            "name": "System  User Info Get User Id8ca35",
+            "description": "Implementation for System.UserInfo: public static String getUserId()   Method documentation: Returns the context user's ID   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserId   Signature: public static String getUserId()   Is static: true   Method name: getUserId   Return Type: String   TIA key: System.UserInfo.getUserId()"
+        },
+        {
+            "name": "System  User Info Get User Name047c8",
+            "description": "Implementation for System.UserInfo: public static String getUserName()   Method documentation: Returns the context user's login name.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserName   Signature: public static String getUserName()   Is static: true   Method name: getUserName   Return Type: String   TIA key: System.UserInfo.getUserName()"
+        },
+        {
+            "name": "System  User Info Get User Role Ida5ffb",
+            "description": "Implementation for System.UserInfo: public static String getUserRoleId()   Method documentation: Returns the context user's role ID.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserRoleId   Signature: public static String getUserRoleId()   Is static: true   Method name: getUserRoleId   Return Type: String   TIA key: System.UserInfo.getUserRoleId()"
+        },
+        {
+            "name": "System  User Info Get User Type179c6",
+            "description": "Implementation for System.UserInfo: public static String getUserType()   Method documentation: Returns the context user's type.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getUserType   Signature: public static String getUserType()   Is static: true   Method name: getUserType   Return Type: String   TIA key: System.UserInfo.getUserType()"
+        },
+        {
+            "name": "System  User Info Has Package Licensecee1f",
+            "description": "Implementation for System.UserInfo: public static Boolean hasPackageLicense(ID packageID)   Method documentation: Returns true if the context user has a license to the managed package via a package license only. Otherwise, returns false.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#hasPackageLicense   Signature: public static Boolean hasPackageLicense(ID packageID)   Is static: true   Method name: hasPackageLicense   Return Type: Boolean   TIA key: System.UserInfo.hasPackageLicense(ID packageID)"
+        },
+        {
+            "name": "System  User Info Is Current User L79425",
+            "description": "Implementation for System.UserInfo: public static Boolean isCurrentUserLicensedForPackage(ID packageID)   Method documentation: Returns true if the context user has a license to the managed package denoted by the package ID. Otherwise, returns false. If the context user has access, it’s determined either via the package license or a namespace permission set license for the package namespace.   Usage: Retrieve packageID at runtime, with the getCurrentPackageId() method. Then, use packageId to confirm that the contextual user is licensed to use that managed package.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_isCurrentUserLicensedForPackage   Signature: public static Boolean isCurrentUserLicensedForPackage(ID packageID)   Is static: true   Method name: isCurrentUserLicensedForPackage   Return Type: Boolean   TIA key: System.UserInfo.isCurrentUserLicensedForPackage(ID packageID)"
+        },
+        {
+            "name": "System  User Info Is Current User Lfcc54",
+            "description": "Implementation for System.UserInfo: public static Boolean isCurrentUserLicensed(String namespace)   Method documentation: Returns true if the context user has a license to any managed package denoted by the namespace. Otherwise, returns false.   Usage: A TypeException is thrown if namespace is an invalid type.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_isCurrentUserLicensed   Signature: public static Boolean isCurrentUserLicensed(String namespace)   Is static: true   Method name: isCurrentUserLicensed   Return Type: Boolean   TIA key: System.UserInfo.isCurrentUserLicensed(String namespace)"
+        },
+        {
+            "name": "System  User Info Is Multi Currencdd8b1",
+            "description": "Implementation for System.UserInfo: public static Boolean isMultiCurrencyOrganization()   Method documentation: Specifies whether the organization uses multiple currencies.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_isMultiCurrencyOrganization   Signature: public static Boolean isMultiCurrencyOrganization()   Is static: true   Method name: isMultiCurrencyOrganization   Return Type: Boolean   TIA key: System.UserInfo.isMultiCurrencyOrganization()"
         }
     ],
     "components": {
@@ -13798,6 +14336,200 @@
                         "description": "Time variableMethodAppliedOn   Type: Time"
                     }
                 }
+            },
+            "SystemUserInfoGetCurrentUvidf132a.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetCurrentUvidf132a.Output" }
+            },
+            "SystemUserInfoGetCurrentUvidf132a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetDefaultCurrency987eb.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetDefaultCurrency987eb.Output" }
+            },
+            "SystemUserInfoGetDefaultCurrency987eb.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetFirstName568a9.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetFirstName568a9.Output" }
+            },
+            "SystemUserInfoGetFirstName568a9.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetLanguage2fd4a.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetLanguage2fd4a.Output" }
+            },
+            "SystemUserInfoGetLanguage2fd4a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetLastName696ca.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetLastName696ca.Output" }
+            },
+            "SystemUserInfoGetLastName696ca.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetLocale5971d.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetLocale5971d.Output" }
+            },
+            "SystemUserInfoGetLocale5971d.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetNamefa071.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetNamefa071.Output" }
+            },
+            "SystemUserInfoGetNamefa071.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetOrganizationId7e9ed.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetOrganizationId7e9ed.Output" }
+            },
+            "SystemUserInfoGetOrganizationId7e9ed.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetOrganizationName3d9c5.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetOrganizationName3d9c5.Output" }
+            },
+            "SystemUserInfoGetOrganizationName3d9c5.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetProfileId132c8.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetProfileId132c8.Output" }
+            },
+            "SystemUserInfoGetProfileId132c8.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetUiTheme96d45.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetUiTheme96d45.Output" }
+            },
+            "SystemUserInfoGetUiTheme96d45.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetUiThemeDisplayed74b42.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetUiThemeDisplayed74b42.Output" }
+            },
+            "SystemUserInfoGetUiThemeDisplayed74b42.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetUserEmail4e4e3.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetUserEmail4e4e3.Output" }
+            },
+            "SystemUserInfoGetUserEmail4e4e3.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetUserId8ca35.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetUserId8ca35.Output" }
+            },
+            "SystemUserInfoGetUserId8ca35.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetUserName047c8.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetUserName047c8.Output" }
+            },
+            "SystemUserInfoGetUserName047c8.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetUserRoleIda5ffb.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetUserRoleIda5ffb.Output" }
+            },
+            "SystemUserInfoGetUserRoleIda5ffb.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoGetUserType179c6.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoGetUserType179c6.Output" }
+            },
+            "SystemUserInfoGetUserType179c6.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserInfoHasPackageLicensecee1f.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoHasPackageLicensecee1f.Input" }
+            },
+            "SystemUserInfoHasPackageLicensecee1f.Input": {
+                "type": "object",
+                "properties": { "packageID": { "type": "string", "description": "ID packageID   Type: ID   Documentation: Type: String" } }
+            },
+            "SystemUserInfoHasPackageLicensecee1f.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoHasPackageLicensecee1f.Output" }
+            },
+            "SystemUserInfoHasPackageLicensecee1f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemUserInfoIsCurrentUserL79425.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserL79425.Input" }
+            },
+            "SystemUserInfoIsCurrentUserL79425.Input": {
+                "type": "object",
+                "properties": { "packageID": { "type": "string", "description": "ID packageID   Type: ID   Documentation: Type: String" } }
+            },
+            "SystemUserInfoIsCurrentUserL79425.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserL79425.Output" }
+            },
+            "SystemUserInfoIsCurrentUserL79425.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemUserInfoIsCurrentUserLfcc54.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserLfcc54.Input" }
+            },
+            "SystemUserInfoIsCurrentUserLfcc54.Input": {
+                "type": "object",
+                "properties": {
+                    "namespace": { "type": "string", "description": "String namespace   Type: String   Documentation: Type: String" }
+                }
+            },
+            "SystemUserInfoIsCurrentUserLfcc54.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoIsCurrentUserLfcc54.Output" }
+            },
+            "SystemUserInfoIsCurrentUserLfcc54.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemUserInfoIsMultiCurrencdd8b1.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserInfoIsMultiCurrencdd8b1.Output" }
+            },
+            "SystemUserInfoIsMultiCurrencdd8b1.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
             }
         }
     }
