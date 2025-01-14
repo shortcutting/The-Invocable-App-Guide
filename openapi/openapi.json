@@ -2103,6 +2103,784 @@
                 }
             }
         },
+        "System/LimitsGetAggregateQueries4e0b8/": {
+            "description": "Implementation for System.Limits: public static Integer getAggregateQueries()   Method documentation: Returns the number of aggregate queries that have been processed with any SOQL query statement.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getAggregateQueries   Signature: public static Integer getAggregateQueries()   Is static: true   Method name: getAggregateQueries   Return Type: Integer   TIA key: System.Limits.getAggregateQueries()",
+            "post": {
+                "tags": ["System  Limits Get Aggregate Queries4e0b8"],
+                "description": "Limits: public static Integer getAggregateQueries() (TIA key: System.Limits.getAggregateQueries())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetAggregateQueries4e0b8.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetAggregateQueries4e0b8.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetApexCursorRowse756f/": {
+            "description": "Implementation for System.Limits: public static Integer getApexCursorRows()   Method documentation: Gets the number of rows returned by an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getApexCursorRows   Signature: public static Integer getApexCursorRows()   Is static: true   Method name: getApexCursorRows   Return Type: Integer   TIA key: System.Limits.getApexCursorRows()",
+            "post": {
+                "tags": ["System  Limits Get Apex Cursor Rowse756f"],
+                "description": "Limits: public static Integer getApexCursorRows() (TIA key: System.Limits.getApexCursorRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetApexCursorRowse756f.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetApexCursorRowse756f.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetAsyncCalls43f29/": {
+            "description": "Implementation for System.Limits: public static Integer getAsyncCalls()   Method documentation: Reserved for future use.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getAsyncCalls   Signature: public static Integer getAsyncCalls()   Is static: true   Method name: getAsyncCalls   Return Type: Integer   TIA key: System.Limits.getAsyncCalls()",
+            "post": {
+                "tags": ["System  Limits Get Async Calls43f29"],
+                "description": "Limits: public static Integer getAsyncCalls() (TIA key: System.Limits.getAsyncCalls())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetAsyncCalls43f29.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemLimitsGetAsyncCalls43f29.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetCallouts63108/": {
+            "description": "Implementation for System.Limits: public static Integer getCallouts()   Method documentation: Returns the number of Web service statements that have been processed.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getCallouts   Signature: public static Integer getCallouts()   Is static: true   Method name: getCallouts   Return Type: Integer   TIA key: System.Limits.getCallouts()",
+            "post": {
+                "tags": ["System  Limits Get Callouts63108"],
+                "description": "Limits: public static Integer getCallouts() (TIA key: System.Limits.getCallouts())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetCallouts63108.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemLimitsGetCallouts63108.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetCpuTime8e986/": {
+            "description": "Implementation for System.Limits: public static Integer getCpuTime()   Method documentation: Returns the CPU time (in milliseconds) that has been used in the current transaction.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getCpuTime   Signature: public static Integer getCpuTime()   Is static: true   Method name: getCpuTime   Return Type: Integer   TIA key: System.Limits.getCpuTime()",
+            "post": {
+                "tags": ["System  Limits Get Cpu Time8e986"],
+                "description": "Limits: public static Integer getCpuTime() (TIA key: System.Limits.getCpuTime())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetCpuTime8e986.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemLimitsGetCpuTime8e986.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetDMLRows2a16b/": {
+            "description": "Implementation for System.Limits: public static Integer getDMLRows()   Method documentation: Returns the number of records that have been processed with any statement that counts against DML limits, such as DML statements, the Database.emptyRecycleBin method, and other methods.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getDMLRows   Signature: public static Integer getDMLRows()   Is static: true   Method name: getDMLRows   Return Type: Integer   TIA key: System.Limits.getDMLRows()",
+            "post": {
+                "tags": ["System  Limits Get D M L Rows2a16b"],
+                "description": "Limits: public static Integer getDMLRows() (TIA key: System.Limits.getDMLRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetDMLRows2a16b.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemLimitsGetDMLRows2a16b.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetDMLStatements35489/": {
+            "description": "Implementation for System.Limits: public static Integer getDMLStatements()   Method documentation: Returns the number of DML statements (such as insert, update or the database.EmptyRecycleBin method) that have been called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getDMLStatements   Signature: public static Integer getDMLStatements()   Is static: true   Method name: getDMLStatements   Return Type: Integer   TIA key: System.Limits.getDMLStatements()",
+            "post": {
+                "tags": ["System  Limits Get D M L Statements35489"],
+                "description": "Limits: public static Integer getDMLStatements() (TIA key: System.Limits.getDMLStatements())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetDMLStatements35489.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetDMLStatements35489.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetEmailInvocations4b95b/": {
+            "description": "Implementation for System.Limits: public static Integer getEmailInvocations()   Method documentation: Returns the number of email invocations (such as sendEmail) that have been called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getEmailInvocations   Signature: public static Integer getEmailInvocations()   Is static: true   Method name: getEmailInvocations   Return Type: Integer   TIA key: System.Limits.getEmailInvocations()",
+            "post": {
+                "tags": ["System  Limits Get Email Invocations4b95b"],
+                "description": "Limits: public static Integer getEmailInvocations() (TIA key: System.Limits.getEmailInvocations())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetEmailInvocations4b95b.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetEmailInvocations4b95b.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetFetchCallsOb0f59/": {
+            "description": "Implementation for System.Limits: public static Integer getFetchCallsOnApexCursor()   Method documentation: Gets the number of fetch calls on an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getFetchCallsOnApexCursor   Signature: public static Integer getFetchCallsOnApexCursor()   Is static: true   Method name: getFetchCallsOnApexCursor   Return Type: Integer   TIA key: System.Limits.getFetchCallsOnApexCursor()",
+            "post": {
+                "tags": ["System  Limits Get Fetch Calls Ob0f59"],
+                "description": "Limits: public static Integer getFetchCallsOnApexCursor() (TIA key: System.Limits.getFetchCallsOnApexCursor())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetFetchCallsOb0f59.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetFetchCallsOb0f59.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetFutureCallsd59ad/": {
+            "description": "Implementation for System.Limits: public static Integer getFutureCalls()   Method documentation: Returns the number of methods with the future annotation that have been executed (not necessarily completed).   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getFutureCalls   Signature: public static Integer getFutureCalls()   Is static: true   Method name: getFutureCalls   Return Type: Integer   TIA key: System.Limits.getFutureCalls()",
+            "post": {
+                "tags": ["System  Limits Get Future Callsd59ad"],
+                "description": "Limits: public static Integer getFutureCalls() (TIA key: System.Limits.getFutureCalls())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetFutureCallsd59ad.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetFutureCallsd59ad.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetHeapSize21876/": {
+            "description": "Implementation for System.Limits: public static Integer getHeapSize()   Method documentation: Returns the approximate amount of memory (in bytes) that has been used for the heap.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getHeapSize   Signature: public static Integer getHeapSize()   Is static: true   Method name: getHeapSize   Return Type: Integer   TIA key: System.Limits.getHeapSize()",
+            "post": {
+                "tags": ["System  Limits Get Heap Size21876"],
+                "description": "Limits: public static Integer getHeapSize() (TIA key: System.Limits.getHeapSize())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetHeapSize21876.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemLimitsGetHeapSize21876.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitAggrege48b8/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitAggregateQueries()   Method documentation: Returns the total number of aggregate queries that can be processed with SOQL query statements.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitAggregateQueries   Signature: public static Integer getLimitAggregateQueries()   Is static: true   Method name: getLimitAggregateQueries   Return Type: Integer   TIA key: System.Limits.getLimitAggregateQueries()",
+            "post": {
+                "tags": ["System  Limits Get Limit Aggrege48b8"],
+                "description": "Limits: public static Integer getLimitAggregateQueries() (TIA key: System.Limits.getLimitAggregateQueries())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitAggrege48b8.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitAggrege48b8.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitApexCursorRows13d9a/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitApexCursorRows()   Method documentation: Gets the maximum number of rows that can be returned by an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitApexCursorRows   Signature: public static Integer getLimitApexCursorRows()   Is static: true   Method name: getLimitApexCursorRows   Return Type: Integer   TIA key: System.Limits.getLimitApexCursorRows()",
+            "post": {
+                "tags": ["System  Limits Get Limit Apex Cursor Rows13d9a"],
+                "description": "Limits: public static Integer getLimitApexCursorRows() (TIA key: System.Limits.getLimitApexCursorRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitApexCursorRows13d9a.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitApexCursorRows13d9a.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitAsyncCalls96a6d/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitAsyncCalls()   Method documentation: Reserved for future use.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getLimitAsyncCalls   Signature: public static Integer getLimitAsyncCalls()   Is static: true   Method name: getLimitAsyncCalls   Return Type: Integer   TIA key: System.Limits.getLimitAsyncCalls()",
+            "post": {
+                "tags": ["System  Limits Get Limit Async Calls96a6d"],
+                "description": "Limits: public static Integer getLimitAsyncCalls() (TIA key: System.Limits.getLimitAsyncCalls())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitAsyncCalls96a6d.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitAsyncCalls96a6d.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitCalloutsa542d/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitCallouts()   Method documentation: Returns the total number of Web service statements that can be processed.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitCallouts   Signature: public static Integer getLimitCallouts()   Is static: true   Method name: getLimitCallouts   Return Type: Integer   TIA key: System.Limits.getLimitCallouts()",
+            "post": {
+                "tags": ["System  Limits Get Limit Calloutsa542d"],
+                "description": "Limits: public static Integer getLimitCallouts() (TIA key: System.Limits.getLimitCallouts())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitCalloutsa542d.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitCalloutsa542d.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitCpuTime20bff/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitCpuTime()   Method documentation: Returns the maximum CPU time (in milliseconds) that can be used in a transaction.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitCpuTime   Signature: public static Integer getLimitCpuTime()   Is static: true   Method name: getLimitCpuTime   Return Type: Integer   TIA key: System.Limits.getLimitCpuTime()",
+            "post": {
+                "tags": ["System  Limits Get Limit Cpu Time20bff"],
+                "description": "Limits: public static Integer getLimitCpuTime() (TIA key: System.Limits.getLimitCpuTime())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitCpuTime20bff.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitCpuTime20bff.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitDMLRows64c86/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitDMLRows()   Method documentation: Returns the total number of records that can be processed with any statement that counts against DML limits, such as DML statements, the database.EmptyRecycleBin method, and other methods.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitDMLRows   Signature: public static Integer getLimitDMLRows()   Is static: true   Method name: getLimitDMLRows   Return Type: Integer   TIA key: System.Limits.getLimitDMLRows()",
+            "post": {
+                "tags": ["System  Limits Get Limit D M L Rows64c86"],
+                "description": "Limits: public static Integer getLimitDMLRows() (TIA key: System.Limits.getLimitDMLRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitDMLRows64c86.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitDMLRows64c86.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitDMLStatements80b0c/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitDMLStatements()   Method documentation: Returns the total number of DML statements or the database.EmptyRecycleBin methods that can be called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitDMLStatements   Signature: public static Integer getLimitDMLStatements()   Is static: true   Method name: getLimitDMLStatements   Return Type: Integer   TIA key: System.Limits.getLimitDMLStatements()",
+            "post": {
+                "tags": ["System  Limits Get Limit D M L Statements80b0c"],
+                "description": "Limits: public static Integer getLimitDMLStatements() (TIA key: System.Limits.getLimitDMLStatements())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitDMLStatements80b0c.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitDMLStatements80b0c.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitEmailIf85c3/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitEmailInvocations()   Method documentation: Returns the total number of email invocation (such as sendEmail) that can be called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitEmailInvocations   Signature: public static Integer getLimitEmailInvocations()   Is static: true   Method name: getLimitEmailInvocations   Return Type: Integer   TIA key: System.Limits.getLimitEmailInvocations()",
+            "post": {
+                "tags": ["System  Limits Get Limit Email If85c3"],
+                "description": "Limits: public static Integer getLimitEmailInvocations() (TIA key: System.Limits.getLimitEmailInvocations())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitEmailIf85c3.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitEmailIf85c3.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitFetchCd1314/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitFetchCallsOnApexCursor()   Method documentation: Gets the maximum number of fetch calls that can be made on an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitFetchCallsOnApexCursor   Signature: public static Integer getLimitFetchCallsOnApexCursor()   Is static: true   Method name: getLimitFetchCallsOnApexCursor   Return Type: Integer   TIA key: System.Limits.getLimitFetchCallsOnApexCursor()",
+            "post": {
+                "tags": ["System  Limits Get Limit Fetch Cd1314"],
+                "description": "Limits: public static Integer getLimitFetchCallsOnApexCursor() (TIA key: System.Limits.getLimitFetchCallsOnApexCursor())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitFetchCd1314.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitFetchCd1314.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitFutureCallscd9ab/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitFutureCalls()   Method documentation: Returns the total number of methods with the future annotation that can be executed (not necessarily completed).   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitFutureCalls   Signature: public static Integer getLimitFutureCalls()   Is static: true   Method name: getLimitFutureCalls   Return Type: Integer   TIA key: System.Limits.getLimitFutureCalls()",
+            "post": {
+                "tags": ["System  Limits Get Limit Future Callscd9ab"],
+                "description": "Limits: public static Integer getLimitFutureCalls() (TIA key: System.Limits.getLimitFutureCalls())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitFutureCallscd9ab.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitFutureCallscd9ab.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitHeapSize7d716/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitHeapSize()   Method documentation: Returns the total amount of memory (in bytes) that can be used for the heap.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitHeapSize   Signature: public static Integer getLimitHeapSize()   Is static: true   Method name: getLimitHeapSize   Return Type: Integer   TIA key: System.Limits.getLimitHeapSize()",
+            "post": {
+                "tags": ["System  Limits Get Limit Heap Size7d716"],
+                "description": "Limits: public static Integer getLimitHeapSize() (TIA key: System.Limits.getLimitHeapSize())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitHeapSize7d716.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitHeapSize7d716.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitMobile5d6a6/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitMobilePushApexCalls()   Method documentation: Returns the total number of Apex calls that are allowed per transaction for mobile push notifications.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitMobilePushApexCalls   Signature: public static Integer getLimitMobilePushApexCalls()   Is static: true   Method name: getLimitMobilePushApexCalls   Return Type: Integer   TIA key: System.Limits.getLimitMobilePushApexCalls()",
+            "post": {
+                "tags": ["System  Limits Get Limit Mobile5d6a6"],
+                "description": "Limits: public static Integer getLimitMobilePushApexCalls() (TIA key: System.Limits.getLimitMobilePushApexCalls())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitMobile5d6a6.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitMobile5d6a6.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitPublisf323b/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitPublishImmediateDML()   Method documentation: Returns the total number of EventBus.publish statements that can be called for platform events configured to publish immediately.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getLimitPublishImmediateDML   Signature: public static Integer getLimitPublishImmediateDML()   Is static: true   Method name: getLimitPublishImmediateDML   Return Type: Integer   TIA key: System.Limits.getLimitPublishImmediateDML()",
+            "post": {
+                "tags": ["System  Limits Get Limit Publisf323b"],
+                "description": "Limits: public static Integer getLimitPublishImmediateDML() (TIA key: System.Limits.getLimitPublishImmediateDML())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitPublisf323b.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitPublisf323b.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitQueries35f3b/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitQueries()   Method documentation: Returns the total number of SOQL queries that can be issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitQueries   Signature: public static Integer getLimitQueries()   Is static: true   Method name: getLimitQueries   Return Type: Integer   TIA key: System.Limits.getLimitQueries()",
+            "post": {
+                "tags": ["System  Limits Get Limit Queries35f3b"],
+                "description": "Limits: public static Integer getLimitQueries() (TIA key: System.Limits.getLimitQueries())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitQueries35f3b.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueries35f3b.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitQueryL2cb78/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitQueryLocatorRows()   Method documentation: Returns the total number of records that can be returned by the Database.getQueryLocator method.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitQueryLocatorRows   Signature: public static Integer getLimitQueryLocatorRows()   Is static: true   Method name: getLimitQueryLocatorRows   Return Type: Integer   TIA key: System.Limits.getLimitQueryLocatorRows()",
+            "post": {
+                "tags": ["System  Limits Get Limit Query L2cb78"],
+                "description": "Limits: public static Integer getLimitQueryLocatorRows() (TIA key: System.Limits.getLimitQueryLocatorRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitQueryL2cb78.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueryL2cb78.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitQueryRowsfb2d2/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitQueryRows()   Method documentation: Returns the total number of records that can be returned by issuing SOQL queries.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitQueryRows   Signature: public static Integer getLimitQueryRows()   Is static: true   Method name: getLimitQueryRows   Return Type: Integer   TIA key: System.Limits.getLimitQueryRows()",
+            "post": {
+                "tags": ["System  Limits Get Limit Query Rowsfb2d2"],
+                "description": "Limits: public static Integer getLimitQueryRows() (TIA key: System.Limits.getLimitQueryRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitQueryRowsfb2d2.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueryRowsfb2d2.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitQueueableJobs1a41d/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitQueueableJobs()   Method documentation: Returns the maximum number of queueable jobs that can be added to the queue per transaction. A queueable job corresponds to a class that implements the Queueable interface.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_apex_System_Limits_getLimitQueueableJobs   Signature: public static Integer getLimitQueueableJobs()   Is static: true   Method name: getLimitQueueableJobs   Return Type: Integer   TIA key: System.Limits.getLimitQueueableJobs()",
+            "post": {
+                "tags": ["System  Limits Get Limit Queueable Jobs1a41d"],
+                "description": "Limits: public static Integer getLimitQueueableJobs() (TIA key: System.Limits.getLimitQueueableJobs())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitQueueableJobs1a41d.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueueableJobs1a41d.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetLimitSoslQueriescf167/": {
+            "description": "Implementation for System.Limits: public static Integer getLimitSoslQueries()   Method documentation: Returns the total number of SOSL queries that can be issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitSoslQueries   Signature: public static Integer getLimitSoslQueries()   Is static: true   Method name: getLimitSoslQueries   Return Type: Integer   TIA key: System.Limits.getLimitSoslQueries()",
+            "post": {
+                "tags": ["System  Limits Get Limit Sosl Queriescf167"],
+                "description": "Limits: public static Integer getLimitSoslQueries() (TIA key: System.Limits.getLimitSoslQueries())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetLimitSoslQueriescf167.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetLimitSoslQueriescf167.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetMobilePushApexCallsbcb02/": {
+            "description": "Implementation for System.Limits: public static Integer getMobilePushApexCalls()   Method documentation: Returns the number of Apex calls that have been used by mobile push notifications during the current metering interval.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getMobilePushApexCalls   Signature: public static Integer getMobilePushApexCalls()   Is static: true   Method name: getMobilePushApexCalls   Return Type: Integer   TIA key: System.Limits.getMobilePushApexCalls()",
+            "post": {
+                "tags": ["System  Limits Get Mobile Push Apex Callsbcb02"],
+                "description": "Limits: public static Integer getMobilePushApexCalls() (TIA key: System.Limits.getMobilePushApexCalls())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetMobilePushApexCallsbcb02.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetMobilePushApexCallsbcb02.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetPublishImmediateDML68af2/": {
+            "description": "Implementation for System.Limits: public static Integer getPublishImmediateDML()   Method documentation: Returns the number of EventBus.publish calls that have been made for platform events configured to publish immediately.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getPublishImmediateDML   Signature: public static Integer getPublishImmediateDML()   Is static: true   Method name: getPublishImmediateDML   Return Type: Integer   TIA key: System.Limits.getPublishImmediateDML()",
+            "post": {
+                "tags": ["System  Limits Get Publish Immediate D M L68af2"],
+                "description": "Limits: public static Integer getPublishImmediateDML() (TIA key: System.Limits.getPublishImmediateDML())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetPublishImmediateDML68af2.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetPublishImmediateDML68af2.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetQueriesb443c/": {
+            "description": "Implementation for System.Limits: public static Integer getQueries()   Method documentation: Returns the number of SOQL queries that have been issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getQueries   Signature: public static Integer getQueries()   Is static: true   Method name: getQueries   Return Type: Integer   TIA key: System.Limits.getQueries()",
+            "post": {
+                "tags": ["System  Limits Get Queriesb443c"],
+                "description": "Limits: public static Integer getQueries() (TIA key: System.Limits.getQueries())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetQueriesb443c.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemLimitsGetQueriesb443c.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetQueryLocatorRows668b4/": {
+            "description": "Implementation for System.Limits: public static Integer getQueryLocatorRows()   Method documentation: Returns the number of records that have been returned by the Database.getQueryLocator method.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getQueryLocatorRows   Signature: public static Integer getQueryLocatorRows()   Is static: true   Method name: getQueryLocatorRows   Return Type: Integer   TIA key: System.Limits.getQueryLocatorRows()",
+            "post": {
+                "tags": ["System  Limits Get Query Locator Rows668b4"],
+                "description": "Limits: public static Integer getQueryLocatorRows() (TIA key: System.Limits.getQueryLocatorRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetQueryLocatorRows668b4.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetQueryLocatorRows668b4.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetQueryRows4f0a9/": {
+            "description": "Implementation for System.Limits: public static Integer getQueryRows()   Method documentation: Returns the number of records that have been returned by issuing SOQL queries.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getQueryRows   Signature: public static Integer getQueryRows()   Is static: true   Method name: getQueryRows   Return Type: Integer   TIA key: System.Limits.getQueryRows()",
+            "post": {
+                "tags": ["System  Limits Get Query Rows4f0a9"],
+                "description": "Limits: public static Integer getQueryRows() (TIA key: System.Limits.getQueryRows())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetQueryRows4f0a9.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemLimitsGetQueryRows4f0a9.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetQueueableJobs604e6/": {
+            "description": "Implementation for System.Limits: public static Integer getQueueableJobs()   Method documentation: Returns the number of queueable jobs that have been added to the queue per transaction. A queueable job corresponds to a class that implements the Queueable interface.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_apex_System_Limits_getQueueableJobs   Signature: public static Integer getQueueableJobs()   Is static: true   Method name: getQueueableJobs   Return Type: Integer   TIA key: System.Limits.getQueueableJobs()",
+            "post": {
+                "tags": ["System  Limits Get Queueable Jobs604e6"],
+                "description": "Limits: public static Integer getQueueableJobs() (TIA key: System.Limits.getQueueableJobs())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetQueueableJobs604e6.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetQueueableJobs604e6.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/LimitsGetSoslQueriesd1ace/": {
+            "description": "Implementation for System.Limits: public static Integer getSoslQueries()   Method documentation: Returns the number of SOSL queries that have been issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getSoslQueries   Signature: public static Integer getSoslQueries()   Is static: true   Method name: getSoslQueries   Return Type: Integer   TIA key: System.Limits.getSoslQueries()",
+            "post": {
+                "tags": ["System  Limits Get Sosl Queriesd1ace"],
+                "description": "Limits: public static Integer getSoslQueries() (TIA key: System.Limits.getSoslQueries())",
+                "requestBody": {
+                    "description": "List of I1.SystemLimitsGetSoslQueriesd1ace.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemLimitsGetSoslQueriesd1ace.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "System/LongFormata0389/": {
             "description": "Implementation for System.Long: public String format()   Method documentation: Returns the String format for this Long using the locale of the context user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_long.htm#apex_System_Long_format   Signature: public String format()   Method name: format   Return Type: String   TIA key: System.Long.format()",
             "post": {
@@ -7008,6 +7786,150 @@
             "description": "Implementation for System.Label: public static Boolean translationExists(string namespace, string label, string language)   Method documentation: Check if translation exists for a label and language in a namespace.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Label.htm#apex_System_Label_translationExists   Signature: public static Boolean translationExists(string namespace, string label, string language)   Is static: true   Method name: translationExists   Return Type: Boolean   TIA key: System.Label.translationExists(string namespace, string label, string language)"
         },
         {
+            "name": "System  Limits Get Aggregate Queries4e0b8",
+            "description": "Implementation for System.Limits: public static Integer getAggregateQueries()   Method documentation: Returns the number of aggregate queries that have been processed with any SOQL query statement.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getAggregateQueries   Signature: public static Integer getAggregateQueries()   Is static: true   Method name: getAggregateQueries   Return Type: Integer   TIA key: System.Limits.getAggregateQueries()"
+        },
+        {
+            "name": "System  Limits Get Apex Cursor Rowse756f",
+            "description": "Implementation for System.Limits: public static Integer getApexCursorRows()   Method documentation: Gets the number of rows returned by an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getApexCursorRows   Signature: public static Integer getApexCursorRows()   Is static: true   Method name: getApexCursorRows   Return Type: Integer   TIA key: System.Limits.getApexCursorRows()"
+        },
+        {
+            "name": "System  Limits Get Async Calls43f29",
+            "description": "Implementation for System.Limits: public static Integer getAsyncCalls()   Method documentation: Reserved for future use.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getAsyncCalls   Signature: public static Integer getAsyncCalls()   Is static: true   Method name: getAsyncCalls   Return Type: Integer   TIA key: System.Limits.getAsyncCalls()"
+        },
+        {
+            "name": "System  Limits Get Callouts63108",
+            "description": "Implementation for System.Limits: public static Integer getCallouts()   Method documentation: Returns the number of Web service statements that have been processed.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getCallouts   Signature: public static Integer getCallouts()   Is static: true   Method name: getCallouts   Return Type: Integer   TIA key: System.Limits.getCallouts()"
+        },
+        {
+            "name": "System  Limits Get Cpu Time8e986",
+            "description": "Implementation for System.Limits: public static Integer getCpuTime()   Method documentation: Returns the CPU time (in milliseconds) that has been used in the current transaction.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getCpuTime   Signature: public static Integer getCpuTime()   Is static: true   Method name: getCpuTime   Return Type: Integer   TIA key: System.Limits.getCpuTime()"
+        },
+        {
+            "name": "System  Limits Get D M L Rows2a16b",
+            "description": "Implementation for System.Limits: public static Integer getDMLRows()   Method documentation: Returns the number of records that have been processed with any statement that counts against DML limits, such as DML statements, the Database.emptyRecycleBin method, and other methods.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getDMLRows   Signature: public static Integer getDMLRows()   Is static: true   Method name: getDMLRows   Return Type: Integer   TIA key: System.Limits.getDMLRows()"
+        },
+        {
+            "name": "System  Limits Get D M L Statements35489",
+            "description": "Implementation for System.Limits: public static Integer getDMLStatements()   Method documentation: Returns the number of DML statements (such as insert, update or the database.EmptyRecycleBin method) that have been called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getDMLStatements   Signature: public static Integer getDMLStatements()   Is static: true   Method name: getDMLStatements   Return Type: Integer   TIA key: System.Limits.getDMLStatements()"
+        },
+        {
+            "name": "System  Limits Get Email Invocations4b95b",
+            "description": "Implementation for System.Limits: public static Integer getEmailInvocations()   Method documentation: Returns the number of email invocations (such as sendEmail) that have been called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getEmailInvocations   Signature: public static Integer getEmailInvocations()   Is static: true   Method name: getEmailInvocations   Return Type: Integer   TIA key: System.Limits.getEmailInvocations()"
+        },
+        {
+            "name": "System  Limits Get Fetch Calls Ob0f59",
+            "description": "Implementation for System.Limits: public static Integer getFetchCallsOnApexCursor()   Method documentation: Gets the number of fetch calls on an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getFetchCallsOnApexCursor   Signature: public static Integer getFetchCallsOnApexCursor()   Is static: true   Method name: getFetchCallsOnApexCursor   Return Type: Integer   TIA key: System.Limits.getFetchCallsOnApexCursor()"
+        },
+        {
+            "name": "System  Limits Get Future Callsd59ad",
+            "description": "Implementation for System.Limits: public static Integer getFutureCalls()   Method documentation: Returns the number of methods with the future annotation that have been executed (not necessarily completed).   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getFutureCalls   Signature: public static Integer getFutureCalls()   Is static: true   Method name: getFutureCalls   Return Type: Integer   TIA key: System.Limits.getFutureCalls()"
+        },
+        {
+            "name": "System  Limits Get Heap Size21876",
+            "description": "Implementation for System.Limits: public static Integer getHeapSize()   Method documentation: Returns the approximate amount of memory (in bytes) that has been used for the heap.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getHeapSize   Signature: public static Integer getHeapSize()   Is static: true   Method name: getHeapSize   Return Type: Integer   TIA key: System.Limits.getHeapSize()"
+        },
+        {
+            "name": "System  Limits Get Limit Aggrege48b8",
+            "description": "Implementation for System.Limits: public static Integer getLimitAggregateQueries()   Method documentation: Returns the total number of aggregate queries that can be processed with SOQL query statements.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitAggregateQueries   Signature: public static Integer getLimitAggregateQueries()   Is static: true   Method name: getLimitAggregateQueries   Return Type: Integer   TIA key: System.Limits.getLimitAggregateQueries()"
+        },
+        {
+            "name": "System  Limits Get Limit Apex Cursor Rows13d9a",
+            "description": "Implementation for System.Limits: public static Integer getLimitApexCursorRows()   Method documentation: Gets the maximum number of rows that can be returned by an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitApexCursorRows   Signature: public static Integer getLimitApexCursorRows()   Is static: true   Method name: getLimitApexCursorRows   Return Type: Integer   TIA key: System.Limits.getLimitApexCursorRows()"
+        },
+        {
+            "name": "System  Limits Get Limit Async Calls96a6d",
+            "description": "Implementation for System.Limits: public static Integer getLimitAsyncCalls()   Method documentation: Reserved for future use.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getLimitAsyncCalls   Signature: public static Integer getLimitAsyncCalls()   Is static: true   Method name: getLimitAsyncCalls   Return Type: Integer   TIA key: System.Limits.getLimitAsyncCalls()"
+        },
+        {
+            "name": "System  Limits Get Limit Calloutsa542d",
+            "description": "Implementation for System.Limits: public static Integer getLimitCallouts()   Method documentation: Returns the total number of Web service statements that can be processed.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitCallouts   Signature: public static Integer getLimitCallouts()   Is static: true   Method name: getLimitCallouts   Return Type: Integer   TIA key: System.Limits.getLimitCallouts()"
+        },
+        {
+            "name": "System  Limits Get Limit Cpu Time20bff",
+            "description": "Implementation for System.Limits: public static Integer getLimitCpuTime()   Method documentation: Returns the maximum CPU time (in milliseconds) that can be used in a transaction.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitCpuTime   Signature: public static Integer getLimitCpuTime()   Is static: true   Method name: getLimitCpuTime   Return Type: Integer   TIA key: System.Limits.getLimitCpuTime()"
+        },
+        {
+            "name": "System  Limits Get Limit D M L Rows64c86",
+            "description": "Implementation for System.Limits: public static Integer getLimitDMLRows()   Method documentation: Returns the total number of records that can be processed with any statement that counts against DML limits, such as DML statements, the database.EmptyRecycleBin method, and other methods.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitDMLRows   Signature: public static Integer getLimitDMLRows()   Is static: true   Method name: getLimitDMLRows   Return Type: Integer   TIA key: System.Limits.getLimitDMLRows()"
+        },
+        {
+            "name": "System  Limits Get Limit D M L Statements80b0c",
+            "description": "Implementation for System.Limits: public static Integer getLimitDMLStatements()   Method documentation: Returns the total number of DML statements or the database.EmptyRecycleBin methods that can be called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitDMLStatements   Signature: public static Integer getLimitDMLStatements()   Is static: true   Method name: getLimitDMLStatements   Return Type: Integer   TIA key: System.Limits.getLimitDMLStatements()"
+        },
+        {
+            "name": "System  Limits Get Limit Email If85c3",
+            "description": "Implementation for System.Limits: public static Integer getLimitEmailInvocations()   Method documentation: Returns the total number of email invocation (such as sendEmail) that can be called.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitEmailInvocations   Signature: public static Integer getLimitEmailInvocations()   Is static: true   Method name: getLimitEmailInvocations   Return Type: Integer   TIA key: System.Limits.getLimitEmailInvocations()"
+        },
+        {
+            "name": "System  Limits Get Limit Fetch Cd1314",
+            "description": "Implementation for System.Limits: public static Integer getLimitFetchCallsOnApexCursor()   Method documentation: Gets the maximum number of fetch calls that can be made on an Apex cursor.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitFetchCallsOnApexCursor   Signature: public static Integer getLimitFetchCallsOnApexCursor()   Is static: true   Method name: getLimitFetchCallsOnApexCursor   Return Type: Integer   TIA key: System.Limits.getLimitFetchCallsOnApexCursor()"
+        },
+        {
+            "name": "System  Limits Get Limit Future Callscd9ab",
+            "description": "Implementation for System.Limits: public static Integer getLimitFutureCalls()   Method documentation: Returns the total number of methods with the future annotation that can be executed (not necessarily completed).   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitFutureCalls   Signature: public static Integer getLimitFutureCalls()   Is static: true   Method name: getLimitFutureCalls   Return Type: Integer   TIA key: System.Limits.getLimitFutureCalls()"
+        },
+        {
+            "name": "System  Limits Get Limit Heap Size7d716",
+            "description": "Implementation for System.Limits: public static Integer getLimitHeapSize()   Method documentation: Returns the total amount of memory (in bytes) that can be used for the heap.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitHeapSize   Signature: public static Integer getLimitHeapSize()   Is static: true   Method name: getLimitHeapSize   Return Type: Integer   TIA key: System.Limits.getLimitHeapSize()"
+        },
+        {
+            "name": "System  Limits Get Limit Mobile5d6a6",
+            "description": "Implementation for System.Limits: public static Integer getLimitMobilePushApexCalls()   Method documentation: Returns the total number of Apex calls that are allowed per transaction for mobile push notifications.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitMobilePushApexCalls   Signature: public static Integer getLimitMobilePushApexCalls()   Is static: true   Method name: getLimitMobilePushApexCalls   Return Type: Integer   TIA key: System.Limits.getLimitMobilePushApexCalls()"
+        },
+        {
+            "name": "System  Limits Get Limit Publisf323b",
+            "description": "Implementation for System.Limits: public static Integer getLimitPublishImmediateDML()   Method documentation: Returns the total number of EventBus.publish statements that can be called for platform events configured to publish immediately.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getLimitPublishImmediateDML   Signature: public static Integer getLimitPublishImmediateDML()   Is static: true   Method name: getLimitPublishImmediateDML   Return Type: Integer   TIA key: System.Limits.getLimitPublishImmediateDML()"
+        },
+        {
+            "name": "System  Limits Get Limit Queries35f3b",
+            "description": "Implementation for System.Limits: public static Integer getLimitQueries()   Method documentation: Returns the total number of SOQL queries that can be issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitQueries   Signature: public static Integer getLimitQueries()   Is static: true   Method name: getLimitQueries   Return Type: Integer   TIA key: System.Limits.getLimitQueries()"
+        },
+        {
+            "name": "System  Limits Get Limit Query L2cb78",
+            "description": "Implementation for System.Limits: public static Integer getLimitQueryLocatorRows()   Method documentation: Returns the total number of records that can be returned by the Database.getQueryLocator method.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitQueryLocatorRows   Signature: public static Integer getLimitQueryLocatorRows()   Is static: true   Method name: getLimitQueryLocatorRows   Return Type: Integer   TIA key: System.Limits.getLimitQueryLocatorRows()"
+        },
+        {
+            "name": "System  Limits Get Limit Query Rowsfb2d2",
+            "description": "Implementation for System.Limits: public static Integer getLimitQueryRows()   Method documentation: Returns the total number of records that can be returned by issuing SOQL queries.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitQueryRows   Signature: public static Integer getLimitQueryRows()   Is static: true   Method name: getLimitQueryRows   Return Type: Integer   TIA key: System.Limits.getLimitQueryRows()"
+        },
+        {
+            "name": "System  Limits Get Limit Queueable Jobs1a41d",
+            "description": "Implementation for System.Limits: public static Integer getLimitQueueableJobs()   Method documentation: Returns the maximum number of queueable jobs that can be added to the queue per transaction. A queueable job corresponds to a class that implements the Queueable interface.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_apex_System_Limits_getLimitQueueableJobs   Signature: public static Integer getLimitQueueableJobs()   Is static: true   Method name: getLimitQueueableJobs   Return Type: Integer   TIA key: System.Limits.getLimitQueueableJobs()"
+        },
+        {
+            "name": "System  Limits Get Limit Sosl Queriescf167",
+            "description": "Implementation for System.Limits: public static Integer getLimitSoslQueries()   Method documentation: Returns the total number of SOSL queries that can be issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getLimitSoslQueries   Signature: public static Integer getLimitSoslQueries()   Is static: true   Method name: getLimitSoslQueries   Return Type: Integer   TIA key: System.Limits.getLimitSoslQueries()"
+        },
+        {
+            "name": "System  Limits Get Mobile Push Apex Callsbcb02",
+            "description": "Implementation for System.Limits: public static Integer getMobilePushApexCalls()   Method documentation: Returns the number of Apex calls that have been used by mobile push notifications during the current metering interval.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getMobilePushApexCalls   Signature: public static Integer getMobilePushApexCalls()   Is static: true   Method name: getMobilePushApexCalls   Return Type: Integer   TIA key: System.Limits.getMobilePushApexCalls()"
+        },
+        {
+            "name": "System  Limits Get Publish Immediate D M L68af2",
+            "description": "Implementation for System.Limits: public static Integer getPublishImmediateDML()   Method documentation: Returns the number of EventBus.publish calls that have been made for platform events configured to publish immediately.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_limits_getPublishImmediateDML   Signature: public static Integer getPublishImmediateDML()   Is static: true   Method name: getPublishImmediateDML   Return Type: Integer   TIA key: System.Limits.getPublishImmediateDML()"
+        },
+        {
+            "name": "System  Limits Get Queriesb443c",
+            "description": "Implementation for System.Limits: public static Integer getQueries()   Method documentation: Returns the number of SOQL queries that have been issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getQueries   Signature: public static Integer getQueries()   Is static: true   Method name: getQueries   Return Type: Integer   TIA key: System.Limits.getQueries()"
+        },
+        {
+            "name": "System  Limits Get Query Locator Rows668b4",
+            "description": "Implementation for System.Limits: public static Integer getQueryLocatorRows()   Method documentation: Returns the number of records that have been returned by the Database.getQueryLocator method.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getQueryLocatorRows   Signature: public static Integer getQueryLocatorRows()   Is static: true   Method name: getQueryLocatorRows   Return Type: Integer   TIA key: System.Limits.getQueryLocatorRows()"
+        },
+        {
+            "name": "System  Limits Get Query Rows4f0a9",
+            "description": "Implementation for System.Limits: public static Integer getQueryRows()   Method documentation: Returns the number of records that have been returned by issuing SOQL queries.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getQueryRows   Signature: public static Integer getQueryRows()   Is static: true   Method name: getQueryRows   Return Type: Integer   TIA key: System.Limits.getQueryRows()"
+        },
+        {
+            "name": "System  Limits Get Queueable Jobs604e6",
+            "description": "Implementation for System.Limits: public static Integer getQueueableJobs()   Method documentation: Returns the number of queueable jobs that have been added to the queue per transaction. A queueable job corresponds to a class that implements the Queueable interface.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_apex_System_Limits_getQueueableJobs   Signature: public static Integer getQueueableJobs()   Is static: true   Method name: getQueueableJobs   Return Type: Integer   TIA key: System.Limits.getQueueableJobs()"
+        },
+        {
+            "name": "System  Limits Get Sosl Queriesd1ace",
+            "description": "Implementation for System.Limits: public static Integer getSoslQueries()   Method documentation: Returns the number of SOSL queries that have been issued.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm#apex_System_Limits_getSoslQueries   Signature: public static Integer getSoslQueries()   Is static: true   Method name: getSoslQueries   Return Type: Integer   TIA key: System.Limits.getSoslQueries()"
+        },
+        {
             "name": "System  Long Formata0389",
             "description": "Implementation for System.Long: public String format()   Method documentation: Returns the String format for this Long using the locale of the context user.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_long.htm#apex_System_Long_format   Signature: public String format()   Method name: format   Return Type: String   TIA key: System.Long.format()"
         },
@@ -10373,6 +11295,294 @@
             "SystemLabelTranslationExistsd4143.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemLimitsGetAggregateQueries4e0b8.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetAggregateQueries4e0b8.Output" }
+            },
+            "SystemLimitsGetAggregateQueries4e0b8.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetApexCursorRowse756f.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetApexCursorRowse756f.Output" }
+            },
+            "SystemLimitsGetApexCursorRowse756f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetAsyncCalls43f29.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetAsyncCalls43f29.Output" }
+            },
+            "SystemLimitsGetAsyncCalls43f29.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetCallouts63108.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetCallouts63108.Output" }
+            },
+            "SystemLimitsGetCallouts63108.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetCpuTime8e986.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetCpuTime8e986.Output" }
+            },
+            "SystemLimitsGetCpuTime8e986.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetDMLRows2a16b.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetDMLRows2a16b.Output" }
+            },
+            "SystemLimitsGetDMLRows2a16b.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetDMLStatements35489.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetDMLStatements35489.Output" }
+            },
+            "SystemLimitsGetDMLStatements35489.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetEmailInvocations4b95b.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetEmailInvocations4b95b.Output" }
+            },
+            "SystemLimitsGetEmailInvocations4b95b.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetFetchCallsOb0f59.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetFetchCallsOb0f59.Output" }
+            },
+            "SystemLimitsGetFetchCallsOb0f59.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetFutureCallsd59ad.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetFutureCallsd59ad.Output" }
+            },
+            "SystemLimitsGetFutureCallsd59ad.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetHeapSize21876.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetHeapSize21876.Output" }
+            },
+            "SystemLimitsGetHeapSize21876.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitAggrege48b8.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitAggrege48b8.Output" }
+            },
+            "SystemLimitsGetLimitAggrege48b8.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitApexCursorRows13d9a.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitApexCursorRows13d9a.Output" }
+            },
+            "SystemLimitsGetLimitApexCursorRows13d9a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitAsyncCalls96a6d.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitAsyncCalls96a6d.Output" }
+            },
+            "SystemLimitsGetLimitAsyncCalls96a6d.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitCalloutsa542d.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitCalloutsa542d.Output" }
+            },
+            "SystemLimitsGetLimitCalloutsa542d.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitCpuTime20bff.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitCpuTime20bff.Output" }
+            },
+            "SystemLimitsGetLimitCpuTime20bff.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitDMLRows64c86.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitDMLRows64c86.Output" }
+            },
+            "SystemLimitsGetLimitDMLRows64c86.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitDMLStatements80b0c.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitDMLStatements80b0c.Output" }
+            },
+            "SystemLimitsGetLimitDMLStatements80b0c.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitEmailIf85c3.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitEmailIf85c3.Output" }
+            },
+            "SystemLimitsGetLimitEmailIf85c3.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitFetchCd1314.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitFetchCd1314.Output" }
+            },
+            "SystemLimitsGetLimitFetchCd1314.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitFutureCallscd9ab.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitFutureCallscd9ab.Output" }
+            },
+            "SystemLimitsGetLimitFutureCallscd9ab.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitHeapSize7d716.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitHeapSize7d716.Output" }
+            },
+            "SystemLimitsGetLimitHeapSize7d716.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitMobile5d6a6.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitMobile5d6a6.Output" }
+            },
+            "SystemLimitsGetLimitMobile5d6a6.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitPublisf323b.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitPublisf323b.Output" }
+            },
+            "SystemLimitsGetLimitPublisf323b.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitQueries35f3b.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueries35f3b.Output" }
+            },
+            "SystemLimitsGetLimitQueries35f3b.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitQueryL2cb78.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueryL2cb78.Output" }
+            },
+            "SystemLimitsGetLimitQueryL2cb78.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitQueryRowsfb2d2.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueryRowsfb2d2.Output" }
+            },
+            "SystemLimitsGetLimitQueryRowsfb2d2.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitQueueableJobs1a41d.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitQueueableJobs1a41d.Output" }
+            },
+            "SystemLimitsGetLimitQueueableJobs1a41d.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetLimitSoslQueriescf167.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetLimitSoslQueriescf167.Output" }
+            },
+            "SystemLimitsGetLimitSoslQueriescf167.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetMobilePushApexCallsbcb02.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetMobilePushApexCallsbcb02.Output" }
+            },
+            "SystemLimitsGetMobilePushApexCallsbcb02.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetPublishImmediateDML68af2.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetPublishImmediateDML68af2.Output" }
+            },
+            "SystemLimitsGetPublishImmediateDML68af2.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetQueriesb443c.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetQueriesb443c.Output" }
+            },
+            "SystemLimitsGetQueriesb443c.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetQueryLocatorRows668b4.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetQueryLocatorRows668b4.Output" }
+            },
+            "SystemLimitsGetQueryLocatorRows668b4.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetQueryRows4f0a9.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetQueryRows4f0a9.Output" }
+            },
+            "SystemLimitsGetQueryRows4f0a9.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetQueueableJobs604e6.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetQueueableJobs604e6.Output" }
+            },
+            "SystemLimitsGetQueueableJobs604e6.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemLimitsGetSoslQueriesd1ace.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemLimitsGetSoslQueriesd1ace.Output" }
+            },
+            "SystemLimitsGetSoslQueriesd1ace.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
             },
             "SystemLongFormata0389.Input_array": {
                 "type": "array",
