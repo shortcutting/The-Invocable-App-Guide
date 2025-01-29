@@ -6753,6 +6753,94 @@
                 }
             }
         },
+        "System/TestEnqueueBatchJobsbb5fa/": {
+            "description": "Implementation for System.Test: public static List&lt;Id&gt; enqueueBatchJobs(Integer numberOfJobs)   Method documentation: Adds the specified number of jobs with no-operation contents to the test-context queue. It first fills the test batch queue, up to the maximum 5 jobs, and then places jobs in the test flex queue. It throws a limit exception when the number of jobs in the test flex queue exceeds the allowed limit of 100 jobs.   Usage: Use this method to reduce testing time. Instead of using your org's real batch jobs for testing, you can use this method to simulate batch-job enqueueing. Using enqueueBatchJobs(numberOfJobs) is faster than enqueuing real batch jobs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_test.htm#apex_System_Test_enqueueBatchJobs   Signature: public static List&lt;Id&gt; enqueueBatchJobs(Integer numberOfJobs)   Is static: true   Method name: enqueueBatchJobs   Return Type: List&lt;Id&gt;   TIA key: System.Test.enqueueBatchJobs(Integer numberOfJobs)",
+            "post": {
+                "tags": ["System  Test Enqueue Batch Jobsbb5fa"],
+                "description": "Test: public static List&lt;Id&gt; enqueueBatchJobs(Integer numberOfJobs) (TIA key: System.Test.enqueueBatchJobs(Integer numberOfJobs))",
+                "requestBody": {
+                    "description": "List of I1.SystemTestEnqueueBatchJobsbb5fa.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemTestEnqueueBatchJobsbb5fa.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemTestEnqueueBatchJobsbb5fa.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/TestGetFlexQueueOrdera3e63/": {
+            "description": "Implementation for System.Test: public static List&lt;Id&gt; getFlexQueueOrder()   Method documentation: Returns an ordered list of job IDs for jobs in the test-context flex queue. The job at index 0 is the next job slated to run. This method returns only test-context results, even if it’s annotated with",
+            "post": {
+                "tags": ["System  Test Get Flex Queue Ordera3e63"],
+                "description": "Test: public static List&lt;Id&gt; getFlexQueueOrder() (TIA key: System.Test.getFlexQueueOrder())",
+                "requestBody": {
+                    "description": "List of I1.SystemTestGetFlexQueueOrdera3e63.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemTestGetFlexQueueOrdera3e63.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/TestGetStandardPricebookId935ee/": {
+            "description": "Implementation for System.Test: public static Id getStandardPricebookId()   Method documentation: Returns the ID of the standard price book in the organization.   Usage: This method returns the ID of the standard price book in your organization regardless of whether the test can query organization data. By default, tests can’t query organization data unless they’re annotated with",
+            "post": {
+                "tags": ["System  Test Get Standard Pricebook Id935ee"],
+                "description": "Test: public static Id getStandardPricebookId() (TIA key: System.Test.getStandardPricebookId())",
+                "requestBody": {
+                    "description": "List of I1.SystemTestGetStandardPricebookId935ee.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemTestGetStandardPricebookId935ee.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/TestIsRunningTestc1349/": {
+            "description": "Implementation for System.Test: public static Boolean isRunningTest()   Method documentation: Returns true if the currently executing code was called by code contained in a test method, false otherwise. Use this method if you need to run different code depending on whether it was being called from a test.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_test.htm#apex_System_Test_isRunningTest   Signature: public static Boolean isRunningTest()   Is static: true   Method name: isRunningTest   Return Type: Boolean   TIA key: System.Test.isRunningTest()",
+            "post": {
+                "tags": ["System  Test Is Running Testc1349"],
+                "description": "Test: public static Boolean isRunningTest() (TIA key: System.Test.isRunningTest())",
+                "requestBody": {
+                    "description": "List of I1.SystemTestIsRunningTestc1349.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemTestIsRunningTestc1349.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
         "System/TimeAddHours4e40b/": {
             "description": "Implementation for System.Time: public Time addHours(Integer additionalHours)   Method documentation: Adds the specified number of hours to a Time.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_time.htm#apex_System_Time_addHours   Signature: public Time addHours(Integer additionalHours)   Method name: addHours   Return Type: Time   TIA key: System.Time.addHours(Integer additionalHours)",
             "post": {
@@ -8656,6 +8744,22 @@
         {
             "name": "System  String Value Of Gmt31c7b",
             "description": "Implementation for System.String: public static String valueOfGmt(Datetime datetimeToConvert)   Method documentation: Returns a String that represents the specified Datetime in the standard “yyyy-MM-dd HH:mm:ss” format for the GMT time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#apex_System_String_valueOfGmt   Signature: public static String valueOfGmt(Datetime datetimeToConvert)   Is static: true   Method name: valueOfGmt   Return Type: String   TIA key: System.String.valueOfGmt(Datetime datetimeToConvert)"
+        },
+        {
+            "name": "System  Test Enqueue Batch Jobsbb5fa",
+            "description": "Implementation for System.Test: public static List&lt;Id&gt; enqueueBatchJobs(Integer numberOfJobs)   Method documentation: Adds the specified number of jobs with no-operation contents to the test-context queue. It first fills the test batch queue, up to the maximum 5 jobs, and then places jobs in the test flex queue. It throws a limit exception when the number of jobs in the test flex queue exceeds the allowed limit of 100 jobs.   Usage: Use this method to reduce testing time. Instead of using your org's real batch jobs for testing, you can use this method to simulate batch-job enqueueing. Using enqueueBatchJobs(numberOfJobs) is faster than enqueuing real batch jobs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_test.htm#apex_System_Test_enqueueBatchJobs   Signature: public static List&lt;Id&gt; enqueueBatchJobs(Integer numberOfJobs)   Is static: true   Method name: enqueueBatchJobs   Return Type: List&lt;Id&gt;   TIA key: System.Test.enqueueBatchJobs(Integer numberOfJobs)"
+        },
+        {
+            "name": "System  Test Get Flex Queue Ordera3e63",
+            "description": "Implementation for System.Test: public static List&lt;Id&gt; getFlexQueueOrder()   Method documentation: Returns an ordered list of job IDs for jobs in the test-context flex queue. The job at index 0 is the next job slated to run. This method returns only test-context results, even if it’s annotated with"
+        },
+        {
+            "name": "System  Test Get Standard Pricebook Id935ee",
+            "description": "Implementation for System.Test: public static Id getStandardPricebookId()   Method documentation: Returns the ID of the standard price book in the organization.   Usage: This method returns the ID of the standard price book in your organization regardless of whether the test can query organization data. By default, tests can’t query organization data unless they’re annotated with"
+        },
+        {
+            "name": "System  Test Is Running Testc1349",
+            "description": "Implementation for System.Test: public static Boolean isRunningTest()   Method documentation: Returns true if the currently executing code was called by code contained in a test method, false otherwise. Use this method if you need to run different code depending on whether it was being called from a test.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_test.htm#apex_System_Test_isRunningTest   Signature: public static Boolean isRunningTest()   Is static: true   Method name: isRunningTest   Return Type: Boolean   TIA key: System.Test.isRunningTest()"
         },
         {
             "name": "System  Time Add Hours4e40b",
@@ -15280,6 +15384,63 @@
             "SystemStringValueOfGmt31c7b.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemTestEnqueueBatchJobsbb5fa.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemTestEnqueueBatchJobsbb5fa.Input" }
+            },
+            "SystemTestEnqueueBatchJobsbb5fa.Input": {
+                "type": "object",
+                "properties": {
+                    "numberOfJobs": {
+                        "type": "integer",
+                        "description": "Integer numberOfJobs   Type: Integer   Documentation: Type: Integer Number of test jobs to enqueue."
+                    }
+                }
+            },
+            "SystemTestEnqueueBatchJobsbb5fa.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemTestEnqueueBatchJobsbb5fa.Output" }
+            },
+            "SystemTestEnqueueBatchJobsbb5fa.Output": {
+                "type": "object",
+                "properties": {
+                    "result": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List&lt;Id&gt; result   Return type: List&lt;Id&gt;"
+                    }
+                }
+            },
+            "SystemTestGetFlexQueueOrdera3e63.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemTestGetFlexQueueOrdera3e63.Output" }
+            },
+            "SystemTestGetFlexQueueOrdera3e63.Output": {
+                "type": "object",
+                "properties": {
+                    "result": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List&lt;Id&gt; result   Return type: List&lt;Id&gt;"
+                    }
+                }
+            },
+            "SystemTestGetStandardPricebookId935ee.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemTestGetStandardPricebookId935ee.Output" }
+            },
+            "SystemTestGetStandardPricebookId935ee.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "Id result   Return type: Id" } }
+            },
+            "SystemTestIsRunningTestc1349.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemTestIsRunningTestc1349.Output" }
+            },
+            "SystemTestIsRunningTestc1349.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
             },
             "SystemTimeAddHours4e40b.Input_array": {
                 "type": "array",
