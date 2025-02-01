@@ -6753,6 +6753,258 @@
                 }
             }
         },
+        "System/SystemCurrentTimeMillis56556/": {
+            "description": "Implementation for System.System: public static Long currentTimeMillis()   Method documentation: Returns the current time in milliseconds, which is expressed as the difference between the current time and midnight, January 1, 1970 UTC.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_currentTimeMillis   Signature: public static Long currentTimeMillis()   Is static: true   Method name: currentTimeMillis   Return Type: Long   TIA key: System.System.currentTimeMillis()",
+            "post": {
+                "tags": ["System  System Current Time Millis56556"],
+                "description": "System: public static Long currentTimeMillis() (TIA key: System.System.currentTimeMillis())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemCurrentTimeMillis56556.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemSystemCurrentTimeMillis56556.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemIsBatcha1d15/": {
+            "description": "Implementation for System.System: public static Boolean isBatch()   Method documentation: Returns true if a batch Apex job invoked the executing code, or false if not. In API version 35.0 and earlier, also returns true if a queueable Apex job invoked the code.   Usage: A batch Apex job can’t invoke a future method. Before invoking a future method, use isBatch() to check whether the executing code is a batch Apex job.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isBatch   Signature: public static Boolean isBatch()   Is static: true   Method name: isBatch   Return Type: Boolean   TIA key: System.System.isBatch()",
+            "post": {
+                "tags": ["System  System Is Batcha1d15"],
+                "description": "System: public static Boolean isBatch() (TIA key: System.System.isBatch())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemIsBatcha1d15.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemIsBatcha1d15.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemIsFunctionCallbackab80c/": {
+            "description": "Implementation for System.System: public static Boolean isFunctionCallback()   Method documentation: Returns true if an asynchronous Salesforce Function callback invoked the executing code, or false if not. Available in API version 51.0 and later.   Usage: Use this method to determine if the Apex code is being invoked as part of a callback from an asynchronous Salesforce Functions invocation. For more details on invoking Salesforce Functions from Apex, see Functions Namespace   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isFunctionCallback   Signature: public static Boolean isFunctionCallback()   Is static: true   Method name: isFunctionCallback   Return Type: Boolean   TIA key: System.System.isFunctionCallback()",
+            "post": {
+                "tags": ["System  System Is Function Callbackab80c"],
+                "description": "System: public static Boolean isFunctionCallback() (TIA key: System.System.isFunctionCallback())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemIsFunctionCallbackab80c.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemSystemIsFunctionCallbackab80c.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemIsFutured59aa/": {
+            "description": "Implementation for System.System: public static Boolean isFuture()   Method documentation: Returns true if the currently executing code is invoked by code contained in a method annotated with future; false otherwise.   Usage: Since a future method can't be invoked from another future method, use this method to check if the current code is executing within the context of a future method before you invoke a future method.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isFuture   Signature: public static Boolean isFuture()   Is static: true   Method name: isFuture   Return Type: Boolean   TIA key: System.System.isFuture()",
+            "post": {
+                "tags": ["System  System Is Futured59aa"],
+                "description": "System: public static Boolean isFuture() (TIA key: System.System.isFuture())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemIsFutured59aa.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemIsFutured59aa.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemIsQueueable5406a/": {
+            "description": "Implementation for System.System: public static Boolean isQueueable()   Method documentation: Returns true if a queueable Apex job invoked the executing code. Returns false if not, including if a batch Apex job or a future method invoked the code.   Usage: available   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_system_isQueueable   Signature: public static Boolean isQueueable()   Is static: true   Method name: isQueueable   Return Type: Boolean   TIA key: System.System.isQueueable()",
+            "post": {
+                "tags": ["System  System Is Queueable5406a"],
+                "description": "System: public static Boolean isQueueable() (TIA key: System.System.isQueueable())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemIsQueueable5406a.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemIsQueueable5406a.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemIsRunningElast03349/": {
+            "description": "Implementation for System.System: public static Boolean isRunningElasticCompute()   Method documentation: Reserved for future use.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_system_isRunningElasticCompute   Signature: public static Boolean isRunningElasticCompute()   Is static: true   Method name: isRunningElasticCompute   Return Type: Boolean   TIA key: System.System.isRunningElasticCompute()",
+            "post": {
+                "tags": ["System  System Is Running Elast03349"],
+                "description": "System: public static Boolean isRunningElasticCompute() (TIA key: System.System.isRunningElasticCompute())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemIsRunningElast03349.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemSystemIsRunningElast03349.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemIsScheduledcaae0/": {
+            "description": "Implementation for System.System: public static Boolean isScheduled()   Method documentation: Returns true if the currently executing code is invoked by a scheduled Apex job; false otherwise.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isScheduled   Signature: public static Boolean isScheduled()   Is static: true   Method name: isScheduled   Return Type: Boolean   TIA key: System.System.isScheduled()",
+            "post": {
+                "tags": ["System  System Is Scheduledcaae0"],
+                "description": "System: public static Boolean isScheduled() (TIA key: System.System.isScheduled())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemIsScheduledcaae0.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemIsScheduledcaae0.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemNow14d31/": {
+            "description": "Implementation for System.System: public static Datetime now()   Method documentation: Returns the current date and time in the GMT time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_now   Signature: public static Datetime now()   Is static: true   Method name: now   Return Type: Datetime   TIA key: System.System.now()",
+            "post": {
+                "tags": ["System  System Now14d31"],
+                "description": "System: public static Datetime now() (TIA key: System.System.now())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemNow14d31.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemNow14d31.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemProcess493c6/": {
+            "description": "Implementation for System.System: public static List&lt;Id&gt; process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover)   Method documentation: Processes the list of work item IDs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_process   Signature: public static List&lt;Id&gt; process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover)   Is static: true   Method name: process   Return Type: List&lt;Id&gt;   TIA key: System.System.process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover)",
+            "post": {
+                "tags": ["System  System Process493c6"],
+                "description": "System: public static List&lt;Id&gt; process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover) (TIA key: System.System.process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover))",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemProcess493c6.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemProcess493c6.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemProcess493c6.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemPurgeOldAsyncJobse2420/": {
+            "description": "Implementation for System.System: public static Integer purgeOldAsyncJobs(Date dt)   Method documentation: Deletes asynchronous Apex job records for jobs that have finished execution before the specified date with a Completed, Aborted, or Failed status, and returns the number of records deleted.   Usage: Asynchronous Apex job records are records in AsyncApexJob.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_purgeOldAsyncJobs   Signature: public static Integer purgeOldAsyncJobs(Date dt)   Is static: true   Method name: purgeOldAsyncJobs   Return Type: Integer   TIA key: System.System.purgeOldAsyncJobs(Date dt)",
+            "post": {
+                "tags": ["System  System Purge Old Async Jobse2420"],
+                "description": "System: public static Integer purgeOldAsyncJobs(Date dt) (TIA key: System.System.purgeOldAsyncJobs(Date dt))",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemPurgeOldAsyncJobse2420.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemPurgeOldAsyncJobse2420.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemSystemPurgeOldAsyncJobse2420.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemSubmit4573e/": {
+            "description": "Implementation for System.System: public static List&lt;ID&gt; submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover)   Method documentation: Submits the processed approvals. The current user is the submitter and the entry criteria is evaluated for all processes applicable to the current user.   Usage: For enhanced submit and evaluation features, see the ProcessSubmitRequest class.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_submit   Signature: public static List&lt;ID&gt; submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover)   Is static: true   Method name: submit   Return Type: List&lt;ID&gt;   TIA key: System.System.submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover)",
+            "post": {
+                "tags": ["System  System Submit4573e"],
+                "description": "System: public static List&lt;ID&gt; submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover) (TIA key: System.System.submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover))",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemSubmit4573e.Input",
+                    "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemSubmit4573e.Input_array" } } },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemSubmit4573e.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
+        "System/SystemToday5d69f/": {
+            "description": "Implementation for System.System: public static Date today()   Method documentation: Returns the current date in the current user's time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_today   Signature: public static Date today()   Is static: true   Method name: today   Return Type: Date   TIA key: System.System.today()",
+            "post": {
+                "tags": ["System  System Today5d69f"],
+                "description": "System: public static Date today() (TIA key: System.System.today())",
+                "requestBody": {
+                    "description": "List of I1.SystemSystemToday5d69f.Input",
+                    "content": { "application/json": {} },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemSystemToday5d69f.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
         "System/TestEnqueueBatchJobsbb5fa/": {
             "description": "Implementation for System.Test: public static List&lt;Id&gt; enqueueBatchJobs(Integer numberOfJobs)   Method documentation: Adds the specified number of jobs with no-operation contents to the test-context queue. It first fills the test batch queue, up to the maximum 5 jobs, and then places jobs in the test flex queue. It throws a limit exception when the number of jobs in the test flex queue exceeds the allowed limit of 100 jobs.   Usage: Use this method to reduce testing time. Instead of using your org's real batch jobs for testing, you can use this method to simulate batch-job enqueueing. Using enqueueBatchJobs(numberOfJobs) is faster than enqueuing real batch jobs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_test.htm#apex_System_Test_enqueueBatchJobs   Signature: public static List&lt;Id&gt; enqueueBatchJobs(Integer numberOfJobs)   Is static: true   Method name: enqueueBatchJobs   Return Type: List&lt;Id&gt;   TIA key: System.Test.enqueueBatchJobs(Integer numberOfJobs)",
             "post": {
@@ -8744,6 +8996,54 @@
         {
             "name": "System  String Value Of Gmt31c7b",
             "description": "Implementation for System.String: public static String valueOfGmt(Datetime datetimeToConvert)   Method documentation: Returns a String that represents the specified Datetime in the standard “yyyy-MM-dd HH:mm:ss” format for the GMT time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#apex_System_String_valueOfGmt   Signature: public static String valueOfGmt(Datetime datetimeToConvert)   Is static: true   Method name: valueOfGmt   Return Type: String   TIA key: System.String.valueOfGmt(Datetime datetimeToConvert)"
+        },
+        {
+            "name": "System  System Current Time Millis56556",
+            "description": "Implementation for System.System: public static Long currentTimeMillis()   Method documentation: Returns the current time in milliseconds, which is expressed as the difference between the current time and midnight, January 1, 1970 UTC.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_currentTimeMillis   Signature: public static Long currentTimeMillis()   Is static: true   Method name: currentTimeMillis   Return Type: Long   TIA key: System.System.currentTimeMillis()"
+        },
+        {
+            "name": "System  System Is Batcha1d15",
+            "description": "Implementation for System.System: public static Boolean isBatch()   Method documentation: Returns true if a batch Apex job invoked the executing code, or false if not. In API version 35.0 and earlier, also returns true if a queueable Apex job invoked the code.   Usage: A batch Apex job can’t invoke a future method. Before invoking a future method, use isBatch() to check whether the executing code is a batch Apex job.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isBatch   Signature: public static Boolean isBatch()   Is static: true   Method name: isBatch   Return Type: Boolean   TIA key: System.System.isBatch()"
+        },
+        {
+            "name": "System  System Is Function Callbackab80c",
+            "description": "Implementation for System.System: public static Boolean isFunctionCallback()   Method documentation: Returns true if an asynchronous Salesforce Function callback invoked the executing code, or false if not. Available in API version 51.0 and later.   Usage: Use this method to determine if the Apex code is being invoked as part of a callback from an asynchronous Salesforce Functions invocation. For more details on invoking Salesforce Functions from Apex, see Functions Namespace   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isFunctionCallback   Signature: public static Boolean isFunctionCallback()   Is static: true   Method name: isFunctionCallback   Return Type: Boolean   TIA key: System.System.isFunctionCallback()"
+        },
+        {
+            "name": "System  System Is Futured59aa",
+            "description": "Implementation for System.System: public static Boolean isFuture()   Method documentation: Returns true if the currently executing code is invoked by code contained in a method annotated with future; false otherwise.   Usage: Since a future method can't be invoked from another future method, use this method to check if the current code is executing within the context of a future method before you invoke a future method.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isFuture   Signature: public static Boolean isFuture()   Is static: true   Method name: isFuture   Return Type: Boolean   TIA key: System.System.isFuture()"
+        },
+        {
+            "name": "System  System Is Queueable5406a",
+            "description": "Implementation for System.System: public static Boolean isQueueable()   Method documentation: Returns true if a queueable Apex job invoked the executing code. Returns false if not, including if a batch Apex job or a future method invoked the code.   Usage: available   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_system_isQueueable   Signature: public static Boolean isQueueable()   Is static: true   Method name: isQueueable   Return Type: Boolean   TIA key: System.System.isQueueable()"
+        },
+        {
+            "name": "System  System Is Running Elast03349",
+            "description": "Implementation for System.System: public static Boolean isRunningElasticCompute()   Method documentation: Reserved for future use.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_system_isRunningElasticCompute   Signature: public static Boolean isRunningElasticCompute()   Is static: true   Method name: isRunningElasticCompute   Return Type: Boolean   TIA key: System.System.isRunningElasticCompute()"
+        },
+        {
+            "name": "System  System Is Scheduledcaae0",
+            "description": "Implementation for System.System: public static Boolean isScheduled()   Method documentation: Returns true if the currently executing code is invoked by a scheduled Apex job; false otherwise.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_isScheduled   Signature: public static Boolean isScheduled()   Is static: true   Method name: isScheduled   Return Type: Boolean   TIA key: System.System.isScheduled()"
+        },
+        {
+            "name": "System  System Now14d31",
+            "description": "Implementation for System.System: public static Datetime now()   Method documentation: Returns the current date and time in the GMT time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_now   Signature: public static Datetime now()   Is static: true   Method name: now   Return Type: Datetime   TIA key: System.System.now()"
+        },
+        {
+            "name": "System  System Process493c6",
+            "description": "Implementation for System.System: public static List&lt;Id&gt; process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover)   Method documentation: Processes the list of work item IDs.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_process   Signature: public static List&lt;Id&gt; process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover)   Is static: true   Method name: process   Return Type: List&lt;Id&gt;   TIA key: System.System.process(List&lt;Id&gt; workItemIds, String action, String comments, String nextApprover)"
+        },
+        {
+            "name": "System  System Purge Old Async Jobse2420",
+            "description": "Implementation for System.System: public static Integer purgeOldAsyncJobs(Date dt)   Method documentation: Deletes asynchronous Apex job records for jobs that have finished execution before the specified date with a Completed, Aborted, or Failed status, and returns the number of records deleted.   Usage: Asynchronous Apex job records are records in AsyncApexJob.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_purgeOldAsyncJobs   Signature: public static Integer purgeOldAsyncJobs(Date dt)   Is static: true   Method name: purgeOldAsyncJobs   Return Type: Integer   TIA key: System.System.purgeOldAsyncJobs(Date dt)"
+        },
+        {
+            "name": "System  System Submit4573e",
+            "description": "Implementation for System.System: public static List&lt;ID&gt; submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover)   Method documentation: Submits the processed approvals. The current user is the submitter and the entry criteria is evaluated for all processes applicable to the current user.   Usage: For enhanced submit and evaluation features, see the ProcessSubmitRequest class.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_submit   Signature: public static List&lt;ID&gt; submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover)   Is static: true   Method name: submit   Return Type: List&lt;ID&gt;   TIA key: System.System.submit(List&lt;ID&gt; workItemIds, String comments, String nextApprover)"
+        },
+        {
+            "name": "System  System Today5d69f",
+            "description": "Implementation for System.System: public static Date today()   Method documentation: Returns the current date in the current user's time zone.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_system.htm#apex_System_System_today   Signature: public static Date today()   Is static: true   Method name: today   Return Type: Date   TIA key: System.System.today()"
         },
         {
             "name": "System  Test Enqueue Batch Jobsbb5fa",
@@ -15384,6 +15684,163 @@
             "SystemStringValueOfGmt31c7b.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemSystemCurrentTimeMillis56556.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemCurrentTimeMillis56556.Output" }
+            },
+            "SystemSystemCurrentTimeMillis56556.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "format": "int64", "description": "Long result   Return type: Long" } }
+            },
+            "SystemSystemIsBatcha1d15.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemIsBatcha1d15.Output" }
+            },
+            "SystemSystemIsBatcha1d15.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemSystemIsFunctionCallbackab80c.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemIsFunctionCallbackab80c.Output" }
+            },
+            "SystemSystemIsFunctionCallbackab80c.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemSystemIsFutured59aa.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemIsFutured59aa.Output" }
+            },
+            "SystemSystemIsFutured59aa.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemSystemIsQueueable5406a.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemIsQueueable5406a.Output" }
+            },
+            "SystemSystemIsQueueable5406a.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemSystemIsRunningElast03349.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemIsRunningElast03349.Output" }
+            },
+            "SystemSystemIsRunningElast03349.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemSystemIsScheduledcaae0.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemIsScheduledcaae0.Output" }
+            },
+            "SystemSystemIsScheduledcaae0.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemSystemNow14d31.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemNow14d31.Output" }
+            },
+            "SystemSystemNow14d31.Output": {
+                "type": "object",
+                "properties": {
+                    "result": { "type": "string", "format": "date-time", "description": "Datetime result   Return type: Datetime" }
+                }
+            },
+            "SystemSystemProcess493c6.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemProcess493c6.Input" }
+            },
+            "SystemSystemProcess493c6.Input": {
+                "type": "object",
+                "properties": {
+                    "workItemIds": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List&lt;Id&gt; workItemIds   Type: List&lt;Id&gt;   Documentation: Type: List&lt;Id&gt;"
+                    },
+                    "action": { "type": "string", "description": "String action   Type: String   Documentation: Type: String" },
+                    "comments": { "type": "string", "description": "String comments   Type: String   Documentation: Type: String" },
+                    "nextApprover": { "type": "string", "description": "String nextApprover   Type: String   Documentation: Type: String" }
+                }
+            },
+            "SystemSystemProcess493c6.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemProcess493c6.Output" }
+            },
+            "SystemSystemProcess493c6.Output": {
+                "type": "object",
+                "properties": {
+                    "result": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List&lt;Id&gt; result   Return type: List&lt;Id&gt;"
+                    }
+                }
+            },
+            "SystemSystemPurgeOldAsyncJobse2420.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemPurgeOldAsyncJobse2420.Input" }
+            },
+            "SystemSystemPurgeOldAsyncJobse2420.Input": {
+                "type": "object",
+                "properties": {
+                    "dt": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Date dt   Type: Date   Documentation: Type: Date Specifies the date up to which old records are deleted. The date comparison is based on the CompletedDate field of AsyncApexJob, which is in the GMT time zone."
+                    }
+                }
+            },
+            "SystemSystemPurgeOldAsyncJobse2420.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemPurgeOldAsyncJobse2420.Output" }
+            },
+            "SystemSystemPurgeOldAsyncJobse2420.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "integer", "description": "Integer result   Return type: Integer" } }
+            },
+            "SystemSystemSubmit4573e.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemSubmit4573e.Input" }
+            },
+            "SystemSystemSubmit4573e.Input": {
+                "type": "object",
+                "properties": {
+                    "workItemIds": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List&lt;ID&gt; workItemIds   Type: List&lt;ID&gt;   Documentation: Type: List&lt;ID&gt;"
+                    },
+                    "comments": { "type": "string", "description": "String comments   Type: String   Documentation: Type: String" },
+                    "nextApprover": { "type": "string", "description": "String nextApprover   Type: String   Documentation: Type: String" }
+                }
+            },
+            "SystemSystemSubmit4573e.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemSubmit4573e.Output" }
+            },
+            "SystemSystemSubmit4573e.Output": {
+                "type": "object",
+                "properties": {
+                    "result": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List&lt;ID&gt; result   Return type: List&lt;ID&gt;"
+                    }
+                }
+            },
+            "SystemSystemToday5d69f.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemSystemToday5d69f.Output" }
+            },
+            "SystemSystemToday5d69f.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "format": "date", "description": "Date result   Return type: Date" } }
             },
             "SystemTestEnqueueBatchJobsbb5fa.Input_array": {
                 "type": "array",
