@@ -1959,6 +1959,54 @@
                 }
             }
         },
+        "System/EncodingUtilUrlDecodecb305/": {
+            "description": "Implementation for System.EncodingUtil: public static String urlDecode(String inputString, String encodingScheme)   Method documentation: Decodes a string in application/x-www-form-urlencoded format using a specific encoding scheme, for example “UTF-8.”   Usage: This method uses the supplied encoding scheme to determine which characters are represented by any consecutive sequence of the form \\\"%xy\\\". For more information about the format, see The form-urlencoded Media Type in Hypertext Markup Language - 2.0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_restful_encodingUtil.htm#apex_System_EncodingUtil_urlDecode   Signature: public static String urlDecode(String inputString, String encodingScheme)   Is static: true   Method name: urlDecode   Return Type: String   TIA key: System.EncodingUtil.urlDecode(String inputString, String encodingScheme)",
+            "post": {
+                "tags": ["System  Encoding Util Url Decodecb305"],
+                "description": "EncodingUtil: public static String urlDecode(String inputString, String encodingScheme) (TIA key: System.EncodingUtil.urlDecode(String inputString, String encodingScheme))",
+                "requestBody": {
+                    "description": "List of I1.SystemEncodingUtilUrlDecodecb305.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemEncodingUtilUrlDecodecb305.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemEncodingUtilUrlDecodecb305.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/EncodingUtilUrlEncode7ecb6/": {
+            "description": "Implementation for System.EncodingUtil: public static String urlEncode(String inputString, String encodingScheme)   Method documentation: Encodes a string into the application/x-www-form-urlencoded format using a specific encoding scheme, for example “UTF-8.”   Usage: The rules that apply when the method encodes a string:   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_restful_encodingUtil.htm#apex_System_EncodingUtil_urlEncode   Signature: public static String urlEncode(String inputString, String encodingScheme)   Is static: true   Method name: urlEncode   Return Type: String   TIA key: System.EncodingUtil.urlEncode(String inputString, String encodingScheme)",
+            "post": {
+                "tags": ["System  Encoding Util Url Encode7ecb6"],
+                "description": "EncodingUtil: public static String urlEncode(String inputString, String encodingScheme) (TIA key: System.EncodingUtil.urlEncode(String inputString, String encodingScheme))",
+                "requestBody": {
+                    "description": "List of I1.SystemEncodingUtilUrlEncode7ecb6.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemEncodingUtilUrlEncode7ecb6.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemEncodingUtilUrlEncode7ecb6.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "System/IdValueOf6700d/": {
             "description": "Implementation for System.Id: public static Id valueOf(String str, Boolean restoreCasing)   Method documentation: Converts the specified string into an ID and returns the ID. If restoreCasing is true, and the string represents an 18-character ID that has incorrect casing, the method returns an 18-character ID that is correctly aligned with its encoded casing.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_id.htm#apex_System_id_valueOf_2   Signature: public static Id valueOf(String str, Boolean restoreCasing)   Is static: true   Method name: valueOf   Return Type: Id   TIA key: System.Id.valueOf(String str, Boolean restoreCasing)",
             "post": {
@@ -8098,6 +8146,14 @@
             "description": "Implementation for System.Double: public static Double valueOf(String stringToDouble)   Method documentation: Returns a Double that contains the value of the specified String. As in Java, the String is interpreted as representing a signed decimal.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_double.htm#apex_System_Double_valueOf   Signature: public static Double valueOf(String stringToDouble)   Is static: true   Method name: valueOf   Return Type: Double   TIA key: System.Double.valueOf(String stringToDouble)"
         },
         {
+            "name": "System  Encoding Util Url Decodecb305",
+            "description": "Implementation for System.EncodingUtil: public static String urlDecode(String inputString, String encodingScheme)   Method documentation: Decodes a string in application/x-www-form-urlencoded format using a specific encoding scheme, for example “UTF-8.”   Usage: This method uses the supplied encoding scheme to determine which characters are represented by any consecutive sequence of the form \\\"%xy\\\". For more information about the format, see The form-urlencoded Media Type in Hypertext Markup Language - 2.0.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_restful_encodingUtil.htm#apex_System_EncodingUtil_urlDecode   Signature: public static String urlDecode(String inputString, String encodingScheme)   Is static: true   Method name: urlDecode   Return Type: String   TIA key: System.EncodingUtil.urlDecode(String inputString, String encodingScheme)"
+        },
+        {
+            "name": "System  Encoding Util Url Encode7ecb6",
+            "description": "Implementation for System.EncodingUtil: public static String urlEncode(String inputString, String encodingScheme)   Method documentation: Encodes a string into the application/x-www-form-urlencoded format using a specific encoding scheme, for example “UTF-8.”   Usage: The rules that apply when the method encodes a string:   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_restful_encodingUtil.htm#apex_System_EncodingUtil_urlEncode   Signature: public static String urlEncode(String inputString, String encodingScheme)   Is static: true   Method name: urlEncode   Return Type: String   TIA key: System.EncodingUtil.urlEncode(String inputString, String encodingScheme)"
+        },
+        {
             "name": "System  Id Value Of6700d",
             "description": "Implementation for System.Id: public static Id valueOf(String str, Boolean restoreCasing)   Method documentation: Converts the specified string into an ID and returns the ID. If restoreCasing is true, and the string represents an 18-character ID that has incorrect casing, the method returns an 18-character ID that is correctly aligned with its encoded casing.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_id.htm#apex_System_id_valueOf_2   Signature: public static Id valueOf(String str, Boolean restoreCasing)   Is static: true   Method name: valueOf   Return Type: Id   TIA key: System.Id.valueOf(String str, Boolean restoreCasing)"
         },
@@ -11551,6 +11607,50 @@
             "SystemDoubleValueOfb0682.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "number", "description": "Double result   Return type: Double" } }
+            },
+            "SystemEncodingUtilUrlDecodecb305.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemEncodingUtilUrlDecodecb305.Input" }
+            },
+            "SystemEncodingUtilUrlDecodecb305.Input": {
+                "type": "object",
+                "properties": {
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" },
+                    "encodingScheme": {
+                        "type": "string",
+                        "description": "String encodingScheme   Type: String   Documentation: Type: String"
+                    }
+                }
+            },
+            "SystemEncodingUtilUrlDecodecb305.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemEncodingUtilUrlDecodecb305.Output" }
+            },
+            "SystemEncodingUtilUrlDecodecb305.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemEncodingUtilUrlEncode7ecb6.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemEncodingUtilUrlEncode7ecb6.Input" }
+            },
+            "SystemEncodingUtilUrlEncode7ecb6.Input": {
+                "type": "object",
+                "properties": {
+                    "inputString": { "type": "string", "description": "String inputString   Type: String   Documentation: Type: String" },
+                    "encodingScheme": {
+                        "type": "string",
+                        "description": "String encodingScheme   Type: String   Documentation: Type: String"
+                    }
+                }
+            },
+            "SystemEncodingUtilUrlEncode7ecb6.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemEncodingUtilUrlEncode7ecb6.Output" }
+            },
+            "SystemEncodingUtilUrlEncode7ecb6.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
             },
             "SystemIdValueOf6700d.Input_array": { "type": "array", "items": { "$ref": "#/components/schemas/SystemIdValueOf6700d.Input" } },
             "SystemIdValueOf6700d.Input": {
