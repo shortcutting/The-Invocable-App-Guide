@@ -7782,6 +7782,58 @@
                     }
                 }
             }
+        },
+        "System/UserManagementFormatPhoneNum42b09/": {
+            "description": "Implementation for System.UserManagement: global static String formatPhoneNumber(String countryCode, String phoneNumber)   Method documentation: Formats a mobile phone number for a user. Call this method to ensure that the phone number is formatted properly before updating a user’s mobile phone number.   Usage: Use this method to ensure a user’s mobile phone number is formatted as required by Salesforce. Then use the method’s return value to update the mobile field of the user’s record. This mobile number is used for SMS-based device activation. For example, mobile phone numbers are stored along with other identity verification methods in Auth.VerificationMethod enum. This method is introduced in API version 43.0. It isn't available in earlier versions.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_UserManagement.htm#apex_System_UserManagement_formatPhoneNumber   Signature: global static String formatPhoneNumber(String countryCode, String phoneNumber)   Is static: true   Method name: formatPhoneNumber   Return Type: String   TIA key: System.UserManagement.formatPhoneNumber(String countryCode, String phoneNumber)",
+            "post": {
+                "tags": ["System  User Management Format Phone Num42b09"],
+                "description": "UserManagement: global static String formatPhoneNumber(String countryCode, String phoneNumber) (TIA key: System.UserManagement.formatPhoneNumber(String countryCode, String phoneNumber))",
+                "requestBody": {
+                    "description": "List of I1.SystemUserManagementFormatPhoneNum42b09.Input",
+                    "content": {
+                        "application/json": {
+                            "schema": { "$ref": "#/components/schemas/SystemUserManagementFormatPhoneNum42b09.Input_array" }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserManagementFormatPhoneNum42b09.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "System/UserManagementSendAsyncEmaildced5/": {
+            "description": "Implementation for System.UserManagement: public static Boolean sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl)   Method documentation: Send an email message to a user’s email address for verification. The message contains a verification link (URL) that the user clicks to verify the email address later on. You can send email verifications in bulk.   Usage: Sending an async email message is good practice to ensure that users are registered with a valid email address that they truly own. To determine which users receive an email with the verification link, check whether the User Verified Email field in the User detail page is set to true. You can also get this information from the TwoFactorMethodsInfo API.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_UserManagement.htm#apex_System_UserManagement_sendAsyncEmailConfirmation   Signature: public static Boolean sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl)   Is static: true   Method name: sendAsyncEmailConfirmation   Return Type: Boolean   TIA key: System.UserManagement.sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl)",
+            "post": {
+                "tags": ["System  User Management Send Async Emaildced5"],
+                "description": "UserManagement: public static Boolean sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl) (TIA key: System.UserManagement.sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl))",
+                "requestBody": {
+                    "description": "List of I1.SystemUserManagementSendAsyncEmaildced5.Input",
+                    "content": {
+                        "application/json": {
+                            "schema": { "$ref": "#/components/schemas/SystemUserManagementSendAsyncEmaildced5.Input_array" }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/SystemUserManagementSendAsyncEmaildced5.Output_array" }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "tags": [
@@ -9236,6 +9288,14 @@
         {
             "name": "System  User Info Is Multi Currencdd8b1",
             "description": "Implementation for System.UserInfo: public static Boolean isMultiCurrencyOrganization()   Method documentation: Specifies whether the organization uses multiple currencies.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_isMultiCurrencyOrganization   Signature: public static Boolean isMultiCurrencyOrganization()   Is static: true   Method name: isMultiCurrencyOrganization   Return Type: Boolean   TIA key: System.UserInfo.isMultiCurrencyOrganization()"
+        },
+        {
+            "name": "System  User Management Format Phone Num42b09",
+            "description": "Implementation for System.UserManagement: global static String formatPhoneNumber(String countryCode, String phoneNumber)   Method documentation: Formats a mobile phone number for a user. Call this method to ensure that the phone number is formatted properly before updating a user’s mobile phone number.   Usage: Use this method to ensure a user’s mobile phone number is formatted as required by Salesforce. Then use the method’s return value to update the mobile field of the user’s record. This mobile number is used for SMS-based device activation. For example, mobile phone numbers are stored along with other identity verification methods in Auth.VerificationMethod enum. This method is introduced in API version 43.0. It isn't available in earlier versions.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_UserManagement.htm#apex_System_UserManagement_formatPhoneNumber   Signature: global static String formatPhoneNumber(String countryCode, String phoneNumber)   Is static: true   Method name: formatPhoneNumber   Return Type: String   TIA key: System.UserManagement.formatPhoneNumber(String countryCode, String phoneNumber)"
+        },
+        {
+            "name": "System  User Management Send Async Emaildced5",
+            "description": "Implementation for System.UserManagement: public static Boolean sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl)   Method documentation: Send an email message to a user’s email address for verification. The message contains a verification link (URL) that the user clicks to verify the email address later on. You can send email verifications in bulk.   Usage: Sending an async email message is good practice to ensure that users are registered with a valid email address that they truly own. To determine which users receive an email with the verification link, check whether the User Verified Email field in the User detail page is set to true. You can also get this information from the TwoFactorMethodsInfo API.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_UserManagement.htm#apex_System_UserManagement_sendAsyncEmailConfirmation   Signature: public static Boolean sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl)   Is static: true   Method name: sendAsyncEmailConfirmation   Return Type: Boolean   TIA key: System.UserManagement.sendAsyncEmailConfirmation(String userId, String emailTemplateId, String networkId, String startUrl)"
         }
     ],
     "components": {
@@ -16456,6 +16516,64 @@
                 "items": { "$ref": "#/components/schemas/SystemUserInfoIsMultiCurrencdd8b1.Output" }
             },
             "SystemUserInfoIsMultiCurrencdd8b1.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
+            },
+            "SystemUserManagementFormatPhoneNum42b09.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserManagementFormatPhoneNum42b09.Input" }
+            },
+            "SystemUserManagementFormatPhoneNum42b09.Input": {
+                "type": "object",
+                "properties": {
+                    "countryCode": {
+                        "type": "string",
+                        "description": "String countryCode   Type: String   Documentation: Type: String A valid country code."
+                    },
+                    "phoneNumber": {
+                        "type": "string",
+                        "description": "String phoneNumber   Type: String   Documentation: Type: String A mobile number that contains from 3 through 49 numeric characters, without the country code. For example, (415) 555-1234."
+                    }
+                }
+            },
+            "SystemUserManagementFormatPhoneNum42b09.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserManagementFormatPhoneNum42b09.Output" }
+            },
+            "SystemUserManagementFormatPhoneNum42b09.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
+            },
+            "SystemUserManagementSendAsyncEmaildced5.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserManagementSendAsyncEmaildced5.Input" }
+            },
+            "SystemUserManagementSendAsyncEmaildced5.Input": {
+                "type": "object",
+                "properties": {
+                    "userId": {
+                        "type": "string",
+                        "description": "String userId   Type: String   Documentation: Type: String ID of the user to receive the email confirmation."
+                    },
+                    "emailTemplateId": {
+                        "type": "string",
+                        "description": "String emailTemplateId   Type: String   Documentation: Type: String ID of the email template in which the verification link is defined."
+                    },
+                    "networkId": {
+                        "type": "string",
+                        "description": "String networkId   Type: String   Documentation: Type: String ID of the Experience Cloud site."
+                    },
+                    "startUrl": {
+                        "type": "string",
+                        "description": "String startUrl   Type: String   Documentation: Type: String The user is redirected to this page after verification, with a success or error message as the parameter. If null, the user is redirected to the login page."
+                    }
+                }
+            },
+            "SystemUserManagementSendAsyncEmaildced5.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemUserManagementSendAsyncEmaildced5.Output" }
+            },
+            "SystemUserManagementSendAsyncEmaildced5.Output": {
                 "type": "object",
                 "properties": { "result": { "type": "boolean", "description": "Boolean result   Return type: Boolean" } }
             }
