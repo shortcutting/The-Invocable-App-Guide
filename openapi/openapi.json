@@ -7329,6 +7329,28 @@
                 }
             }
         },
+        "System/URLGetFileFieldURL4c3f5/": {
+            "description": "Implementation for System.URL: public static String getFileFieldURL(String entityId, String fieldName)   Method documentation: Returns the download URL for a file attachment.   Usage: Example:   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_url.htm#apex_System_URL_getFileFieldURL   Signature: public static String getFileFieldURL(String entityId, String fieldName)   Is static: true   Method name: getFileFieldURL   Return Type: String   TIA key: System.URL.getFileFieldURL(String entityId, String fieldName)",
+            "post": {
+                "tags": ["System  U R L Get File Field U R L4c3f5"],
+                "description": "URL: public static String getFileFieldURL(String entityId, String fieldName) (TIA key: System.URL.getFileFieldURL(String entityId, String fieldName))",
+                "requestBody": {
+                    "description": "List of I1.SystemURLGetFileFieldURL4c3f5.Input",
+                    "content": {
+                        "application/json": { "schema": { "$ref": "#/components/schemas/SystemURLGetFileFieldURL4c3f5.Input_array" } }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Status code 200",
+                        "content": {
+                            "application/json": { "schema": { "$ref": "#/components/schemas/SystemURLGetFileFieldURL4c3f5.Output_array" } }
+                        }
+                    }
+                }
+            }
+        },
         "System/UserInfoGetCurrentUvidf132a/": {
             "description": "Implementation for System.UserInfo: public static String getCurrentUvid()   Method documentation: Returns the context guest user’s unique visitor ID (UVID).   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_userinfo.htm#apex_System_UserInfo_getCurrentUvid   Signature: public static String getCurrentUvid()   Is static: true   Method name: getCurrentUvid   Return Type: String   TIA key: System.UserInfo.getCurrentUvid()",
             "post": {
@@ -9204,6 +9226,10 @@
         {
             "name": "System  Time Second74254",
             "description": "Implementation for System.Time: public Integer second()   Method documentation: Returns the second component of a Time.   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_time.htm#apex_System_Time_second   Signature: public Integer second()   Method name: second   Return Type: Integer   TIA key: System.Time.second()"
+        },
+        {
+            "name": "System  U R L Get File Field U R L4c3f5",
+            "description": "Implementation for System.URL: public static String getFileFieldURL(String entityId, String fieldName)   Method documentation: Returns the download URL for a file attachment.   Usage: Example:   URL: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_url.htm#apex_System_URL_getFileFieldURL   Signature: public static String getFileFieldURL(String entityId, String fieldName)   Is static: true   Method name: getFileFieldURL   Return Type: String   TIA key: System.URL.getFileFieldURL(String entityId, String fieldName)"
         },
         {
             "name": "System  User Info Get Current Uvidf132a",
@@ -16324,6 +16350,31 @@
                         "description": "Time variableMethodAppliedOn   Type: Time"
                     }
                 }
+            },
+            "SystemURLGetFileFieldURL4c3f5.Input_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemURLGetFileFieldURL4c3f5.Input" }
+            },
+            "SystemURLGetFileFieldURL4c3f5.Input": {
+                "type": "object",
+                "properties": {
+                    "entityId": {
+                        "type": "string",
+                        "description": "String entityId   Type: String   Documentation: Type: String Specifies the ID of the entity that holds the file data."
+                    },
+                    "fieldName": {
+                        "type": "string",
+                        "description": "String fieldName   Type: String   Documentation: Type: String Specifies the API name of a file field component, such as AttachmentBody."
+                    }
+                }
+            },
+            "SystemURLGetFileFieldURL4c3f5.Output_array": {
+                "type": "array",
+                "items": { "$ref": "#/components/schemas/SystemURLGetFileFieldURL4c3f5.Output" }
+            },
+            "SystemURLGetFileFieldURL4c3f5.Output": {
+                "type": "object",
+                "properties": { "result": { "type": "string", "description": "String result   Return type: String" } }
             },
             "SystemUserInfoGetCurrentUvidf132a.Output_array": {
                 "type": "array",
